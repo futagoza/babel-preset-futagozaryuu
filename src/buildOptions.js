@@ -52,8 +52,9 @@ export default function buildOptions( _config = {} ) {
     if ( ! config.asyncToGenerator ) {
 
         listOnce( envOptions.exclude, "transform-async-to-generator" );
+        const index = envOptions.exclude.indexOf( "transform-async-to-module-method" );
 
-        if ( envOptions.exclude.indexOf( "transform-async-to-module-method" ) === -1 )
+        if ( index === -1 )
 
             asyncOptions = {
 
@@ -61,6 +62,10 @@ export default function buildOptions( _config = {} ) {
                 "method": config.asyncMethod || defaultOptions.asyncMethod
 
             };
+
+        else if ( index !== -1 )
+
+            envOptions.exclude.splice( index, 1 );
 
     }
 
