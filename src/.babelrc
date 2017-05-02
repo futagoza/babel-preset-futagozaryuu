@@ -7,7 +7,7 @@
         [ "env", {
 
             "exclude": [
-                "regenerator"
+                "transform-regenerator"
             ],
             "loose": true,
             "modules": "commonjs",
