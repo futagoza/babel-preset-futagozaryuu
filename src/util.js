@@ -91,6 +91,13 @@ export function resolve( id ) {
 
 }
 
+/**
+ * Return the major version number from the given string.
+ *
+ * @param {string} version
+ * @returns {string}
+ */
+
 export function majorSemver( version ) {
 
     return version.replace( /^[^0-9]+/, "" ).split( "." )[ 0 ];
