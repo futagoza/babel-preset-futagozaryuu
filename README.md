@@ -61,6 +61,35 @@ You can see the complete list of options in [https://github.com/futagoza/babel-p
 }
 ```
 
+## recommendation for vs code users
+
+Adding the following files and/or their settings will ensure that [VS Code](https://code.visualstudio.com/) can find your files even if you are using [babel-plugin-module-resolver](https://www.npmjs.com/package/babel-plugin-module-resolver) to chnage the root path of your module loopups during transpile.
+
+Thanks to [@jgoux](https://github.com/jgoux) for this. For more information, see [tleunen/babel-plugin-module-resolver#92 (comment)](https://github.com/tleunen/babel-plugin-module-resolver/issues/92#issuecomment-285755384).
+
+`.vscode/settings.json`:
+```js
+{
+    "path-intellisense.mappings": {
+        "/": "${workspaceRoot}/src"
+    }
+}
+```
+
+`src/jsconfig.json`:
+```js
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "./",
+        "experimentalDecorators": false,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "target": "esnext"
+    }
+}
+```
+
 ## license
 
 Copyright © 2017 Futago-za Ryuu, https://github.com/futagoza
