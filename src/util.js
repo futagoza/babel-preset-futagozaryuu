@@ -91,6 +91,12 @@ export function resolve( id ) {
 
 }
 
+export function majorSemver( version ) {
+
+    return version.replace( /^[^0-9]+/, "" ).split( "." )[ 0 ];
+
+}
+
 /**
  * Defaults (e.g. `import { util } from "babel-preset-futagozaryuu";`).
  */
@@ -100,6 +106,7 @@ export default {
     castArray,
     getPackage,
     listOnce,
-    resolve
+    resolve,
+    majorSemver
 
 };

@@ -1,6 +1,5 @@
 import defaultOptions from "./defaultOptions";
-import { castArray, listOnce, getPackage } from "./util";
-import { major as majorSemver } from "semver";
+import { castArray, listOnce, getPackage, majorSemver } from "./util";
 
 /**
  * Build a valid options object that can be used to pass
@@ -67,16 +66,11 @@ export default function buildOptions( _config = {} ) {
 
     if ( ! config.node ) {
 
-        const metafile = getPackage( config.cwd || defaultOptions.cwd );
-        const targets = envOptions.targets;
+        const engines = getPackage( config.cwd || defaultOptions.cwd ).engines;
 
-        if ( metafile.engines && metafile.engines.node )
-
-            targets.node = majorSemver( config.node, { loose: true } );
-
-        else
-
-            targets.node = defaultOptions.node;
+        envOptions.targets.node = engines && engines.node
+                                ? majorSemver( engines.node )
+                                : defaultOptions.node;
 
     }
 
