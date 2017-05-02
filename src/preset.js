@@ -12,6 +12,7 @@ export default function preset( context, _config ) {
 
     const options = buildOptions( _config );
     const config = options.config;
+    const plugins = [];
     const presets = [];
 
     if ( config.stage > -1 && config.stage < 4 ) {
@@ -22,6 +23,14 @@ export default function preset( context, _config ) {
 
     presets.push( [ util.resolve( "babel-preset-env" ), options.env ] );
 
+    if ( options.resolver )
+
+        plugins.push( [ util.resolve( "babel-plugin-module-resolver" ), options.resolver ] );
+
+    if ( options.async )
+
+        plugins.push( [ util.resolve( "babel-plugin-transform-async-to-module-method" ), options.async ] );
+
     return {
 
         shouldPrintComment( comment ) {
@@ -31,11 +40,7 @@ export default function preset( context, _config ) {
 
         },
 
-        "plugins": [
-            [ util.resolve( "babel-plugin-module-resolver" ), options.resolver ],
-            [ util.resolve( "babel-plugin-transform-async-to-module-method" ), options.async ]
-        ],
-
+        "plugins": plugins,
         "presets": presets
 
     };
