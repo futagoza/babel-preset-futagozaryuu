@@ -79,6 +79,8 @@ export default function buildOptions( _config = {} ) {
 
     }
 
+    if ( typeof config.stage !== "number" ) config.stage = -1;
+
     return {
         async: asyncOptions,
         config: config,

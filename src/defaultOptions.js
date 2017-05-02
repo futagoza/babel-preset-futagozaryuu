@@ -23,6 +23,9 @@ export default {
     // if true, will not exclude `regenerator`
     "regenerator": false,
 
+    // stages 0 - 3 will enable the appropriate `babel-preset-stage-*`, where as 4 (or more) will disable them.
+    "stage": 0,
+
     /* babel-preset-env */
     // https://www.npmjs.com/package/babel-preset-env#options
 

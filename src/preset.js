@@ -11,12 +11,22 @@ import util from "./util";
 export default function preset( context, _config ) {
 
     const options = buildOptions( _config );
+    const config = options.config;
+    const presets = [];
+
+    if ( config.stage > -1 && config.stage < 4 ) {
+
+        presets.push( util.resolve( "babel-preset-stage-" + config.stage ) );
+
+    }
+
+    presets.push( [ util.resolve( "babel-preset-env" ), options.env ] );
 
     return {
 
         shouldPrintComment( comment ) {
 
-            if ( ! options.config.removeEslintComments ) return true;
+            if ( ! config.removeEslintComments ) return true;
             return comment.trim().startsWith( "eslint", 0 ) === false;
 
         },
@@ -26,10 +36,7 @@ export default function preset( context, _config ) {
             [ util.resolve( "babel-plugin-transform-async-to-module-method" ), options.async ]
         ],
 
-        "presets": [
-            util.resolve( "babel-preset-stage-0" ),
-            [ util.resolve( "babel-preset-env" ), options.env ]
-        ]
+        "presets": presets
 
     };
 

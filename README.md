@@ -43,6 +43,9 @@ You can see the complete list of options in [babel-preset-futagozaryuu/src/defau
             "disableResolver": false,
             "root": [ "src" ],
 
+            // disable the use of `babel-preset-stage-*` plugins
+            "stage": 4, // or `stage < 0 || stage > 3`, or a non-number value
+
             // Target a spefic version of node
             // (default's to the `engines.node` property in your `package.json`, or `current`)
             "node": 4,
