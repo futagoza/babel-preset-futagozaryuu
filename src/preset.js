@@ -16,7 +16,7 @@ export default function preset( context, _config ) {
 
         shouldPrintComment( comment ) {
 
-            if ( ! options.config.removeEslintComments ) return false;
+            if ( ! options.config.removeEslintComments ) return true;
             return comment.trim().startsWith( "eslint", 0 ) === false;
 
         },
