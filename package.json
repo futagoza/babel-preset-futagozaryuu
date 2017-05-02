@@ -22,7 +22,8 @@
     "preversion": "npm install && npm test",
     "postversion": "git push --follow-tags && npm publish",
     "lint": "eslint --cache src",
-    "test": "eslint --quiet src && npm run build"
+    "preset": "babel --no-babelrc src --out-dir lib/test --presets ../lib/preset.js",
+    "test": "eslint --quiet src && npm run build && npm run preset"
   },
   "dependencies": {
     "semver": "5.3.0",
