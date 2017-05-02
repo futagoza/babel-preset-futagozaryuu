@@ -69,7 +69,7 @@ export default function buildOptions( _config = {} ) {
         const engines = getPackage( config.cwd || defaultOptions.cwd ).engines;
 
         envOptions.targets.node = engines && engines.node
-                                ? majorSemver( engines.node )
+                                ? majorSemver( String( engines.node ) )
                                 : defaultOptions.node;
 
     }
