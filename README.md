@@ -1,2 +1,67 @@
-# babel-preset-futagozaryuu
-My babel preset
+[![Build status](https://api.travis-ci.org/futagoza/babel-preset-futagozaryuu.svg?branch=master)](https://travis-ci.org/futagoza/babel-preset-futagozaryuu)
+[![npm version](https://img.shields.io/npm/v/babel-preset-futagozaryuu.svg)](https://www.npmjs.com/package/babel-preset-futagozaryuu)
+[![dependencies](https://img.shields.io/david/futagoza/babel-preset-futagozaryuu.svg)](https://david-dm.org/futagoza/babel-preset-futagozaryuu)
+[![devDependencies](https://img.shields.io/david/dev/futagoza/babel-preset-futagozaryuu.svg)](https://david-dm.org/futagoza/babel-preset-futagozaryuu#info=devDependencies)
+[![License](https://img.shields.io/badge/license-mit-blue.svg)](https://opensource.org/licenses/MIT)
+
+## about
+
+This is a Babel preset of other presets and plugins that I most commonly use.
+
+## installation
+
+```bash
+$ npm install --save-dev babel-preset-futagozaryuu
+```
+
+## usage
+
+Put the following into your `.babelrc` file:
+
+```js
+{
+  "presets": ["futagozaryuu"]
+}
+```
+
+or on the CLI
+
+```bash
+$ babel src --out-dir lib --presets futagozaryuu
+```
+
+## configuration
+
+You can see the complete list of options in [https://github.com/futagoza/babel-preset-futagozaryuu/blob/master/src/defaultOptions.js](https://github.com/futagoza/babel-preset-futagozaryuu/blob/master/src/defaultOptions.js).
+
+```js
+{
+    "presets": [
+        [ "futagozaryuu", {
+
+            // set the root directory for `babel-plugin-module-resolver` to use
+            "disableResolver": false,
+            "root": [ "src" ],
+
+            // Target a spefic version of node
+            // (default's to the `engines.node` property in your `package.json`, or `current`)
+            "node": 4,
+
+            // Blacklisting the var/const transform
+            "exclude": [ "transform-es2015-block-scoping" ],
+
+            // Blacklisting ES Modules transpilation
+            "modules": false,
+
+            // re-enable the use of `regenerator`
+            "regenerator": true
+
+        } ]
+    ]
+}
+```
+
+## license
+
+Copyright © 2017 Futago-za Ryuu, https://github.com/futagoza
+Released under the MIT License, http://opensource.org/licenses/MIT
