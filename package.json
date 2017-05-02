@@ -1,0 +1,44 @@
+{
+  "name": "babel-preset-futagozaryuu",
+  "version": "v0.0.0",
+  "description": "Futago-za Ryuu's Babel preset",
+  "keywords": [
+    "babel",
+    "preset",
+    "plugin",
+    "ecmascript",
+    "javascript"
+  ],
+  "repository": "futagoza/babel-preset-futagozaryuu",
+  "bugs": "https://github.com/futagoza/babel-preset-futagozaryuu/issues",
+  "license": "MIT",
+  "author": "Futago-za Ryuu",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/preset.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "preversion": "npm install && npm test -- --quiet",
+    "postversion": "git push --follow-tags && npm publish",
+    "test": "eslint --cache src && npm run build"
+  },
+  "dependencies": {
+    "babel-preset-stage-0": "6.24.1",
+    "babel-preset-env": "1.4.0",
+    "babel-plugin-module-resolver": "2.7.0",
+    "babel-plugin-transform-async-to-module-method": "6.24.1"
+  },
+  "devDependencies": {
+    "eslint": "3.19.0",
+    "eslint-config-futagozaryuu": "2.2.0",
+    "babel-cli": "6.24.1"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "eslintConfig": {
+    "extends": "futagozaryuu/node-v4",
+    "root": true
+  }
+}
