@@ -24,6 +24,15 @@ export default function buildOptions( _config = {} ) {
         "modules": config.modules || defaultOptions.modules,
         "spec": !! config.spec,
         "targets": {
+            "chrome": config.chrome,
+            "opera": config.opera,
+            "edge": config.edge,
+            "firefox": config.firefox,
+            "safari": config.safari,
+            "ie": config.ie,
+            "ios": config.ios,
+            "android": config.android,
+            "electron": config.electron,
             "browsers": config.browsers,
             "uglify": !! config.uglify
         },
