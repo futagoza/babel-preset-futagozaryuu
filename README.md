@@ -39,16 +39,18 @@ You can see the complete list of options in [babel-preset-futagozaryuu/src/defau
     "presets": [
         [ "futagozaryuu", {
 
-            // set the root directory for `babel-plugin-module-resolver` to use
+            // set root directory for `babel-plugin-module-resolver`
             "disableResolver": false,
             "root": [ "src" ],
 
             // disable the use of `babel-preset-stage-*` plugins
-            "stage": 4, // or `stage < 0 || stage > 3`, or a non-number value
+            // (anything not a number between 0 to 3 is the same)
+            "stage": 4,
 
             // Target a spefic version of node
-            // (default's to the `engines.node` property in your `package.json`, or `current`)
-            "node": 4,
+            // (alternative 1: `package.json#engines.node`)
+            // (last alternative: `options.defaultNodeVersion`)
+            "node": 6,
 
             // Blacklisting the var/const transform
             "exclude": [ "transform-es2015-block-scoping" ],
@@ -66,7 +68,7 @@ You can see the complete list of options in [babel-preset-futagozaryuu/src/defau
 
 ## recommendation for vs code users
 
-Adding the following files and settings will ensure that [VS Code](https://code.visualstudio.com/) can find your files even if you are using [babel-plugin-module-resolver](https://www.npmjs.com/package/babel-plugin-module-resolver) to change the root path of your module lookups during transpile.
+Adding the following files (and settings) will ensure that [VS Code](https://code.visualstudio.com/) can find your ES6+ files even if you are using [babel-plugin-module-resolver](https://www.npmjs.com/package/babel-plugin-module-resolver) to change the root path of your module lookups during transpile.
 
 Thanks to [@jgoux](https://github.com/jgoux) for this. For more information, see [tleunen/babel-plugin-module-resolver#92 (comment)](https://github.com/tleunen/babel-plugin-module-resolver/issues/92#issuecomment-285755384).
 
@@ -85,8 +87,7 @@ Thanks to [@jgoux](https://github.com/jgoux) for this. For more information, see
     "compilerOptions": {
         "allowSyntheticDefaultImports": true,
         "baseUrl": "./",
-        "experimentalDecorators": false,
-        "forceConsistentCasingInFileNames": true,
+        "experimentalDecorators": true,
         "noFallthroughCasesInSwitch": true,
         "target": "esnext"
     }
