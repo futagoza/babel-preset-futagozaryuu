@@ -13,6 +13,8 @@ export default function buildOptions( _config = {} ) {
     const config = Object.assign( defaultOptions, _config );
     let asyncOptions, envOptions, resolverOptions;
 
+    if ( typeof config.stage !== "number" ) config.stage = -1;
+
     envOptions = {
 
         "debug": !! config.debug,
@@ -23,7 +25,6 @@ export default function buildOptions( _config = {} ) {
         "spec": !! config.spec,
         "targets": {
             "browsers": config.browsers,
-            "node": config.node,
             "uglify": !! config.uglify
         },
         "useBuiltIns": !! config.useBuiltIns
@@ -73,13 +74,21 @@ export default function buildOptions( _config = {} ) {
 
         const engines = getPackage( config.cwd || defaultOptions.cwd ).engines;
 
-        envOptions.targets.node = engines && engines.node
-                                ? majorSemver( String( engines.node ) )
-                                : defaultOptions.defaultNodeVersion;
+        config.node = engines && engines.node
+                    ? majorSemver( String( engines.node ) )
+                    : defaultOptions.defaultNodeVersion;
 
     }
 
-    if ( typeof config.stage !== "number" ) config.stage = -1;
+    if ( typeof config.node === "string" ) {
+
+        config.node = config.node.includes( "." )
+                    ? parseFloat( config.node )
+                    : parseInt( config.node, 10 );
+
+    }
+
+    envOptions.targets.node = config.node;
 
     return {
         async: asyncOptions,
