@@ -75,7 +75,7 @@ export default function buildOptions( _config = {} ) {
 
         envOptions.targets.node = engines && engines.node
                                 ? majorSemver( String( engines.node ) )
-                                : defaultOptions.node;
+                                : defaultOptions.defaultNodeVersion;
 
     }
 
