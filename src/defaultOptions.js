@@ -49,7 +49,7 @@ export default {
     // https://www.npmjs.com/package/babel-plugin-module-resolver#options
 
     "alias": [],
-    "cwd": process.cwd(),
+    "cwd": "packagejson",
     "extensions": [ ".js", ".jsx", ".es", ".es6" ],
     "root": "src",
 
