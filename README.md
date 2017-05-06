@@ -4,6 +4,8 @@
 [![devDependencies](https://img.shields.io/david/dev/futagoza/babel-preset-futagozaryuu.svg)](https://david-dm.org/futagoza/babel-preset-futagozaryuu#info=devDependencies)
 [![License](https://img.shields.io/badge/license-mit-blue.svg)](https://opensource.org/licenses/MIT)
 
+> WARNING: v1 of this plugin is for Babel 6, while v2 is for Babel 7
+
 ## about
 
 This is a Babel preset of other presets and plugins that I most commonly use.
