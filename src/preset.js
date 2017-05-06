@@ -1,5 +1,6 @@
 import buildOptions from "./buildOptions";
 import defaultOptions from "./defaultOptions";
+import preview from "./preview";
 import util, { resolve } from "./util";
 
 /**
@@ -59,6 +60,7 @@ export {
     buildOptions,
     defaultOptions,
     use,
+    preview,
     util
 
 };

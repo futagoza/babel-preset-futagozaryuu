@@ -26,6 +26,7 @@
     "test": "eslint --quiet src && npm run build && npm run preset"
   },
   "dependencies": {
+    "babel-core": "7.0.0-alpha.9",
     "babel-preset-stage-0": "7.0.0-alpha.9",
     "babel-preset-env": "2.0.0-alpha.7",
     "babel-plugin-module-resolver": "3.0.0-beta.0",
