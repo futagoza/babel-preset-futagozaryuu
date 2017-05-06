@@ -6,6 +6,9 @@ import util, { resolve } from "./util";
  * Futago-za Ryuu's Babel preset generator.
  *
  * WARNING: This default method is only intended to be used by Babel.
+ *
+ * @param {any} [context]
+ * @param {object} [_config]
  */
 
 export default function use( context, _config ) {
