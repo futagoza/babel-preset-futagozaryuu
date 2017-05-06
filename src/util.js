@@ -105,6 +105,23 @@ export function majorSemver( version ) {
 }
 
 /**
+ * List of targets to use with `babel-preset-env`
+ */
+
+export const targets = [
+    "chrome",
+    "opera",
+    "edge",
+    "firefox",
+    "safari",
+    "ie",
+    "ios",
+    "android",
+    "electron",
+    "browsers"
+];
+
+/**
  * Defaults (e.g. `import { util } from "babel-preset-futagozaryuu";`).
  */
 
@@ -114,6 +131,7 @@ export default {
     getPackage,
     listOnce,
     resolve,
-    majorSemver
+    majorSemver,
+    targets
 
 };

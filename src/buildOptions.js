@@ -1,5 +1,11 @@
 import defaultOptions from "./defaultOptions";
-import { castArray, listOnce, getPackage, majorSemver } from "./util";
+import {
+    castArray,
+    listOnce,
+    getPackage,
+    majorSemver,
+    targets
+} from "./util";
 
 /**
  * Build a valid options object that can be used to pass
@@ -24,16 +30,6 @@ export default function buildOptions( _config = {} ) {
         "modules": config.modules || defaultOptions.modules,
         "spec": !! config.spec,
         "targets": {
-            "chrome": config.chrome,
-            "opera": config.opera,
-            "edge": config.edge,
-            "firefox": config.firefox,
-            "safari": config.safari,
-            "ie": config.ie,
-            "ios": config.ios,
-            "android": config.android,
-            "electron": config.electron,
-            "browsers": config.browsers,
             "uglify": !! config.uglify
         },
         "useBuiltIns": !! config.useBuiltIns
@@ -97,7 +93,12 @@ export default function buildOptions( _config = {} ) {
 
     }
 
-    envOptions.targets.node = config.node;
+    targets.forEach( target => {
+
+        if ( ! config.hasOwnProperty( target ) ) return 0;
+        envOptions.targets[ target ] = config[ target ];
+
+    } );
 
     return {
         async: asyncOptions,
