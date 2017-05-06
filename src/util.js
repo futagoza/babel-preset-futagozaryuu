@@ -1,3 +1,5 @@
+/* eslint no-empty: 0*/
+
 import { existsSync } from "fs";
 import { dirname, join } from "path";
 

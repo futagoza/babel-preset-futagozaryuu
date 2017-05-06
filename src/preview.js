@@ -12,7 +12,7 @@ import { loadOptions } from "babel-core";
  */
 
 export default function preview( options ) {
-    
+
     const preset = use( null, options );
     const babel = loadOptions( preset );
 

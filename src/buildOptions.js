@@ -1,3 +1,5 @@
+/* eslint prefer-const: 0*/
+
 import defaultOptions from "./defaultOptions";
 import {
     castArray,
