@@ -8,7 +8,7 @@ import util, { resolve } from "./util";
  * WARNING: This default method is only intended to be used by Babel.
  */
 
-export default function preset( context, _config ) {
+export default function use( context, _config ) {
 
     const options = buildOptions( _config );
     const config = options.config;
@@ -55,7 +55,11 @@ export {
 
     buildOptions,
     defaultOptions,
-    preset,
+    use,
     util
 
 };
+
+// v1 API compatibility
+
+export const preset = use;
