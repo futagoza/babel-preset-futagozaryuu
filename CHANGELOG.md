@@ -1,3 +1,14 @@
+<a name="2.1.0"></a>
+## [v2.1.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.0.0...v2.1.0) (2017-05-06)
+
+* Updated README.md: added version usage warning
+* Renamed `preset.preset` to `preset.use`
+* Added `param` tags in JSDoc block for `preset.use`
+* Added preview funtionality via api `preset.preview`
+* Fixed linting warnings from ESLint
+* Renamed and updated `futagoza/babel-preset-futagozaryuu/test.js` to [futagoza/babel-preset-futagozaryuu/preview.js](https://github.com/futagoza/babel-preset-futagozaryuu/blob/master/preview.js)
+* Realeased: https://github.com/futagoza/babel-preset-futagozaryuu/releases/tag/v2.1.0
+
 <a name="2.0.0"></a>
 ## [v2.0.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v1.3.0...v2.0.0) (2017-05-06)
 
