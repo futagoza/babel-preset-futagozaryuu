@@ -1,6 +1,7 @@
 branches:
   only:
     - "master"
+    - "next"
 
 language: node_js
 
