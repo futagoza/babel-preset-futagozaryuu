@@ -1,6 +1,6 @@
 import buildOptions from "./buildOptions";
 import defaultOptions from "./defaultOptions";
-import util from "./util";
+import util, { resolve } from "./util";
 
 /**
  * Futago-za Ryuu's Babel preset generator.
@@ -17,19 +17,19 @@ export default function preset( context, _config ) {
 
     if ( config.stage > -1 && config.stage < 4 ) {
 
-        presets.push( util.resolve( "babel-preset-stage-" + config.stage ) );
+        presets.push( resolve( "babel-preset-stage-" + config.stage ) );
 
     }
 
-    presets.push( [ util.resolve( "babel-preset-env" ), options.env ] );
+    presets.push( [ resolve( "babel-preset-env" ), options.env ] );
 
     if ( options.resolver )
 
-        plugins.push( [ util.resolve( "babel-plugin-module-resolver" ), options.resolver ] );
+        plugins.push( [ resolve( "babel-plugin-module-resolver" ), options.resolver ] );
 
     if ( options.async )
 
-        plugins.push( [ util.resolve( "babel-plugin-transform-async-to-module-method" ), options.async ] );
+        plugins.push( [ resolve( "babel-plugin-transform-async-to-module-method" ), options.async ] );
 
     return {
 
