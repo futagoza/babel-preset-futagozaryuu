@@ -31,10 +31,9 @@ export default function buildOptions( _config = {} ) {
         "loose": !! config.loose,
         "modules": config.modules || defaultOptions.modules,
         "spec": !! config.spec,
-        "targets": {
-            "uglify": !! config.uglify
-        },
-        "useBuiltIns": !! config.useBuiltIns
+        "targets": {},
+        "useBuiltIns": defaultOptions.useBuiltIns,
+        "forceAllTransforms": !! config.forceAllTransforms,
 
     };
 
@@ -101,6 +100,18 @@ export default function buildOptions( _config = {} ) {
         envOptions.targets[ target ] = config[ target ];
 
     } );
+
+    if ( config.hasOwnProperty( "useBuiltIns" ) ) {
+
+        if ( typeof config.useBuiltIns === "string" )
+
+            envOptions.useBuiltIns = config.useBuiltIns;
+
+        else
+
+            envOptions.useBuiltIns = !! config.useBuiltIns;
+
+    }
 
     return {
         async: asyncOptions,

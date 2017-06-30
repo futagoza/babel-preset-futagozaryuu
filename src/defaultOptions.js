@@ -42,8 +42,8 @@ export default {
     "modules": "commonjs",
     "node": null, // targets.node
     "spec": false,
-    "uglify": false, // targets.uglify
-    "useBuiltIns": false,
+    "useBuiltIns": "usage",
+    "forceAllTransforms": false,
 
     /* babel-plugin-module-resolver */
     // https://www.npmjs.com/package/babel-plugin-module-resolver#options
