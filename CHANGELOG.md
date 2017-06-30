@@ -1,3 +1,22 @@
+<a name="2.2.0"></a>
+## [v2.2.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.1.0...v2.2.0) (2017-06-30)
+
+* DEV: Fixed CHANGELOG.md: fixed spelling errors
+* Updated most `babel-*` dependencies to `7.0.0-alpha.12`
+* Updated dependency `babel-preset-env` from `2.0.0-alpha.7` to `2.0.0-alpha.12`
+* Updated dependency `babel-plugin-module-resolver` from `3.0.0-beta.0` to `3.0.0-beta.3`
+* DEV: Updated devDependency `eslint` from `3.19.0` to `4.1.1`
+* DEV: Updated devDependency `eslint-config-futagozaryuu` from `2.2.0` to `3.1.0`
+* Removed `config.uglify`, as `targets.uglify` has been deprecated.
+* Updated option builder for `config.useBuiltIns`, as `useBuiltIns` can now also be a `String`.
+* Added new option `config.forceAllTransforms`, see https://github.com/babel/babel-preset-env/tree/2.0#forcealltransforms
+* Updated default options: `{ "useBuiltIns": "usage", "forceAllTransforms": false }`
+* DEV: Added Node.js 8 support for travis
+* Fix overwriting default options
+* DEV: moved previews to 'preview/*' and updated scripts
+* DEV: Updated ignored files
+* Released: https://github.com/futagoza/babel-preset-futagozaryuu/releases/tag/v2.2.0
+
 <a name="2.1.0"></a>
 ## [v2.1.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.0.0...v2.1.0) (2017-05-06)
 
@@ -20,6 +39,7 @@
 * Selectively add targets for `babel-preset-env` based on what's passed to options
 * Refractor some ES2015 module code
 * Set travis to only build and run on the `master` branch
+* Changed default option `config.cwd` from "process.cwd()" to `packagejson`
 * Released: https://github.com/futagoza/babel-preset-futagozaryuu/releases/tag/v2.0.0
 
 <a name="1.3.0"></a>
