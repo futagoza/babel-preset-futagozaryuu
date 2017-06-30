@@ -18,7 +18,7 @@ import {
  */
 export default function buildOptions( _config = {} ) {
 
-    const config = Object.assign( defaultOptions, _config );
+    const config = Object.assign( {}, defaultOptions, _config );
     let asyncOptions, envOptions, resolverOptions;
 
     if ( typeof config.stage !== "number" ) config.stage = -1;
