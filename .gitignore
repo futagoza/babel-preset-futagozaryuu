@@ -1,4 +1,6 @@
 /lib
+/preview/configurations
+/preview/result
 /node_modules
 /.eslintcache
 /npm-debug.log

@@ -1,5 +1,4 @@
-lib/preview
 .eslintcache
 .travis.yml
-preview.js
+preview
 src

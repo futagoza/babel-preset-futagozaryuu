@@ -1,10 +1,11 @@
 "use strict";
 
 const fs = require( "fs" );
+const path = require( "path" );
 const minimist = require( "minimist" );
-const preset = require( "./lib/preset" );
+const preset = require( "../lib/preset" );
 
-const target = "./lib/preview";
+const target = path.join( __dirname, "configurations" );
 function save( name, preset ) {
 
     name = `${ target }/${ name }.json`;

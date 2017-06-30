@@ -18,9 +18,10 @@
     "build": "babel src --out-dir lib",
     "preversion": "npm install && npm test",
     "postversion": "git push --follow-tags && npm publish",
-    "lint": "eslint --cache src preview.js",
-    "preset": "babel --no-babelrc src --out-dir lib/preview --presets ./lib/preset.js",
-    "test": "eslint --quiet src && npm run build && npm run preset"
+    "lint": "eslint --cache src preview/generate-configurations.js",
+    "preview-configurations": "node preview/generate-configurations",
+    "preview-result": "babel --no-babelrc src -d preview/result --presets ./lib/preset.js",
+    "test": "eslint --quiet src && npm run build && npm run preview-result"
   },
   "dependencies": {
     "babel-core": "7.0.0-alpha.12",
