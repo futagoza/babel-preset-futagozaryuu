@@ -9,7 +9,7 @@
 * DEV: Updated devDependency `eslint-config-futagozaryuu` from `2.2.0` to `3.1.0`
 * Removed `config.uglify`, as `targets.uglify` has been deprecated.
 * Updated option builder for `config.useBuiltIns`, as `useBuiltIns` can now also be a `String`.
-* Added new option `config.forceAllTransforms`, see https://github.com/babel/babel-preset-env/tree/2.0#forcealltransforms
+* Added new option `config.forceAllTransforms`, see [babel/babel-preset-env/tree/2.0#forcealltransforms](https://github.com/babel/babel-preset-env/tree/2.0#forcealltransforms)
 * Updated default options: `{ "useBuiltIns": "usage", "forceAllTransforms": false }`
 * DEV: Added Node.js 8 support for travis
 * Fix overwriting default options
