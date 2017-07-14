@@ -20,7 +20,7 @@ export default {
     // if true, will use a `babelrc.shouldPrintComment` method to ignore eslint comments
     "removeEslintComments": true,
 
-    // if true, will not exclude `regenerator`
+    // if true, will not exclude `transform-regenerator`
     "regenerator": false,
 
     // if the `node` option is `null` and the `engines.node` property in your `package.json` is not
@@ -48,9 +48,10 @@ export default {
     /* babel-plugin-module-resolver */
     // https://www.npmjs.com/package/babel-plugin-module-resolver#options
 
-    "alias": [],
+    "alias": {},
     "cwd": "packagejson",
-    "extensions": [ ".js", ".jsx", ".es", ".es6" ],
+    "extensions": [ ".js", ".jsx", ".es", ".es6", ".mjs" ],
+    "importers": void 0, // transformFunctions
     "root": "src",
 
     /* babel-plugin-transform-async-to-module-method */

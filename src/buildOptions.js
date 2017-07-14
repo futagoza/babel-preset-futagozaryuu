@@ -29,10 +29,10 @@ export default function buildOptions( _config = {} ) {
         "include": castArray( config.include ),
         "exclude": castArray( config.exclude ),
         "loose": !! config.loose,
-        "modules": config.modules || defaultOptions.modules,
+        "modules": config.modules,
         "spec": !! config.spec,
         "targets": {},
-        "useBuiltIns": defaultOptions.useBuiltIns,
+        "useBuiltIns": config.useBuiltIns,
         "forceAllTransforms": !! config.forceAllTransforms,
 
     };
@@ -44,7 +44,8 @@ export default function buildOptions( _config = {} ) {
             "alias": config.alias || defaultOptions.alias,
             "cwd": config.cwd || defaultOptions.cwd,
             "extensions": castArray( config.extensions, defaultOptions.extensions ),
-            "root": castArray( config.root, defaultOptions.root )
+            "root": castArray( config.root, defaultOptions.root ),
+            "transformFunctions": config.transformFunctions || config.importers,
 
         };
 
@@ -100,18 +101,6 @@ export default function buildOptions( _config = {} ) {
         envOptions.targets[ target ] = config[ target ];
 
     } );
-
-    if ( config.hasOwnProperty( "useBuiltIns" ) ) {
-
-        if ( typeof config.useBuiltIns === "string" )
-
-            envOptions.useBuiltIns = config.useBuiltIns;
-
-        else
-
-            envOptions.useBuiltIns = !! config.useBuiltIns;
-
-    }
 
     return {
         async: asyncOptions,
