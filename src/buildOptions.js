@@ -46,6 +46,7 @@ export default function buildOptions( _config = {} ) {
             "extensions": castArray( config.extensions, defaultOptions.extensions ),
             "root": castArray( config.root, defaultOptions.root ),
             "transformFunctions": config.transformFunctions || config.importers,
+            "resolvePath": config.resolvePath || config.resolver,
 
         };
 

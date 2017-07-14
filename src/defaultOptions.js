@@ -52,6 +52,7 @@ export default {
     "cwd": "packagejson",
     "extensions": [ ".js", ".jsx", ".es", ".es6", ".mjs" ],
     "importers": void 0, // transformFunctions
+    "resolver": void 0, // resolvePath
     "root": "src",
 
     /* babel-plugin-transform-async-to-module-method */
