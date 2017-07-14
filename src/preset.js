@@ -61,7 +61,7 @@ export {
     defaultOptions,
     use,
     preview,
-    util
+    util,
 
 };
 

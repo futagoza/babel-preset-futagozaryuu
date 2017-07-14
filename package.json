@@ -1,49 +1,49 @@
 {
-  "name": "babel-preset-futagozaryuu",
-  "version": "2.2.0",
-  "description": "Futago-za Ryuu's Babel preset",
-  "keywords": [
-    "babel",
-    "preset",
-    "plugin",
-    "ecmascript",
-    "javascript"
-  ],
-  "repository": "futagoza/babel-preset-futagozaryuu",
-  "bugs": "https://github.com/futagoza/babel-preset-futagozaryuu/issues",
-  "license": "MIT",
-  "author": "Futago-za Ryuu",
-  "files": [
-    "lib"
-  ],
-  "main": "lib/preset.js",
-  "scripts": {
-    "build": "babel src --out-dir lib",
-    "preversion": "npm install && npm test",
-    "postversion": "git push --follow-tags && npm publish",
-    "lint": "eslint --cache src preview/generate-configurations.js",
-    "preview-configurations": "node preview/generate-configurations",
-    "preview-result": "babel --no-babelrc src -d preview/result --presets ./lib/preset.js",
-    "test": "eslint --quiet src && npm run build && npm run preview-result"
-  },
-  "dependencies": {
-    "babel-core": "7.0.0-alpha.12",
-    "babel-preset-stage-0": "7.0.0-alpha.12",
-    "babel-preset-env": "2.0.0-alpha.12",
-    "babel-plugin-module-resolver": "3.0.0-beta.4",
-    "babel-plugin-transform-async-to-module-method": "7.0.0-alpha.12"
-  },
-  "devDependencies": {
-    "eslint": "4.1.1",
-    "eslint-config-futagozaryuu": "3.1.1",
-    "minimist": "1.2.0",
-    "babel-cli": "7.0.0-alpha.12"
-  },
-  "engines": {
-    "node": ">= 4"
-  },
-  "eslintConfig": {
-    "extends": "futagozaryuu/node-v4",
-    "root": true
-  }
+    "name": "babel-preset-futagozaryuu",
+    "version": "2.2.0",
+    "description": "Futago-za Ryuu's Babel preset",
+    "keywords": [
+        "babel",
+        "preset",
+        "plugin",
+        "ecmascript",
+        "javascript"
+    ],
+    "repository": "futagoza/babel-preset-futagozaryuu",
+    "bugs": "https://github.com/futagoza/babel-preset-futagozaryuu/issues",
+    "license": "MIT",
+    "author": "Futago-za Ryuu",
+    "files": [
+        "lib"
+    ],
+    "main": "lib/preset.js",
+    "scripts": {
+        "build": "babel src --out-dir lib",
+        "preversion": "npm install && npm test",
+        "postversion": "git push --follow-tags && npm publish",
+        "lint": "eslint --cache src preview/generate-configurations.js",
+        "preview-configurations": "node preview/generate-configurations",
+        "preview-result": "babel --no-babelrc src -d preview/result --presets ./lib/preset.js",
+        "test": "eslint --quiet src && npm run build && npm run preview-result"
+    },
+    "dependencies": {
+        "babel-core": "7.0.0-alpha.12",
+        "babel-preset-stage-0": "7.0.0-alpha.12",
+        "babel-preset-env": "2.0.0-alpha.12",
+        "babel-plugin-module-resolver": "3.0.0-beta.4",
+        "babel-plugin-transform-async-to-module-method": "7.0.0-alpha.12"
+    },
+    "devDependencies": {
+        "eslint": "4.1.1",
+        "eslint-config-futagozaryuu": "3.1.1",
+        "minimist": "1.2.0",
+        "babel-cli": "7.0.0-alpha.12"
+    },
+    "engines": {
+        "node": ">= 4"
+    },
+    "eslintConfig": {
+        "extends": "futagozaryuu/node-v4",
+        "root": true
+    }
 }

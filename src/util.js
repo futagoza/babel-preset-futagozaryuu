@@ -111,6 +111,7 @@ export function majorSemver( version ) {
  */
 
 export const targets = [
+
     "chrome",
     "opera",
     "edge",
@@ -120,7 +121,8 @@ export const targets = [
     "ios",
     "android",
     "electron",
-    "browsers"
+    "browsers",
+
 ];
 
 /**
@@ -134,6 +136,6 @@ export default {
     listOnce,
     resolve,
     majorSemver,
-    targets
+    targets,
 
 };

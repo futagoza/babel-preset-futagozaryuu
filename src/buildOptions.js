@@ -2,11 +2,13 @@
 
 import defaultOptions from "./defaultOptions";
 import {
+
     castArray,
     listOnce,
     getPackage,
     majorSemver,
-    targets
+    targets,
+
 } from "./util";
 
 /**
@@ -52,11 +54,7 @@ export default function buildOptions( _config = {} ) {
 
     }
 
-    if ( ! config.regenerator ) {
-
-        listOnce( envOptions.exclude, "transform-regenerator" );
-
-    }
+    if ( ! config.regenerator ) listOnce( envOptions.exclude, "transform-regenerator" );
 
     if ( ! config.asyncToGenerator ) {
 
@@ -104,10 +102,12 @@ export default function buildOptions( _config = {} ) {
     } );
 
     return {
-        async: asyncOptions,
-        config: config,
-        env: envOptions,
-        resolver: resolverOptions
+
+        asyncOptions,
+        config,
+        envOptions,
+        resolverOptions,
+
     };
 
 }
