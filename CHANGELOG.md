@@ -1,4 +1,5 @@
-## Unreleased
+<a name="2.3.0-alpha"></a>
+## [v2.3.0-alpha](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.2.0...v2.3.0-alpha) (2017-07-14)
 
 * DEV: Fixed CHANGELOG.md: fixed link
 * Removed use of `defaultOptions.modules` and `defaultOptions.useBuiltIns` in `src/buildOptions.js`
@@ -12,6 +13,7 @@
 * DEV: Added `"files": [ "lib" ],` to `package.json` to only publish the `lib` directory
 * DEV: Removed `.npmignore`, not required anymore
 * DEV: Cosmetic update's to some source files and `package.json` 366f95ba34c778b500e6e78c5f725a92bcb10611
+* Released: https://github.com/futagoza/babel-preset-futagozaryuu/releases/tag/v2.3.0-alpha
 
 <a name="2.2.0"></a>
 ## [v2.2.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.1.0...v2.2.0) (2017-06-30)
