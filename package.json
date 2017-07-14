@@ -13,6 +13,9 @@
   "bugs": "https://github.com/futagoza/babel-preset-futagozaryuu/issues",
   "license": "MIT",
   "author": "Futago-za Ryuu",
+  "files": [
+    "lib"
+  ],
   "main": "lib/preset.js",
   "scripts": {
     "build": "babel src --out-dir lib",
