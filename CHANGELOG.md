@@ -1,3 +1,18 @@
+## Unreleased
+
+* DEV: Fixed CHANGELOG.md: fixed link
+* Removed use of `defaultOptions.modules` and `defaultOptions.useBuiltIns` in `src/buildOptions.js`
+* Removed check on `config.useBuiltIns`, let `babel-plugin-module-resolver` confirm it's correctness
+* Added option `config.transformFunctions` and it's alias `config.importers`
+* DEV: Updated the description comment for the `config.regenerator` option in `src/defaultOptions.js`
+* Changed default value for the option `config.alias` to `{}`
+* Added the extension `.mjs` to the array set as the default for `config.extensions`
+* Updated dependency `babel-plugin-module-resolver` from `3.0.0-beta.3` to `3.0.0-beta.4`
+* Added option `config.resolvePath` and it's alias `config.resolver`
+* DEV: Added `"files": [ "lib" ],` to `package.json` to only publish the `lib` directory
+* DEV: Removed `.npmignore`, not required anymore
+* DEV: Cosmetic update's to some source files and `package.json` 366f95ba34c778b500e6e78c5f725a92bcb10611
+
 <a name="2.2.0"></a>
 ## [v2.2.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.1.0...v2.2.0) (2017-06-30)
 
