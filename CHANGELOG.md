@@ -1,3 +1,11 @@
+<a name="2.3.0-alpha.2"></a>
+## [v2.3.0-alpha.2](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.3.0-alpha...v2.3.0-alpha.2) (2017-07-17)
+
+* Removed option `defaultNodeVersion`
+* Set fallback version for Node.js to `current`
+* Setting the `node` target to `false` should now disable it
+* Released: https://github.com/futagoza/babel-preset-futagozaryuu/releases/tag/v2.3.0-alpha.2
+
 <a name="2.3.0-alpha"></a>
 ## [v2.3.0-alpha](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.2.0...v2.3.0-alpha) (2017-07-14)
 
