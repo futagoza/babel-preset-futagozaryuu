@@ -23,11 +23,6 @@ export default {
     // if true, will not exclude `transform-regenerator`
     "regenerator": false,
 
-    // if the `node` option is `null` and the `engines.node` property in your `package.json` is not
-    // found, this will be used by `babel-preset-env` instead. If you don't want to target Node.js, set
-    // this as well as the option `node` to `null`
-    "defaultNodeVersion": "current",
-
     // stages 0 - 3 will enable the appropriate `babel-preset-stage-*`, where as 4 (or more) will disable them.
     "stage": 0,
 

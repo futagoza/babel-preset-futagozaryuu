@@ -76,13 +76,13 @@ export default function buildOptions( _config = {} ) {
 
     }
 
-    if ( ! config.node ) {
+    if ( ! config.node && config.node !== false ) {
 
         const engines = getPackage( config.cwd || defaultOptions.cwd ).engines;
 
         config.node = engines && engines.node
                     ? majorSemver( String( engines.node ) )
-                    : defaultOptions.defaultNodeVersion;
+                    : "current";
 
     }
 
@@ -97,7 +97,11 @@ export default function buildOptions( _config = {} ) {
     targets.forEach( target => {
 
         if ( ! config.hasOwnProperty( target ) ) return 0;
-        envOptions.targets[ target ] = config[ target ];
+        if ( config[ target ] !== false ) {
+
+            envOptions.targets[ target ] = config[ target ];
+
+        }
 
     } );
 
