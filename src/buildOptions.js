@@ -107,10 +107,10 @@ export default function buildOptions( _config = {} ) {
 
     return {
 
-        asyncOptions,
+        async: asyncOptions,
         config,
-        envOptions,
-        resolverOptions,
+        env: envOptions,
+        resolver: resolverOptions,
 
     };
 
