@@ -5,6 +5,7 @@
 * Updated most `babel-*` dependencies to `7.0.0-alpha.15`
 * Updated dependency `babel-preset-env` from `2.0.0-alpha.12` to `2.0.0-alpha.15`
 * Fix exporting built options (how did I not notice :D)
+* Released: https://github.com/futagoza/babel-preset-futagozaryuu/releases/tag/v2.3.0
 
 <a name="2.3.0-alpha.2"></a>
 ## [v2.3.0-alpha.2](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.3.0-alpha...v2.3.0-alpha.2) (2017-07-17)
