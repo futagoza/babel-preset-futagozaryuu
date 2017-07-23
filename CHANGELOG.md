@@ -4,6 +4,8 @@
 * Removed option `defaultNodeVersion`
 * Set fallback version for Node.js to `current`
 * Setting the `node` target to `false` should now disable it
+* DEV: Updated devDependency `eslint` from `4.1.1` to `4.2.0`
+* DEV: Updated devDependency `eslint-config-futagozaryuu` from `3.1.1` to `3.3.0`
 * Released: https://github.com/futagoza/babel-preset-futagozaryuu/releases/tag/v2.3.0-alpha.2
 
 <a name="2.3.0-alpha"></a>
@@ -31,7 +33,7 @@
 * Updated dependency `babel-preset-env` from `2.0.0-alpha.7` to `2.0.0-alpha.12`
 * Updated dependency `babel-plugin-module-resolver` from `3.0.0-beta.0` to `3.0.0-beta.3`
 * DEV: Updated devDependency `eslint` from `3.19.0` to `4.1.1`
-* DEV: Updated devDependency `eslint-config-futagozaryuu` from `2.2.0` to `3.1.0`
+* DEV: Updated devDependency `eslint-config-futagozaryuu` from `2.2.0` to `3.1.1`
 * Removed `config.uglify`, as `targets.uglify` has been deprecated.
 * Updated option builder for `config.useBuiltIns`, as `useBuiltIns` can now also be a `String`.
 * Added new option `config.forceAllTransforms`, see [babel/babel-preset-env/tree/2.0#forcealltransforms](https://github.com/babel/babel-preset-env/tree/2.0#forcealltransforms)
