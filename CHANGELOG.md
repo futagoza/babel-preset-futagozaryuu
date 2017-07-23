@@ -1,5 +1,5 @@
-<a name="unreleased"></a>
-## Unreleased
+<a name="2.3.0"></a>
+## [v2.3.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.3.0-alpha.2...v2.3.0) (2017-07-23)
 
 * DEV: Updated devDependency `eslint` from `4.2.0` to `4.3.0`
 * Updated most `babel-*` dependencies to `7.0.0-alpha.15`
