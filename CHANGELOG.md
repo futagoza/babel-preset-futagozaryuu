@@ -1,3 +1,8 @@
+<a name="unreleased"></a>
+## Unreleased
+
+* DEV: Updated devDependency `eslint` from `4.2.0` to `4.3.0`
+
 <a name="2.3.0-alpha.2"></a>
 ## [v2.3.0-alpha.2](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.3.0-alpha...v2.3.0-alpha.2) (2017-07-17)
 
