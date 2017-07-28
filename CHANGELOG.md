@@ -1,3 +1,9 @@
+<a name="2.4.0"></a>
+## [v2.4.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.3.0...v2.4.0) (2017-07-28)
+
+* Updated core `babel-*` dependencies to `7.0.0-alpha.17`
+* Released: https://github.com/futagoza/babel-preset-futagozaryuu/releases/tag/v2.4.0
+
 <a name="2.3.0"></a>
 ## [v2.3.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.3.0-alpha.2...v2.3.0) (2017-07-23)
 
