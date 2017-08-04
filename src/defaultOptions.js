@@ -23,6 +23,9 @@ export default {
     // if true, will not exclude `transform-regenerator`
     "regenerator": false,
 
+    // if true or an object, will include the plugin `transform-runtime`
+    "runtime": false,
+
     // stages 0 - 3 will enable the appropriate `babel-preset-stage-*`, where as 4 (or more) will disable them.
     "stage": 0,
 

@@ -35,6 +35,10 @@ export default function use( context, _config ) {
 
         plugins.push( [ resolve( "babel-plugin-transform-async-to-module-method" ), options.async ] );
 
+    if ( options.runtime )
+
+        plugins.push( [ resolve( "babel-plugin-transform-runtime" ), options.runtime ] );
+
     return {
 
         shouldPrintComment( comment ) {

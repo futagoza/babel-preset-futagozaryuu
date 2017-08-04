@@ -21,7 +21,7 @@ import {
 export default function buildOptions( _config = {} ) {
 
     const config = Object.assign( {}, defaultOptions, _config );
-    let asyncOptions, envOptions, resolverOptions;
+    let asyncOptions, envOptions, resolverOptions, runtimeOptions;
 
     if ( typeof config.stage !== "number" ) config.stage = -1;
 
@@ -76,6 +76,23 @@ export default function buildOptions( _config = {} ) {
 
     }
 
+    if ( typeof config.runtime === "object" ) runtimeOptions = config.runtime;
+
+    else if ( typeof config.runtime === "string" || config.runtime === true ) {
+
+        runtimeOptions = {
+
+            "helpers": true,
+            "polyfill": true,
+            "regenerator": true,
+            "moduleName": typeof config.runtime === "string" ? config.runtime : "babel-runtime",
+            "useBuiltIns": false,
+            "useESModules": false,
+
+        };
+
+    }
+
     if ( ! config.node && config.node !== false ) {
 
         const engines = getPackage( config.cwd || defaultOptions.cwd ).engines;
@@ -111,6 +128,7 @@ export default function buildOptions( _config = {} ) {
         config,
         env: envOptions,
         resolver: resolverOptions,
+        runtime: runtimeOptions,
 
     };
 
