@@ -112,6 +112,7 @@ export function majorSemver( version ) {
 
 export const targets = [
 
+    "node",
     "chrome",
     "opera",
     "edge",

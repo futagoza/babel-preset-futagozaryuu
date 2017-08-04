@@ -29,7 +29,7 @@ export default {
     /* babel-preset-env */
     // https://www.npmjs.com/package/babel-preset-env#options
 
-    "browsers": null, // targets.browsers
+    "browsers": false, // targets.browsers
     "debug": false,
     "include": [],
     "exclude": [],
