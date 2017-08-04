@@ -86,7 +86,7 @@ export default function buildOptions( _config = {} ) {
 
     }
 
-    if ( typeof config.node === "string" ) {
+    if ( typeof config.node === "string" && config.node !== "current" ) {
 
         config.node = config.node.includes( "." )
                     ? parseFloat( config.node )
