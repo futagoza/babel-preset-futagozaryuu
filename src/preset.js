@@ -19,13 +19,13 @@ export default function use( context, _config ) {
     const plugins = [];
     const presets = [];
 
+    presets.push( [ resolve( "babel-preset-env" ), options.env ] );
+
     if ( config.stage > -1 && config.stage < 4 ) {
 
         presets.push( resolve( "babel-preset-stage-" + config.stage ) );
 
     }
-
-    presets.push( [ resolve( "babel-preset-env" ), options.env ] );
 
     if ( options.resolver )
 
