@@ -1,3 +1,13 @@
+<a name="2.6.0"></a>
+## [v2.6.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.5.0...v2.6.0) (2017-08-04)
+
+* Fix Stage 0 transformer(s) not included when putting `babel-preset-stage-0` before `babel-preset-env`
+* Fix issues with targets (node being ignored and browser being included by default)
+* Fix `package.json` finder so that node version is set by default
+* Fix node version being `NaN` if it's value passed to this preset is `current`
+* Add optional support for `babel-plugin-transform-runtime`
+* Released: https://github.com/futagoza/babel-preset-futagozaryuu/releases/tag/v2.6.0
+
 <a name="2.5.0"></a>
 ## [v2.5.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.4.0...v2.5.0) (2017-08-04)
 
