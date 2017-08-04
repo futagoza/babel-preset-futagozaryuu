@@ -29,6 +29,8 @@ export function castArray( value, alt ) {
 
 export function getPackage( cwd ) {
 
+    if ( ! cwd || cwd === "packagejson" || cwd === "." ) cwd = process.cwd();
+
     try {
 
         return require( join( cwd, "package.json" ) );
