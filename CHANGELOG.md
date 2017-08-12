@@ -6,6 +6,7 @@
 * DEV: Added `preview/generate-result.js` for `npm run preview-result`
 * DEV: Added the `--runtime` flag to `preview-*` script commands
 * DEV: Added devDependency `mkdirp v0.5.1` for `preview/generate-result.js`
+* Updated `.babelrc` for the `npm run build` command
 
 <a name="2.6.0"></a>
 ## [v2.6.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.5.0...v2.6.0) (2017-08-04)

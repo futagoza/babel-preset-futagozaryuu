@@ -1,21 +1,25 @@
 {
 
     "sourceMaps": true,
+    "plugins": [
+        [ "transform-runtime" ]
+    ],
     "presets": [
 
-        "stage-0",
         [ "env", {
 
             "exclude": [
-                "transform-regenerator"
+                "transform-regenerator",
+                "transform-async-to-generator"
             ],
             "loose": true,
-            "modules": "commonjs",
             "targets": {
                 "node": 4
-            }
+            },
+            "useBuiltIns": "usage"
 
-        } ]
+        } ],
+        "stage-0"
 
     ]
 
