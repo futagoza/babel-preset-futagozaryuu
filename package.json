@@ -27,6 +27,8 @@
         "test": "eslint --quiet src && npm run build && npm run preview-result"
     },
     "dependencies": {
+        "babel-polyfill": "7.0.0-alpha.19",
+        "babel-runtime": "7.0.0-alpha.19",
         "babel-core": "7.0.0-alpha.19",
         "babel-preset-stage-0": "7.0.0-alpha.19",
         "babel-preset-env": "2.0.0-alpha.19",
