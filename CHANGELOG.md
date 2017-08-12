@@ -1,3 +1,8 @@
+## Unreleased
+
+* Removed `devDependencies` badge in `README.md`
+* Added `History` badge to `README.md`
+
 <a name="2.7.0"></a>
 ## [v2.7.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.6.0...v2.7.0) (2017-08-12)
 

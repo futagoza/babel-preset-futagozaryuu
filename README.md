@@ -1,7 +1,7 @@
 [![Build status](https://api.travis-ci.org/futagoza/babel-preset-futagozaryuu.svg?branch=master)](https://travis-ci.org/futagoza/babel-preset-futagozaryuu)
 [![npm version](https://img.shields.io/npm/v/babel-preset-futagozaryuu.svg)](https://www.npmjs.com/package/babel-preset-futagozaryuu)
 [![dependencies](https://img.shields.io/david/futagoza/babel-preset-futagozaryuu.svg)](https://david-dm.org/futagoza/babel-preset-futagozaryuu)
-[![devDependencies](https://img.shields.io/david/dev/futagoza/babel-preset-futagozaryuu.svg)](https://david-dm.org/futagoza/babel-preset-futagozaryuu#info=devDependencies)
+[![History](https://img.shields.io/badge/history-CHANGELOG.md-orange.svg)](https://github.com/futagoza/babel-preset-futagozaryuu/blob/master/CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-mit-blue.svg)](https://opensource.org/licenses/MIT)
 
 > WARNING: v1 of this plugin is for Babel 6, while v2 is for Babel 7
