@@ -3,6 +3,9 @@
 * Updated core `babel-*` dependencies to `7.0.0-alpha.19`
 * DEV: Updated devDependency `eslint` from `4.3.0` to `>= 4.4.0`
 * DEV: Changed devDependency `eslint-config-futagozaryuu` from `3.3.0` to `>= 3.3.0`
+* DEV: Added `preview/generate-result.js` for `npm run preview-result`
+* DEV: Added the `--runtime` flag to `preview-*` script commands
+* DEV: Added devDependency `mkdirp v0.5.1` for `preview/generate-result.js`
 
 <a name="2.6.0"></a>
 ## [v2.6.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.5.0...v2.6.0) (2017-08-04)
