@@ -1,4 +1,5 @@
-## Unreleased
+<a name="2.7.0"></a>
+## [v2.7.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.6.0...v2.7.0) (2017-08-12)
 
 * Updated core `babel-*` dependencies to `7.0.0-alpha.19`
 * DEV: Updated devDependency `eslint` from `4.3.0` to `>= 4.4.0`
@@ -9,6 +10,7 @@
 * Updated `.babelrc` for the `npm run build` command
 * Added `babel-polyfill` and `babel-runtime ` dependencies
 * DEV: Update `npm run lint` command to include the new JavaScript file
+* Released: https://github.com/futagoza/babel-preset-futagozaryuu/releases/tag/v2.7.0
 
 <a name="2.6.0"></a>
 ## [v2.6.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.5.0...v2.6.0) (2017-08-04)
