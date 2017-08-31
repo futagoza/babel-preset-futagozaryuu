@@ -48,7 +48,8 @@ export default {
 
     "alias": {},
     "cwd": "packagejson",
-    "extensions": [ ".js", ".jsx", ".es", ".es6", ".mjs" ],
+    "extensions": [ ".js", ".jsx", ".es", ".es6", ".mjs", ".ios.js", ".android.js" ],
+    "stripExtensions": [ ".ios.js", ".android.js" ],
     "importers": void 0, // transformFunctions
     "resolver": void 0, // resolvePath
     "root": "src",

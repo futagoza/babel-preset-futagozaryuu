@@ -3,6 +3,7 @@
 * Removed `devDependencies` badge in `README.md`
 * Added `History` badge to `README.md`
 * Updated dependency `babel-plugin-module-resolver` from `3.0.0-beta.5` to `3.0.0-beta.5`
+* Add support for `react-native` via options for `babel-plugin-module-resolver`
 
 <a name="2.7.0"></a>
 ## [v2.7.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.6.0...v2.7.0) (2017-08-12)

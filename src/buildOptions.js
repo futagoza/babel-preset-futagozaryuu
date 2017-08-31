@@ -46,6 +46,7 @@ export default function buildOptions( _config = {} ) {
             "alias": config.alias || defaultOptions.alias,
             "cwd": config.cwd || defaultOptions.cwd,
             "extensions": castArray( config.extensions, defaultOptions.extensions ),
+            "stripExtensions": castArray( config.stripExtensions, defaultOptions.stripExtensions ),
             "root": castArray( config.root, defaultOptions.root ),
             "transformFunctions": config.transformFunctions || config.importers,
             "resolvePath": config.resolvePath || config.resolver,
