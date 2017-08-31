@@ -3,8 +3,8 @@
 
 * Removed `devDependencies` badge in `README.md`
 * Added `History` badge to `README.md`
-* Updated dependency `babel-plugin-module-resolver` from `3.0.0-beta.5` to `3.0.0-beta.5`
-* Add support for `react-native` via options for `babel-plugin-module-resolver`
+* Updated dependency `babel-plugin-module-resolver` from `3.0.0-beta.4` to `3.0.0-beta.5`
+* Added options for `react-native` that are consumed by `babel-plugin-module-resolver`
 * Updated core `babel-*` dependencies to `7.0.0-alpha.20`
 * DEV: Dropped CI support for non-LTS releases (Node.js v5 and Node.js v7)
 * Released: https://github.com/futagoza/babel-preset-futagozaryuu/releases/tag/v2.8.0
