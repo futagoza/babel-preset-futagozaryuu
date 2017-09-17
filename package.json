@@ -38,7 +38,7 @@
     },
     "devDependencies": {
         "eslint": ">= 4.6.0",
-        "eslint-config-futagozaryuu": ">= 3.3.0",
+        "eslint-config-futagozaryuu": "3.5.x",
         "minimist": "1.2.0",
         "mkdirp": "0.5.1",
         "babel-cli": "7.0.0-beta.0"
