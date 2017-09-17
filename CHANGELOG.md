@@ -1,3 +1,7 @@
+## Unreleased
+
+* Updated core `babel-*` dependencies to `7.0.0-beta.0`
+
 <a name="2.8.0"></a>
 ## [v2.8.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.7.0...v2.8.0) (2017-08-31)
 
