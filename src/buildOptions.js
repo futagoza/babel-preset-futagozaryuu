@@ -77,9 +77,7 @@ export default function buildOptions( _config = {} ) {
 
     }
 
-    if ( typeof config.runtime === "object" ) runtimeOptions = config.runtime;
-
-    else if ( typeof config.runtime === "string" || config.runtime === true ) {
+    if ( typeof config.runtime === "object" || typeof config.runtime === "string" || config.runtime === true ) {
 
         runtimeOptions = {
 
@@ -91,6 +89,8 @@ export default function buildOptions( _config = {} ) {
             "useESModules": false,
 
         };
+
+        if ( typeof config.runtime === "object" ) Object.assign( runtimeOptions, config.runtime );
 
     }
 
