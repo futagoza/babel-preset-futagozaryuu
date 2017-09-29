@@ -1,3 +1,11 @@
+<a name="2.10.0"></a>
+## [v2.10.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.9.0...v2.10.0) (2017-09-29)
+
+* Updated core `babel-*` dependencies to `7.0.0-beta.2`
+* Updated dependency `babel-preset-env` from `2.0.0-beta.0` to `2.0.0-beta.2`
+* Update `config.runtime` option: Giving this option an object now extends my default options for it.
+* Released: https://github.com/futagoza/babel-preset-futagozaryuu/releases/tag/v2.10.0
+
 <a name="2.9.0"></a>
 ## [v2.9.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.8.0...v2.9.0) (2017-09-18)
 
