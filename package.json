@@ -21,7 +21,7 @@
         "build": "babel src --out-dir lib",
         "preversion": "npm install && npm test",
         "postversion": "git push --follow-tags && npm publish",
-        "lint": "eslint --cache src preview/generate-*.js",
+        "lint": "eslint --cache src src/.*rc.js preview/generate-*.js",
         "preview-configurations": "node preview/generate-configurations --runtime",
         "preview-result": "node preview/generate-result --runtime",
         "test": "eslint --quiet src && npm run build && npm run preview-result"
