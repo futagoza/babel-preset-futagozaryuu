@@ -1,3 +1,7 @@
+## Unreleased Changes
+
+* DEV: Set minimum Node.js to v4.2
+
 <a name="2.11.0"></a>
 ## [v2.11.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.10.0...v2.11.0) (2017-10-19)
 
