@@ -1,4 +1,5 @@
-## Unreleased Changes
+<a name="2.11.0"></a>
+## [v2.11.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.10.0...v2.11.0) (2017-10-19)
 
 * Updated core `babel-*` dependencies to `7.0.0-beta.3`
 * `babel-preset-env` now follow's versioning for `babel-*` dependencies
@@ -6,7 +7,8 @@
 * DEV: Updated devDependency `eslint-config-futagozaryuu` from `3.5.x` to `3.6.x`
 * DEV: Using `.babelrc.js` instead of `.babelrc`
 * DEV: Lint `src/.*rc.js` as well, ensuring configuration files are linted
-* Removed strict directives from configuration files
+* DEV: Removed strict directives from configuration files
+* Released: https://github.com/futagoza/babel-preset-futagozaryuu/releases/tag/v2.11.0
 
 <a name="2.10.0"></a>
 ## [v2.10.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.9.0...v2.10.0) (2017-09-29)
