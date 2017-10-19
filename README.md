@@ -4,7 +4,12 @@
 [![History](https://img.shields.io/badge/history-CHANGELOG.md-orange.svg)](https://github.com/futagoza/babel-preset-futagozaryuu/blob/master/CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-mit-blue.svg)](https://opensource.org/licenses/MIT)
 
-> WARNING: v1 of this plugin is for Babel 6, while v2 is for Babel 7
+> ----------------------------------------------------------------------
+> __WARNING:__
+>
+>  1. _v1_ of this plugin is for Babel 6, while _v2_ is for Babel 7
+>  2. From _v2.12_ onwards, this module requires at least Node,js v4.2
+> ----------------------------------------------------------------------
 
 ## about
 
