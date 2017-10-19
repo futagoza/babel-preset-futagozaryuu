@@ -1,3 +1,8 @@
+## Unreleased Changes
+
+* DEV: Set minimum ESLint to v4.9
+* DEV: Updated devDependency `eslint-config-futagozaryuu` from `3.5.x` to `3.6.x`
+
 <a name="2.10.0"></a>
 ## [v2.10.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.9.0...v2.10.0) (2017-09-29)
 

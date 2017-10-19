@@ -37,8 +37,8 @@
         "babel-plugin-transform-async-to-module-method": "7.0.0-beta.2"
     },
     "devDependencies": {
-        "eslint": ">= 4.6.0",
-        "eslint-config-futagozaryuu": "3.5.x",
+        "eslint": ">= 4.9.0",
+        "eslint-config-futagozaryuu": "3.6.x",
         "minimist": "1.2.0",
         "mkdirp": "0.5.1",
         "babel-cli": "7.0.0-beta.2"
