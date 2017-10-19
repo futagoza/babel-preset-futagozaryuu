@@ -1,5 +1,7 @@
 ## Unreleased Changes
 
+* Updated core `babel-*` dependencies to `7.0.0-beta.3`
+* `babel-preset-env` now follow's versioning for `babel-*` dependencies
 * DEV: Set minimum ESLint to v4.9
 * DEV: Updated devDependency `eslint-config-futagozaryuu` from `3.5.x` to `3.6.x`
 
