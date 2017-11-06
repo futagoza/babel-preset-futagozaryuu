@@ -2,7 +2,7 @@
 
 const mkdirp = require( "mkdirp" );
 const minimist = require( "minimist" );
-const babel = require( "babel-cli/lib/babel/dir" ).default;
+const babel = require( "@babel/cli/lib/babel/dir" ).default;
 const preset = require( "../lib/preset" );
 
 const args = minimist( process.argv.slice( 2 ) );

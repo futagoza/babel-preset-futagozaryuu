@@ -1,5 +1,5 @@
 import { use } from "./preset";
-import { loadOptions } from "babel-core";
+import { loadOptions } from "@babel/core";
 
 /**
  * Returns an object containing what to expect from this preset:
