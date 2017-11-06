@@ -31,9 +31,10 @@ export default function use( context, _config ) {
 
         plugins.push( [ resolve( "babel-plugin-module-resolver" ), options.resolver ] );
 
-    if ( options.async )
+    if ( config.async )
 
-        plugins.push( [ resolve( "babel-plugin-transform-async-to-module-method" ), options.async ] );
+        // if `config.async` exists and is an object, `options.async` will contain the correct options
+        plugins.push( [ resolve( "babel-plugin-transform-async-to-generator" ), options.async ] );
 
     if ( options.runtime )
 

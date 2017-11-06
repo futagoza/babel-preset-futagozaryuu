@@ -11,9 +11,6 @@ export default {
 
     /* babel-preset-futagozaryuu */
 
-    // if true, will not use `babel-plugin-transform-async-to-module-method`
-    "asyncToGenerator": false,
-
     // if true, will not use `babel-plugin-module-resolver`
     "disableResolver": false,
 
@@ -54,10 +51,16 @@ export default {
     "resolver": void 0, // resolvePath
     "root": "src",
 
-    /* babel-plugin-transform-async-to-module-method */
-    // https://www.npmjs.com/package/babel-plugin-transform-async-to-module-method#usage
+    /* babel-plugin-transform-async-to-generator */
+    // https://www.npmjs.com/package/babel-plugin-transform-async-to-generator#usage
 
-    "asyncModule": "bluebird", // module
-    "asyncMethod": "coroutine" // method
+    // if `true` will include `babel-plugin-transform-async-to-generator`
+    // if an object, it will pass on to the plugin as options
+    "async": {
+
+        "module": "bluebird",
+        "method": "coroutine",
+
+    },
 
 };

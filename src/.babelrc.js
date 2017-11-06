@@ -9,8 +9,7 @@ module.exports = {
         [ "env", {
 
             "exclude": [
-                "transform-regenerator",
-                "transform-async-to-generator"
+                "transform-regenerator"
             ],
             "loose": true,
             "targets": {

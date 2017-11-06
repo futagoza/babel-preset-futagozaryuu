@@ -56,23 +56,19 @@ export default function buildOptions( _config = {} ) {
 
     if ( ! config.regenerator ) listOnce( envOptions.exclude, "transform-regenerator" );
 
-    if ( ! config.asyncToGenerator ) {
+    if ( config.async ) {
 
-        listOnce( envOptions.exclude, "transform-async-to-generator" );
-        const index = envOptions.exclude.indexOf( "transform-async-to-module-method" );
+        listOnce( envOptions.include, "transform-async-to-generator" );
 
-        if ( index === -1 )
+        if ( typeof config.async === "object" ) asyncOptions = {
 
-            asyncOptions = {
+            "module": config.async.module,
+            "method": config.async.method,
 
-                "module": config.asyncModule || defaultOptions.asyncModule,
-                "method": config.asyncMethod || defaultOptions.asyncMethod
+        };
 
-            };
-
-        else if ( index !== -1 )
-
-            envOptions.exclude.splice( index, 1 );
+        const excludeIndex = envOptions.exclude.indexOf( "transform-async-to-generator" );
+        if ( excludeIndex !== -1 ) envOptions.exclude.splice( excludeIndex, 1 );
 
     }
 
