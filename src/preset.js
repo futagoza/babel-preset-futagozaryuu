@@ -19,11 +19,11 @@ export default function use( context, _config ) {
     const plugins = [];
     const presets = [];
 
-    presets.push( [ resolve( "babel-preset-env" ), options.env ] );
+    presets.push( [ resolve( "@babel/preset-env" ), options.env ] );
 
     if ( config.stage > -1 && config.stage < 4 ) {
 
-        presets.push( resolve( "babel-preset-stage-" + config.stage ) );
+        presets.push( resolve( "@babel/preset-stage-" + config.stage ) );
 
     }
 
@@ -34,11 +34,11 @@ export default function use( context, _config ) {
     if ( config.async )
 
         // if `config.async` exists and is an object, `options.async` will contain the correct options
-        plugins.push( [ resolve( "babel-plugin-transform-async-to-generator" ), options.async ] );
+        plugins.push( [ resolve( "@babel/plugin-transform-async-to-generator" ), options.async ] );
 
     if ( options.runtime )
 
-        plugins.push( [ resolve( "babel-plugin-transform-runtime" ), options.runtime ] );
+        plugins.push( [ resolve( "@babel/plugin-transform-runtime" ), options.runtime ] );
 
     return {
 

@@ -109,7 +109,7 @@ export function majorSemver( version ) {
 }
 
 /**
- * List of targets to use with `babel-preset-env`
+ * List of targets to use with `@babel/preset-env`
  */
 
 export const targets = [

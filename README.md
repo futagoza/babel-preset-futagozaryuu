@@ -50,7 +50,7 @@ You can see the complete list of options in [babel-preset-futagozaryuu/src/defau
             "disableResolver": false,
             "root": [ "src" ],
 
-            // disable the use of `babel-preset-stage-*` plugins
+            // disable the use of `@babel/preset-stage-*` plugins
             // (anything not a number between 0 to 3 is the same)
             "stage": 4,
 

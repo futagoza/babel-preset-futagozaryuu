@@ -23,11 +23,11 @@ export default {
     // if true or an object, will include the plugin `transform-runtime`
     "runtime": false,
 
-    // stages 0 - 3 will enable the appropriate `babel-preset-stage-*`, where as 4 (or more) will disable them.
+    // stages 0 - 3 will enable the appropriate `@babel/preset-stage-*`, where as 4 (or more) will disable them.
     "stage": 0,
 
-    /* babel-preset-env */
-    // https://www.npmjs.com/package/babel-preset-env#options
+    /* @babel/preset-env */
+    // https://www.npmjs.com/package/@babel/preset-env#options
 
     "browsers": false, // targets.browsers
     "debug": false,
@@ -51,10 +51,10 @@ export default {
     "resolver": void 0, // resolvePath
     "root": "src",
 
-    /* babel-plugin-transform-async-to-generator */
-    // https://www.npmjs.com/package/babel-plugin-transform-async-to-generator#usage
+    /* @babel/plugin-transform-async-to-generator */
+    // https://www.npmjs.com/package/@babel/plugin-transform-async-to-generator#usage
 
-    // if `true` will include `babel-plugin-transform-async-to-generator`
+    // if `true` will include `@babel/plugin-transform-async-to-generator`
     // if an object, it will pass on to the plugin as options
     "async": {
 

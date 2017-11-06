@@ -79,7 +79,7 @@ export default function buildOptions( _config = {} ) {
             "helpers": true,
             "polyfill": true,
             "regenerator": true,
-            "moduleName": typeof config.runtime === "string" ? config.runtime : "babel-runtime",
+            "moduleName": typeof config.runtime === "string" ? config.runtime : void 0,
             "useBuiltIns": false,
             "useESModules": false,
 
