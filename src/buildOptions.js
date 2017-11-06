@@ -15,8 +15,7 @@ import {
  * Build a valid options object that can be used to pass
  * options to other presets and/or plugins.
  *
- * @param {object} _config
- * @returns {{async:object, config:object, env:object, resolver:object}}
+ * @param {{}} _config
  */
 export default function buildOptions( _config = {} ) {
 

@@ -9,7 +9,7 @@ import util, { resolve } from "./util";
  * WARNING: This default method is only intended to be used by Babel.
  *
  * @param {any} [context]
- * @param {object} [_config]
+ * @param {{}} [_config]
  */
 
 export default function use( context, _config ) {
