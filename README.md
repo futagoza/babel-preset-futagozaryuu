@@ -4,12 +4,7 @@
 [![History](https://img.shields.io/badge/history-CHANGELOG.md-orange.svg)](https://github.com/futagoza/babel-preset-futagozaryuu/blob/master/CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-mit-blue.svg)](https://opensource.org/licenses/MIT)
 
-> ----------------------------------------------------------------------
-> __WARNING:__
->
->  1. _v1_ of this plugin is for Babel 6, while _v2_ is for Babel 7
->  2. From _v2.12_ onwards, this module requires at least Node.js v4.2
-> ----------------------------------------------------------------------
+> __WARNING:__ _v2+_ is for Babel 7, while _v2.12+_ is using `@babel/*` dependencies
 
 ## about
 
@@ -27,7 +22,7 @@ Put the following into your `.babelrc` file:
 
 ```js
 {
-  "presets": ["futagozaryuu"]
+    "presets": [ "futagozaryuu" ]
 }
 ```
 
@@ -55,8 +50,7 @@ You can see the complete list of options in [babel-preset-futagozaryuu/src/defau
             "stage": 4,
 
             // Target a spefic version of node
-            // (alternative 1: `package.json#engines.node`)
-            // (last alternative: `options.defaultNodeVersion`)
+            // (alternative: `package.json#engines.node`)
             "node": 6,
 
             // Blacklisting the var/const transform
