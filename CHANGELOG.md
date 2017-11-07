@@ -12,6 +12,7 @@
 * Added disabled option `spaced-comment` for ESLint in `src/defaultOptions.js`
 * Added JSDoc's for properties on the returned object from `preset.use`
 * Reformatted content in `src/preset.js`
+* Updated plugins used in `src/.babelrc.js`
 
 <a name="2.11.0"></a>
 ## [v2.11.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.10.0...v2.11.0) (2017-10-19)

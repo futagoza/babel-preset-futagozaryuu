@@ -2,11 +2,11 @@ module.exports = {
 
     "sourceMaps": true,
     "plugins": [
-        [ "transform-runtime" ]
+        [ "@babel/transform-runtime" ]
     ],
     "presets": [
 
-        [ "env", {
+        [ "@babel/env", {
 
             "exclude": [
                 "transform-regenerator"
@@ -18,7 +18,7 @@ module.exports = {
             "useBuiltIns": "usage"
 
         } ],
-        "stage-0"
+        "@babel/stage-0"
 
     ]
 
