@@ -63,6 +63,7 @@ export default {
     "spec": false,
     "useBuiltIns": "usage",
     "forceAllTransforms": false,
+    "shippedProposals": false,
 
     /*********************** babel-plugin-module-resolver ***********************/
     // https://www.npmjs.com/package/babel-plugin-module-resolver#options

@@ -35,6 +35,7 @@ export default function buildOptions( _config = {} ) {
         "targets": {},
         "useBuiltIns": config.useBuiltIns,
         "forceAllTransforms": !! config.forceAllTransforms,
+        "shippedProposals": !! config.shippedProposals,
 
     };
 
