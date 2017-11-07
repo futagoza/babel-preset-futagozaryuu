@@ -59,17 +59,33 @@ export default function buildOptions( _config = {} ) {
 
     if ( config.async ) {
 
+        const excludeIndex = envOptions.exclude.indexOf( "transform-async-to-generator" );
+        let configAsync = config.async;
+
         listOnce( envOptions.include, "transform-async-to-generator" );
+        if ( excludeIndex !== -1 ) envOptions.exclude.splice( excludeIndex, 1 );
 
-        if ( typeof config.async === "object" ) asyncOptions = {
+        if ( typeof configAsync === "object" ) asyncOptions = {
 
-            "module": config.async.module,
-            "method": config.async.method,
+            "module": configAsync.module,
+            "method": configAsync.method,
 
         };
 
-        const excludeIndex = envOptions.exclude.indexOf( "transform-async-to-generator" );
-        if ( excludeIndex !== -1 ) envOptions.exclude.splice( excludeIndex, 1 );
+        else if ( typeof configAsync === "string" ) {
+
+            configAsync = configAsync.split( "." );
+
+            asyncOptions = {
+
+                "module": configAsync[ 0 ],
+                "method": configAsync.length > 1
+                    ? configAsync.slice( 1 ).join( "." )
+                    : void 0,
+
+            };
+
+        }
 
     }
 

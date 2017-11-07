@@ -6,7 +6,7 @@
 * Renamed core `babel-*` dependencies to `@babel/*`
 * Updated `@babel/*` dependencies to `7.0.0-beta.31`
 * DEV: Change JSDoc type parameter for `object` to `{}` (why did I use it anyway?)
-* Updated options for transforming `async` function's
+* Updated options for transforming `async` function's (accepts: `boolean | string | {}`)
 * Replaced references to core `babel-*` dependencies with `@babel/*`
 * Added support for the `shippedProposals` option passed to `@babel/preset-env`
 * Added disabled option `spaced-comment` for ESLint in `src/defaultOptions.js`

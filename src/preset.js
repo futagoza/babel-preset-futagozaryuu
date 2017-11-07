@@ -41,7 +41,7 @@ export default function use( context, _config ) {
 
     if ( config.async )
 
-        // if `config.async` exists and is an object, `options.async` will contain the correct options
+        // if `config.async` exists then `options.async` will contain the correct options
         plugins.push( [ resolve( "@babel/plugin-transform-async-to-generator" ), options.async ] );
 
     if ( options.runtime )

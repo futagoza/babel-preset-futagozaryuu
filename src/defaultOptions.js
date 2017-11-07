@@ -88,13 +88,8 @@ export default {
      * 2. On a object, will overwrite my configuration based on the object.
      * 
      * @default "bluebird.coroutine"
-     * @type {boolean|{}}
+     * @type {boolean|string|{}}
      */
-    "async": {
-
-        "module": "bluebird",
-        "method": "coroutine",
-
-    },
+    "async": "bluebird.coroutine",
 
 };
