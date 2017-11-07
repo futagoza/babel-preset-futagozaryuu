@@ -1,3 +1,5 @@
+/* eslint spaced-comment: 0*/
+
 export default {
 
     /*********************** babel-preset-futagozaryuu ***********************/

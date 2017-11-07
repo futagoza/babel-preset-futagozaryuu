@@ -9,6 +9,9 @@
 * Updated options for transforming `async` function's
 * Replaced references to core `babel-*` dependencies with `@babel/*`
 * Added support for the `shippedProposals` option passed to `@babel/preset-env`
+* Added disabled option `spaced-comment` for ESLint in `src/defaultOptions.js`
+* Added JSDoc's for properties on the returned object from `preset.use`
+* Reformatted content in `src/preset.js`
 
 <a name="2.11.0"></a>
 ## [v2.11.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.10.0...v2.11.0) (2017-10-19)

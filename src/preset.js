@@ -16,16 +16,24 @@ export default function use( context, _config ) {
 
     const options = buildOptions( _config );
     const config = options.config;
+
+    /**
+     * @type {(string | [string, {}])[]}
+     */
     const plugins = [];
-    const presets = [];
 
-    presets.push( [ resolve( "@babel/preset-env" ), options.env ] );
+    /**
+     * @type {(string | [string, {}])[]}
+     */
+    const presets = [
 
-    if ( config.stage > -1 && config.stage < 4 ) {
+        [ resolve( "@babel/preset-env" ), options.env ]
+
+    ];
+
+    if ( config.stage > -1 && config.stage < 4 )
 
         presets.push( resolve( "@babel/preset-stage-" + config.stage ) );
-
-    }
 
     if ( options.resolver )
 
@@ -42,6 +50,14 @@ export default function use( context, _config ) {
 
     return {
 
+        /**
+         * Used by Babel to determine if the comment should remain.
+         * 
+         * If `config.removeEslintComments` is `true` (default), this will ignore
+         * comments that contain `eslint` at the start (whitespace is ignored).
+         * 
+         * @param {string} comment 
+         */
         shouldPrintComment( comment ) {
 
             if ( ! config.removeEslintComments ) return true;
