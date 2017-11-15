@@ -4,7 +4,7 @@
 * Added warning for minimum Node.js change
 * Updated comment's for the default options (VS Code can now find them)
 * Renamed core `babel-*` dependencies to `@babel/*`
-* Updated `@babel/*` dependencies to `7.0.0-beta.31`
+* Updated `@babel/*` dependencies to `7.0.0-beta.32`
 * DEV: Change JSDoc type parameter for `object` to `{}` (why did I use it anyway?)
 * Updated options for transforming `async` function's (accepts: `boolean | string | {}`)
 * Replaced references to core `babel-*` dependencies with `@babel/*`
