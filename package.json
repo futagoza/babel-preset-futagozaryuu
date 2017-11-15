@@ -18,6 +18,7 @@
     ],
     "main": "lib/preset.js",
     "scripts": {
+        "preinstall": "node scripts/include-polyfill-dependencies.js",
         "postinstall": "node scripts/fix-babel-preset-env.js",
         "lint": "eslint --cache . src/.*rc.js",
         "build": "babel src --out-dir lib",

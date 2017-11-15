@@ -1,3 +1,7 @@
+## Unreleased Changes
+
+* Added a script to allow dependencies from `@babel/polyfill` to work on Node.js v4 (see babel/babel#6755)
+
 <a name="2.12.0"></a>
 ## [v2.12.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.11.0...v2.12.0) (2017-11-15)
 
