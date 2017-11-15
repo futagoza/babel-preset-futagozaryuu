@@ -1,8 +1,9 @@
-## Unreleased Changes
+<a name="2.12.0"></a>
+## [v2.12.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.11.0...v2.12.0) (2017-11-15)
 
-* DEV: Set minimum Node.js to v4.2
-* Added warning for minimum Node.js change
-* Updated comment's for the default options (VS Code can now find them)
+* Set minimum Node.js to v4.2 ([@babel/babylon](https://github.com/babel/babel/tree/master/packages/babylon) requirement)
+* Updated warning in `README.md` to explain use of `@babel/*` dependencies
+* DEV: Updated comment's for the default options (VS Code can now find them)
 * Renamed core `babel-*` dependencies to `@babel/*`
 * Updated `@babel/*` dependencies to `7.0.0-beta.32`
 * DEV: Change JSDoc type parameter for `object` to `{}` (why did I use it anyway?)
@@ -10,14 +11,15 @@
 * Replaced references to core `babel-*` dependencies with `@babel/*`
 * Added support for the `shippedProposals` option passed to `@babel/preset-env`
 * Added disabled option `spaced-comment` for ESLint in `src/defaultOptions.js`
-* Added JSDoc's for properties on the returned object from `preset.use`
-* Reformatted content in `src/preset.js`
-* Updated plugins used in `src/.babelrc.js`
+* DEV: Added JSDoc's for properties on the returned object from `preset.use`
+* DEV: Reformatted content in `src/preset.js`
+* DEV: Updated plugins used in `src/.babelrc.js`
 * Updated dependency `babel-plugin-module-resolver` from `3.0.0-beta.5` to `3.0.0`
-* Temporary fix for babel/babel#6759 based on babel/babel#6745
+* Added temporary fix for babel/babel#6759 based on babel/babel#6745
 * DEV: Added ignore file for ESLint (Required for VSCode/ESLint extension to work properly)
 * Disabled loose mode (temporary fix for babel/babel#6805)
-* DEV: Removed `preversion` script (run before `npm run version`)
+* DEV: Removed `preversion` script (runs before `npm run version`)
+* Released: https://github.com/futagoza/babel-preset-futagozaryuu/releases/tag/v2.12.0
 
 <a name="2.11.0"></a>
 ## [v2.11.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.10.0...v2.11.0) (2017-10-19)
