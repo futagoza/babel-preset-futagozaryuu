@@ -9,33 +9,21 @@
 
 if ( process.versions.node.charAt( 0 ) === "4" ) {
 
-    const fs = require( "fs" );
+    const cp = require( "child_process" );
     const path = require( "path" );
 
-    const file = path.join( __dirname, "..", "package.json" );
+    function install( dependency ) {
 
-    fs.readFile( file, "utf8", ( err, data ) => {
+        cp.spawnSync( "npm", [ "install", dependency ], {
 
-        if ( err ) {
+            stdio: "inherit",
+            cwd: path.join( __dirname, "..", "lib" ),
 
-            console.warn( `Couldn't edit "${ file }", recived error:` );
-            console.warn( err );
+        } );
 
-        } else {
+    }
 
-            data = JSON.parse( data );
-            Object.assign( data.dependencies, {
-
-                "core-js": "latest",
-                "regenerator-runtime": "latest"
-
-            } );
-            data = JSON.stringify( data, void 0, "    " );
-
-            fs.writeFile( file, data, "utf8", err => ( err ? console.warn( err ) : 0 ) );
-
-        }
-
-    } );
+    install( "core-js" );
+    install( "regenerator-runtime" );
 
 }
