@@ -11,7 +11,7 @@ module.exports = {
             "exclude": [
                 "transform-regenerator"
             ],
-            "loose": true,
+            "loose": false,
             "targets": {
                 "node": 4
             },
