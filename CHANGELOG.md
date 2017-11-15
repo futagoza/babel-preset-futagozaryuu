@@ -15,6 +15,7 @@
 * Updated plugins used in `src/.babelrc.js`
 * Updated dependency `babel-plugin-module-resolver` from `3.0.0-beta.5` to `3.0.0`
 * Temporary fix for babel/babel#6759 based on babel/babel#6745
+* DEV: Added ignore file for ESLint (Required for VSCode/ESLint extension to work properly)
 
 <a name="2.11.0"></a>
 ## [v2.11.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.10.0...v2.11.0) (2017-10-19)
