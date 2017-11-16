@@ -7,7 +7,9 @@
 
 "use strict";
 
-if ( process.versions.node.charAt( 0 ) === "4" ) {
+if ( process.version.charAt( 1 ) === "4" ) {
+
+    console.log( "babel-eslint-futagozaryuu: Adding @babel/polyfill dependencies" );
 
     const cp = require( "child_process" );
     const path = require( "path" );
