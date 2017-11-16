@@ -14,7 +14,8 @@
     "license": "MIT",
     "author": "Futago-za Ryuu",
     "files": [
-        "lib"
+        "lib",
+        "scripts"
     ],
     "main": "lib/preset.js",
     "scripts": {
