@@ -18,7 +18,6 @@
     ],
     "main": "lib/preset.js",
     "scripts": {
-        "preinstall": "node scripts/include-polyfill-dependencies.js",
         "postinstall": "node scripts/fix-babel-preset-env.js",
         "lint": "eslint --cache . src/.*rc.js",
         "build": "babel src --out-dir lib",
@@ -44,10 +43,10 @@
         "@babel/cli": "7.0.0-beta.32"
     },
     "engines": {
-        "node": ">= 4.2.0"
+        "node": ">= 6"
     },
     "eslintConfig": {
-        "extends": "futagozaryuu/node-v4",
+        "extends": "futagozaryuu/node-v6",
         "root": true
     }
 }

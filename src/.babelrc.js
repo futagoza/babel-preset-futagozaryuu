@@ -13,7 +13,7 @@ module.exports = {
             ],
             "loose": false,
             "targets": {
-                "node": 4
+                "node": 6
             },
             "useBuiltIns": "usage"
 
