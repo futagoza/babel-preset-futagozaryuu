@@ -50,6 +50,8 @@ export default function use( context, _config ) {
 
     return {
 
+        "envName": "production",
+
         /**
          * Used by Babel to determine if the comment should remain.
          * 
