@@ -1,6 +1,18 @@
-## Unreleased Changes
+<a name="2.13.0"></a>
+## [v2.13.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.12.0...v2.13.0) (2017-12-12)
 
-* Added a script to allow dependencies from `@babel/polyfill` to work on Node.js v4 (see babel/babel#6755)
+* Drop support for Node.js v4 (thank you [babel/babel#6755](https://github.com/babel/babel/pull/6755))
+* Include the `scripts` folder in the NPM release
+* README.md: Updated warnings and moved about
+* DEV: Ignore temp folder (Git and ESLint)
+* Updated `@babel/*` dependencies to `7.0.0-beta.34`
+* DEV: Set minimum ESLint to v4.12
+* DEV: Updated devDependency `eslint-config-futagozaryuu` to `3.7.x`
+* Re-enable loose mode ([babel/babel#6805](https://github.com/babel/babel/issues/6805) was fixed by [babel/babel#6863](https://github.com/babel/babel/pull/6863))
+* Removed temporary fix for [babel/babel#6759](https://github.com/babel/babel/issues/6759), was resolved by [babel/babel#6882](https://github.com/babel/babel/pull/6882)
+* DEV: Remove ESLint comments from `lib/*.js` by using `shouldPrintComment()` in `src/.babelrc.js`
+* Set "envName" as "production" by default, see [babel/babel#6834](https://github.com/babel/babel/pull/6834)
+* Released: https://github.com/futagoza/babel-preset-futagozaryuu/releases/tag/v2.13.0
 
 <a name="2.12.0"></a>
 ## [v2.12.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.11.0...v2.12.0) (2017-11-15)
@@ -19,9 +31,9 @@
 * DEV: Reformatted content in `src/preset.js`
 * DEV: Updated plugins used in `src/.babelrc.js`
 * Updated dependency `babel-plugin-module-resolver` from `3.0.0-beta.5` to `3.0.0`
-* Added temporary fix for babel/babel#6759 based on babel/babel#6745
+* Added temporary fix for [babel/babel#6759](https://github.com/babel/babel/issues/6759) based on [babel/babel#6745](https://github.com/babel/babel/pull/6745)
 * DEV: Added ignore file for ESLint (Required for VSCode/ESLint extension to work properly)
-* Disabled loose mode (temporary fix for babel/babel#6805)
+* Disabled loose mode (temporary fix for [babel/babel#6805](https://github.com/babel/babel/issues/6805))
 * DEV: Removed `preversion` script (runs before `npm run version`)
 * Released: https://github.com/futagoza/babel-preset-futagozaryuu/releases/tag/v2.12.0
 
