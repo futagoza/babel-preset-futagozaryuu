@@ -19,7 +19,6 @@
     ],
     "main": "lib/preset.js",
     "scripts": {
-        "postinstall": "node scripts/fix-babel-preset-env.js",
         "lint": "eslint --cache . src/.*rc.js",
         "build": "babel src --out-dir lib",
         "preview-configurations": "node preview/generate-configurations --runtime",
