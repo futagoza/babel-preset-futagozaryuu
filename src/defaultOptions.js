@@ -59,7 +59,7 @@ export default {
     "debug": false,
     "include": [],
     "exclude": [],
-    "loose": false,
+    "loose": true,
     "modules": "commonjs",
     "node": null, // targets.node
     "spec": false,
