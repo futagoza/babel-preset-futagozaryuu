@@ -20,6 +20,12 @@ module.exports = {
         } ],
         "@babel/stage-0"
 
-    ]
+    ],
+
+    shouldPrintComment( comment ) {
+
+        return comment.trim().startsWith( "eslint", 0 ) === false;
+
+    }
 
 };
