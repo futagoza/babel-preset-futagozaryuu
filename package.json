@@ -27,12 +27,12 @@
         "postversion": "git push --follow-tags && npm publish"
     },
     "dependencies": {
-        "@babel/polyfill": "7.0.0-beta.35",
-        "@babel/runtime": "7.0.0-beta.35",
-        "@babel/core": "7.0.0-beta.35",
-        "@babel/preset-stage-0": "7.0.0-beta.35",
-        "@babel/preset-env": "7.0.0-beta.35",
-        "@babel/plugin-transform-runtime": "7.0.0-beta.35",
+        "@babel/polyfill": "7.0.0-beta.37",
+        "@babel/runtime": "7.0.0-beta.37",
+        "@babel/core": "7.0.0-beta.37",
+        "@babel/preset-stage-0": "7.0.0-beta.37",
+        "@babel/preset-env": "7.0.0-beta.37",
+        "@babel/plugin-transform-runtime": "7.0.0-beta.37",
         "babel-plugin-module-resolver": "3.0.0"
     },
     "devDependencies": {
@@ -40,7 +40,7 @@
         "eslint-config-futagozaryuu": "3.7.x",
         "minimist": "1.2.0",
         "mkdirp": "0.5.1",
-        "@babel/cli": "7.0.0-beta.35"
+        "@babel/cli": "7.0.0-beta.37"
     },
     "engines": {
         "node": ">= 6"
