@@ -5,8 +5,9 @@ branches:
 language: node_js
 
 node_js:
-  - "6.0"
-  - "8.0"
+  - "4"
+  - "6"
+  - "8"
 
 cache:
   directories:

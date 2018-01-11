@@ -14,8 +14,7 @@
     "license": "MIT",
     "author": "Futago-za Ryuu",
     "files": [
-        "lib",
-        "scripts"
+        "lib"
     ],
     "main": "lib/preset.js",
     "scripts": {
@@ -27,8 +26,7 @@
         "postversion": "git push --follow-tags && npm publish"
     },
     "dependencies": {
-        "@babel/polyfill": "7.0.0-beta.37",
-        "@babel/runtime": "7.0.0-beta.37",
+        "es-runtime": "latest",
         "@babel/core": "7.0.0-beta.37",
         "@babel/preset-stage-0": "7.0.0-beta.37",
         "@babel/preset-env": "7.0.0-beta.37",
@@ -43,10 +41,10 @@
         "@babel/cli": "7.0.0-beta.37"
     },
     "engines": {
-        "node": ">= 6"
+        "node": ">= 4"
     },
     "eslintConfig": {
-        "extends": "futagozaryuu/node-v6",
+        "extends": "futagozaryuu/node-v4",
         "root": true
     }
 }
