@@ -1,3 +1,11 @@
+<a name="2.15.0"></a>
+## [v2.15.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.14.0...v2.15.0) (2018-01-11)
+
+* Updated `@babel/*` dependencies to `7.0.0-beta.37`
+* DEV: Updated devDependency `eslint-config-futagozaryuu` to `3.8.x`
+* Re-introduce support for Node.js v4 (thanks to [es-runtime](https://www.npmjs.com/package/es-runtime))
+* Released: https://github.com/futagoza/babel-preset-futagozaryuu/releases/tag/v2.15.0
+
 <a name="2.14.0"></a>
 ## [v2.14.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.13.0...v2.14.0) (2017-12-16)
 
