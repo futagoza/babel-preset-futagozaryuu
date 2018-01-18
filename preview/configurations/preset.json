@@ -1,0 +1,69 @@
+{
+    "envName": "production",
+    "plugins": [
+        [
+            "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\babel-plugin-module-resolver\\lib\\index.js",
+            {
+                "alias": {},
+                "cwd": "packagejson",
+                "extensions": [
+                    ".js",
+                    ".jsx",
+                    ".es",
+                    ".es6",
+                    ".mjs",
+                    ".ios.js",
+                    ".android.js"
+                ],
+                "stripExtensions": [
+                    ".ios.js",
+                    ".android.js"
+                ],
+                "root": [
+                    "src"
+                ]
+            }
+        ],
+        [
+            "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\plugin-transform-async-to-generator\\lib\\index.js",
+            {
+                "module": "bluebird",
+                "method": "coroutine"
+            }
+        ],
+        [
+            "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\plugin-transform-runtime\\lib\\index.js",
+            {
+                "helpers": true,
+                "polyfill": true,
+                "regenerator": true,
+                "useBuiltIns": false,
+                "useESModules": false
+            }
+        ]
+    ],
+    "presets": [
+        [
+            "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js",
+            {
+                "debug": false,
+                "include": [
+                    "transform-async-to-generator"
+                ],
+                "exclude": [
+                    "transform-regenerator"
+                ],
+                "loose": true,
+                "modules": "commonjs",
+                "spec": false,
+                "targets": {
+                    "node": 4
+                },
+                "useBuiltIns": "usage",
+                "forceAllTransforms": false,
+                "shippedProposals": false
+            }
+        ],
+        "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js"
+    ]
+}
