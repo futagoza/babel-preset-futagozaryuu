@@ -27,14 +27,14 @@
     },
     "dependencies": {
         "es-runtime": "latest",
-        "@babel/core": "7.0.0-beta.37",
-        "@babel/preset-stage-0": "7.0.0-beta.37",
-        "@babel/preset-stage-1": "7.0.0-beta.37",
-        "@babel/preset-stage-2": "7.0.0-beta.37",
-        "@babel/preset-stage-3": "7.0.0-beta.37",
-        "@babel/preset-env": "7.0.0-beta.37",
-        "@babel/plugin-transform-async-to-generator": "7.0.0-beta.37",
-        "@babel/plugin-transform-runtime": "7.0.0-beta.37",
+        "@babel/core": "7.0.0-beta.38",
+        "@babel/preset-stage-0": "7.0.0-beta.38",
+        "@babel/preset-stage-1": "7.0.0-beta.38",
+        "@babel/preset-stage-2": "7.0.0-beta.38",
+        "@babel/preset-stage-3": "7.0.0-beta.38",
+        "@babel/preset-env": "7.0.0-beta.38",
+        "@babel/plugin-transform-async-to-generator": "7.0.0-beta.38",
+        "@babel/plugin-transform-runtime": "7.0.0-beta.38",
         "babel-plugin-module-resolver": "3.0.0"
     },
     "devDependencies": {
@@ -42,7 +42,7 @@
         "eslint-config-futagozaryuu": "3.8.x",
         "minimist": "1.2.0",
         "mkdirp": "0.5.1",
-        "@babel/cli": "7.0.0-beta.37"
+        "@babel/cli": "7.0.0-beta.38"
     },
     "engines": {
         "node": ">= 4"
