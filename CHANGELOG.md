@@ -1,3 +1,12 @@
+<a name="2.16.0"></a>
+## [v2.16.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.15.0...v2.16.0) (2018-01-18)
+
+* Pull in optional dependencies for NPM v2 (installed with Node.js v4.0)
+* Updated `@babel/*` dependencies to `7.0.0-beta.38`
+* DEV: Don't ignore generated code when committing
+* DEV: Add currently generated code to repository (should be easier finding some changes now)
+* Released: https://github.com/futagoza/babel-preset-futagozaryuu/releases/tag/v2.16.0
+
 <a name="2.15.0"></a>
 ## [v2.15.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.14.0...v2.15.0) (2018-01-11)
 
