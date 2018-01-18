@@ -22,7 +22,7 @@
         "build": "babel src --out-dir lib",
         "preview-configurations": "node preview/generate-configurations --runtime",
         "preview-result": "node preview/generate-result --runtime",
-        "test": "eslint --quiet src && npm run build && npm run preview-result",
+        "test": "eslint --quiet src && npm run preview-result",
         "postversion": "git push --follow-tags && npm publish"
     },
     "dependencies": {
