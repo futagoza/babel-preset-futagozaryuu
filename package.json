@@ -18,7 +18,7 @@
     ],
     "main": "lib/preset.js",
     "scripts": {
-        "lint": "eslint --cache . src/.*rc.js",
+        "lint": "eslint --cache . **/.*rc.js",
         "build": "babel src --out-dir lib",
         "preview-configurations": "node preview/generate-configurations --runtime",
         "preview-result": "node preview/generate-result --runtime",
@@ -46,9 +46,5 @@
     },
     "engines": {
         "node": ">= 4"
-    },
-    "eslintConfig": {
-        "extends": "futagozaryuu/node-v4",
-        "root": true
     }
 }

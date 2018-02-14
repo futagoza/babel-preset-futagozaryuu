@@ -1,10 +1,6 @@
 module.exports = {
 
-    "extends": [
-        "futagozaryuu/esnext",
-        "futagozaryuu/node"
-    ],
-
+    "extends": "futagozaryuu/dev",
     "root": true
 
 };
