@@ -20,6 +20,7 @@
     "scripts": {
         "lint": "eslint --cache . **/.*rc.js",
         "build": "babel src --out-dir lib",
+        "preview-ast": "node preview/generate-ast --runtime",
         "preview-configurations": "node preview/generate-configurations --runtime",
         "preview-result": "node preview/generate-result --runtime",
         "test": "eslint --quiet src && npm run preview-result",
@@ -42,6 +43,7 @@
         "eslint-config-futagozaryuu": ">= 4.0.0",
         "minimist": "1.2.0",
         "mkdirp": "0.5.1",
+        "glob": "7.1.x",
         "@babel/cli": "7.0.0-beta.40"
     },
     "engines": {
