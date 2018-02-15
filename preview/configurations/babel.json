@@ -6,6 +6,9 @@
                 "Program": {
                     "enter": [
                         null
+                    ],
+                    "exit": [
+                        null
                     ]
                 },
                 "_exploded": true,
@@ -174,17 +177,12 @@
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
-                "MemberExpression": {
+                "OptionalCallExpression": {
                     "enter": [
                         null
                     ]
                 },
-                "NewExpression": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "CallExpression": {
+                "OptionalMemberExpression": {
                     "enter": [
                         null
                     ]
@@ -474,98 +472,6 @@
         {
             "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$1",
             "visitor": {
-                "_exploded": true,
-                "_verified": true,
-                "BlockStatement": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "CatchClause": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "DoWhileStatement": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "ForInStatement": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "ForStatement": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "FunctionDeclaration": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "FunctionExpression": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "Program": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "ObjectMethod": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "SwitchStatement": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "WhileStatement": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "ArrowFunctionExpression": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "ClassDeclaration": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "ClassExpression": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "ForOfStatement": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "ClassMethod": {
-                    "enter": [
-                        null
-                    ]
-                }
-            },
-            "options": {
-                "spec": false,
-                "loose": true,
-                "useBuiltIns": true
-            }
-        },
-        {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$2",
-            "visitor": {
                 "ArrowFunctionExpression": {
                     "enter": [
                         null
@@ -581,7 +487,7 @@
             }
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$3",
+            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$2",
             "visitor": {
                 "VariableDeclaration": {
                     "enter": [
@@ -643,7 +549,7 @@
             }
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$4",
+            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$3",
             "visitor": {
                 "ExportDefaultDeclaration": {
                     "enter": [
@@ -670,7 +576,7 @@
             }
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$5",
+            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$4",
             "visitor": {
                 "ExportNamedDeclaration": {
                     "enter": [
@@ -712,7 +618,7 @@
             }
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$6",
+            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$5",
             "visitor": {
                 "ForOfStatement": {
                     "enter": [
@@ -729,7 +635,7 @@
             }
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$7",
+            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$6",
             "visitor": {
                 "FunctionExpression": {
                     "exit": [
@@ -751,7 +657,7 @@
             }
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$8",
+            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$7",
             "visitor": {
                 "ObjectExpression": {
                     "enter": [
@@ -768,7 +674,7 @@
             }
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$9",
+            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$8",
             "visitor": {
                 "_exploded": true,
                 "_verified": true,
@@ -805,7 +711,7 @@
             }
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$10",
+            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$9",
             "visitor": {
                 "ArrayExpression": {
                     "enter": [
@@ -832,7 +738,7 @@
             }
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$11",
+            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$10",
             "visitor": {
                 "RegExpLiteral": {
                     "enter": [
@@ -849,7 +755,7 @@
             }
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$12",
+            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$11",
             "visitor": {
                 "RegExpLiteral": {
                     "enter": [
@@ -883,7 +789,7 @@
             }
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$14",
+            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$13",
             "visitor": {
                 "AssignmentExpression": {
                     "enter": [
@@ -905,7 +811,7 @@
             }
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$15",
+            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$14",
             "visitor": {
                 "_exploded": true,
                 "_verified": true,
@@ -942,7 +848,7 @@
             }
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$16",
+            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$15",
             "visitor": {
                 "RegExpLiteral": {
                     "enter": [
