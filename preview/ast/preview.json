@@ -1,0 +1,760 @@
+{
+    "type": "File",
+    "start": 0,
+    "end": 529,
+    "loc": {
+        "start": {
+            "line": 1,
+            "column": 0
+        },
+        "end": {
+            "line": 22,
+            "column": 0
+        }
+    },
+    "program": {
+        "type": "Program",
+        "start": 0,
+        "end": 529,
+        "loc": {
+            "start": {
+                "line": 1,
+                "column": 0
+            },
+            "end": {
+                "line": 22,
+                "column": 0
+            }
+        },
+        "sourceType": "module",
+        "body": [
+            {
+                "type": "ImportDeclaration",
+                "start": 0,
+                "end": 31,
+                "loc": {
+                    "start": {
+                        "line": 1,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 1,
+                        "column": 31
+                    }
+                },
+                "specifiers": [
+                    {
+                        "type": "ImportSpecifier",
+                        "start": 9,
+                        "end": 12,
+                        "loc": {
+                            "start": {
+                                "line": 1,
+                                "column": 9
+                            },
+                            "end": {
+                                "line": 1,
+                                "column": 12
+                            }
+                        },
+                        "imported": {
+                            "type": "Identifier",
+                            "start": 9,
+                            "end": 12,
+                            "loc": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 9
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 12
+                                },
+                                "identifierName": "use"
+                            },
+                            "name": "use"
+                        },
+                        "local": {
+                            "type": "Identifier",
+                            "start": 9,
+                            "end": 12,
+                            "loc": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 9
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 12
+                                },
+                                "identifierName": "use"
+                            },
+                            "name": "use"
+                        }
+                    }
+                ],
+                "source": {
+                    "type": "StringLiteral",
+                    "start": 20,
+                    "end": 30,
+                    "loc": {
+                        "start": {
+                            "line": 1,
+                            "column": 20
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 30
+                        }
+                    },
+                    "extra": {
+                        "rawValue": "./preset",
+                        "raw": "\"./preset\""
+                    },
+                    "value": "./preset"
+                }
+            },
+            {
+                "type": "ImportDeclaration",
+                "start": 32,
+                "end": 74,
+                "loc": {
+                    "start": {
+                        "line": 2,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 2,
+                        "column": 42
+                    }
+                },
+                "specifiers": [
+                    {
+                        "type": "ImportSpecifier",
+                        "start": 41,
+                        "end": 52,
+                        "loc": {
+                            "start": {
+                                "line": 2,
+                                "column": 9
+                            },
+                            "end": {
+                                "line": 2,
+                                "column": 20
+                            }
+                        },
+                        "imported": {
+                            "type": "Identifier",
+                            "start": 41,
+                            "end": 52,
+                            "loc": {
+                                "start": {
+                                    "line": 2,
+                                    "column": 9
+                                },
+                                "end": {
+                                    "line": 2,
+                                    "column": 20
+                                },
+                                "identifierName": "loadOptions"
+                            },
+                            "name": "loadOptions"
+                        },
+                        "local": {
+                            "type": "Identifier",
+                            "start": 41,
+                            "end": 52,
+                            "loc": {
+                                "start": {
+                                    "line": 2,
+                                    "column": 9
+                                },
+                                "end": {
+                                    "line": 2,
+                                    "column": 20
+                                },
+                                "identifierName": "loadOptions"
+                            },
+                            "name": "loadOptions"
+                        }
+                    }
+                ],
+                "source": {
+                    "type": "StringLiteral",
+                    "start": 60,
+                    "end": 73,
+                    "loc": {
+                        "start": {
+                            "line": 2,
+                            "column": 28
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 41
+                        }
+                    },
+                    "extra": {
+                        "rawValue": "@babel/core",
+                        "raw": "\"@babel/core\""
+                    },
+                    "value": "@babel/core"
+                },
+                "trailingComments": [
+                    {
+                        "type": "CommentBlock",
+                        "value": "*\n * Returns an object containing what to expect from this preset:\n *\n * * `options` The object passed to this function\n * * `preset` The generated options when this preset is used\n * * `babel` The options generated by babel with only this preset\n *\n * @param {{}} [options]\n ",
+                        "start": 76,
+                        "end": 356,
+                        "loc": {
+                            "start": {
+                                "line": 4,
+                                "column": 0
+                            },
+                            "end": {
+                                "line": 12,
+                                "column": 3
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "ExportDefaultDeclaration",
+                "start": 358,
+                "end": 528,
+                "loc": {
+                    "start": {
+                        "line": 14,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 21,
+                        "column": 1
+                    }
+                },
+                "declaration": {
+                    "type": "FunctionDeclaration",
+                    "start": 373,
+                    "end": 528,
+                    "loc": {
+                        "start": {
+                            "line": 14,
+                            "column": 15
+                        },
+                        "end": {
+                            "line": 21,
+                            "column": 1
+                        }
+                    },
+                    "id": {
+                        "type": "Identifier",
+                        "start": 382,
+                        "end": 389,
+                        "loc": {
+                            "start": {
+                                "line": 14,
+                                "column": 24
+                            },
+                            "end": {
+                                "line": 14,
+                                "column": 31
+                            },
+                            "identifierName": "preview"
+                        },
+                        "name": "preview"
+                    },
+                    "generator": false,
+                    "async": false,
+                    "params": [
+                        {
+                            "type": "Identifier",
+                            "start": 391,
+                            "end": 398,
+                            "loc": {
+                                "start": {
+                                    "line": 14,
+                                    "column": 33
+                                },
+                                "end": {
+                                    "line": 14,
+                                    "column": 40
+                                },
+                                "identifierName": "options"
+                            },
+                            "name": "options"
+                        }
+                    ],
+                    "body": {
+                        "type": "BlockStatement",
+                        "start": 401,
+                        "end": 528,
+                        "loc": {
+                            "start": {
+                                "line": 14,
+                                "column": 43
+                            },
+                            "end": {
+                                "line": 21,
+                                "column": 1
+                            }
+                        },
+                        "body": [
+                            {
+                                "type": "VariableDeclaration",
+                                "start": 408,
+                                "end": 444,
+                                "loc": {
+                                    "start": {
+                                        "line": 16,
+                                        "column": 4
+                                    },
+                                    "end": {
+                                        "line": 16,
+                                        "column": 40
+                                    }
+                                },
+                                "declarations": [
+                                    {
+                                        "type": "VariableDeclarator",
+                                        "start": 414,
+                                        "end": 443,
+                                        "loc": {
+                                            "start": {
+                                                "line": 16,
+                                                "column": 10
+                                            },
+                                            "end": {
+                                                "line": 16,
+                                                "column": 39
+                                            }
+                                        },
+                                        "id": {
+                                            "type": "Identifier",
+                                            "start": 414,
+                                            "end": 420,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 16,
+                                                    "column": 10
+                                                },
+                                                "end": {
+                                                    "line": 16,
+                                                    "column": 16
+                                                },
+                                                "identifierName": "preset"
+                                            },
+                                            "name": "preset"
+                                        },
+                                        "init": {
+                                            "type": "CallExpression",
+                                            "start": 423,
+                                            "end": 443,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 16,
+                                                    "column": 19
+                                                },
+                                                "end": {
+                                                    "line": 16,
+                                                    "column": 39
+                                                }
+                                            },
+                                            "callee": {
+                                                "type": "Identifier",
+                                                "start": 423,
+                                                "end": 426,
+                                                "loc": {
+                                                    "start": {
+                                                        "line": 16,
+                                                        "column": 19
+                                                    },
+                                                    "end": {
+                                                        "line": 16,
+                                                        "column": 22
+                                                    },
+                                                    "identifierName": "use"
+                                                },
+                                                "name": "use"
+                                            },
+                                            "arguments": [
+                                                {
+                                                    "type": "NullLiteral",
+                                                    "start": 428,
+                                                    "end": 432,
+                                                    "loc": {
+                                                        "start": {
+                                                            "line": 16,
+                                                            "column": 24
+                                                        },
+                                                        "end": {
+                                                            "line": 16,
+                                                            "column": 28
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "type": "Identifier",
+                                                    "start": 434,
+                                                    "end": 441,
+                                                    "loc": {
+                                                        "start": {
+                                                            "line": 16,
+                                                            "column": 30
+                                                        },
+                                                        "end": {
+                                                            "line": 16,
+                                                            "column": 37
+                                                        },
+                                                        "identifierName": "options"
+                                                    },
+                                                    "name": "options"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "kind": "const"
+                            },
+                            {
+                                "type": "VariableDeclaration",
+                                "start": 449,
+                                "end": 485,
+                                "loc": {
+                                    "start": {
+                                        "line": 17,
+                                        "column": 4
+                                    },
+                                    "end": {
+                                        "line": 17,
+                                        "column": 40
+                                    }
+                                },
+                                "declarations": [
+                                    {
+                                        "type": "VariableDeclarator",
+                                        "start": 455,
+                                        "end": 484,
+                                        "loc": {
+                                            "start": {
+                                                "line": 17,
+                                                "column": 10
+                                            },
+                                            "end": {
+                                                "line": 17,
+                                                "column": 39
+                                            }
+                                        },
+                                        "id": {
+                                            "type": "Identifier",
+                                            "start": 455,
+                                            "end": 460,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 17,
+                                                    "column": 10
+                                                },
+                                                "end": {
+                                                    "line": 17,
+                                                    "column": 15
+                                                },
+                                                "identifierName": "babel"
+                                            },
+                                            "name": "babel"
+                                        },
+                                        "init": {
+                                            "type": "CallExpression",
+                                            "start": 463,
+                                            "end": 484,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 17,
+                                                    "column": 18
+                                                },
+                                                "end": {
+                                                    "line": 17,
+                                                    "column": 39
+                                                }
+                                            },
+                                            "callee": {
+                                                "type": "Identifier",
+                                                "start": 463,
+                                                "end": 474,
+                                                "loc": {
+                                                    "start": {
+                                                        "line": 17,
+                                                        "column": 18
+                                                    },
+                                                    "end": {
+                                                        "line": 17,
+                                                        "column": 29
+                                                    },
+                                                    "identifierName": "loadOptions"
+                                                },
+                                                "name": "loadOptions"
+                                            },
+                                            "arguments": [
+                                                {
+                                                    "type": "Identifier",
+                                                    "start": 476,
+                                                    "end": 482,
+                                                    "loc": {
+                                                        "start": {
+                                                            "line": 17,
+                                                            "column": 31
+                                                        },
+                                                        "end": {
+                                                            "line": 17,
+                                                            "column": 37
+                                                        },
+                                                        "identifierName": "preset"
+                                                    },
+                                                    "name": "preset"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "kind": "const"
+                            },
+                            {
+                                "type": "ReturnStatement",
+                                "start": 491,
+                                "end": 525,
+                                "loc": {
+                                    "start": {
+                                        "line": 19,
+                                        "column": 4
+                                    },
+                                    "end": {
+                                        "line": 19,
+                                        "column": 38
+                                    }
+                                },
+                                "argument": {
+                                    "type": "ObjectExpression",
+                                    "start": 498,
+                                    "end": 524,
+                                    "loc": {
+                                        "start": {
+                                            "line": 19,
+                                            "column": 11
+                                        },
+                                        "end": {
+                                            "line": 19,
+                                            "column": 37
+                                        }
+                                    },
+                                    "properties": [
+                                        {
+                                            "type": "ObjectProperty",
+                                            "start": 500,
+                                            "end": 507,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 19,
+                                                    "column": 13
+                                                },
+                                                "end": {
+                                                    "line": 19,
+                                                    "column": 20
+                                                }
+                                            },
+                                            "method": false,
+                                            "key": {
+                                                "type": "Identifier",
+                                                "start": 500,
+                                                "end": 507,
+                                                "loc": {
+                                                    "start": {
+                                                        "line": 19,
+                                                        "column": 13
+                                                    },
+                                                    "end": {
+                                                        "line": 19,
+                                                        "column": 20
+                                                    },
+                                                    "identifierName": "options"
+                                                },
+                                                "name": "options"
+                                            },
+                                            "computed": false,
+                                            "shorthand": true,
+                                            "value": {
+                                                "type": "Identifier",
+                                                "start": 500,
+                                                "end": 507,
+                                                "loc": {
+                                                    "start": {
+                                                        "line": 19,
+                                                        "column": 13
+                                                    },
+                                                    "end": {
+                                                        "line": 19,
+                                                        "column": 20
+                                                    },
+                                                    "identifierName": "options"
+                                                },
+                                                "name": "options"
+                                            },
+                                            "extra": {
+                                                "shorthand": true
+                                            }
+                                        },
+                                        {
+                                            "type": "ObjectProperty",
+                                            "start": 509,
+                                            "end": 515,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 19,
+                                                    "column": 22
+                                                },
+                                                "end": {
+                                                    "line": 19,
+                                                    "column": 28
+                                                }
+                                            },
+                                            "method": false,
+                                            "key": {
+                                                "type": "Identifier",
+                                                "start": 509,
+                                                "end": 515,
+                                                "loc": {
+                                                    "start": {
+                                                        "line": 19,
+                                                        "column": 22
+                                                    },
+                                                    "end": {
+                                                        "line": 19,
+                                                        "column": 28
+                                                    },
+                                                    "identifierName": "preset"
+                                                },
+                                                "name": "preset"
+                                            },
+                                            "computed": false,
+                                            "shorthand": true,
+                                            "value": {
+                                                "type": "Identifier",
+                                                "start": 509,
+                                                "end": 515,
+                                                "loc": {
+                                                    "start": {
+                                                        "line": 19,
+                                                        "column": 22
+                                                    },
+                                                    "end": {
+                                                        "line": 19,
+                                                        "column": 28
+                                                    },
+                                                    "identifierName": "preset"
+                                                },
+                                                "name": "preset"
+                                            },
+                                            "extra": {
+                                                "shorthand": true
+                                            }
+                                        },
+                                        {
+                                            "type": "ObjectProperty",
+                                            "start": 517,
+                                            "end": 522,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 19,
+                                                    "column": 30
+                                                },
+                                                "end": {
+                                                    "line": 19,
+                                                    "column": 35
+                                                }
+                                            },
+                                            "method": false,
+                                            "key": {
+                                                "type": "Identifier",
+                                                "start": 517,
+                                                "end": 522,
+                                                "loc": {
+                                                    "start": {
+                                                        "line": 19,
+                                                        "column": 30
+                                                    },
+                                                    "end": {
+                                                        "line": 19,
+                                                        "column": 35
+                                                    },
+                                                    "identifierName": "babel"
+                                                },
+                                                "name": "babel"
+                                            },
+                                            "computed": false,
+                                            "shorthand": true,
+                                            "value": {
+                                                "type": "Identifier",
+                                                "start": 517,
+                                                "end": 522,
+                                                "loc": {
+                                                    "start": {
+                                                        "line": 19,
+                                                        "column": 30
+                                                    },
+                                                    "end": {
+                                                        "line": 19,
+                                                        "column": 35
+                                                    },
+                                                    "identifierName": "babel"
+                                                },
+                                                "name": "babel"
+                                            },
+                                            "extra": {
+                                                "shorthand": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "directives": []
+                    }
+                },
+                "leadingComments": [
+                    {
+                        "type": "CommentBlock",
+                        "value": "*\n * Returns an object containing what to expect from this preset:\n *\n * * `options` The object passed to this function\n * * `preset` The generated options when this preset is used\n * * `babel` The options generated by babel with only this preset\n *\n * @param {{}} [options]\n ",
+                        "start": 76,
+                        "end": 356,
+                        "loc": {
+                            "start": {
+                                "line": 4,
+                                "column": 0
+                            },
+                            "end": {
+                                "line": 12,
+                                "column": 3
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        "directives": []
+    },
+    "comments": [
+        {
+            "type": "CommentBlock",
+            "value": "*\n * Returns an object containing what to expect from this preset:\n *\n * * `options` The object passed to this function\n * * `preset` The generated options when this preset is used\n * * `babel` The options generated by babel with only this preset\n *\n * @param {{}} [options]\n ",
+            "start": 76,
+            "end": 356,
+            "loc": {
+                "start": {
+                    "line": 4,
+                    "column": 0
+                },
+                "end": {
+                    "line": 12,
+                    "column": 3
+                }
+            }
+        }
+    ]
+}
