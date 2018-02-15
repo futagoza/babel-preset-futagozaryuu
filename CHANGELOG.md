@@ -1,3 +1,15 @@
+<a name="2.17.0"></a>
+## [v2.17.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.16.0...v2.17.0) (2018-02-15)
+
+* Updated `@babel/*` dependencies to `7.0.0-beta.40`
+* DEV: Updated devDependency `eslint-config-futagozaryuu` to `>= 4.0.0`
+* Updated dependency `babel-plugin-module-resolver` to `3.1.0`
+* Update ESLint configurations
+* DEV: Updated preview of babel config
+* DEV: Added `preview/generate-ast.js` and `npm run preview-ast` to preview the AST
+* DEV: Added currently generated AST to repository
+* Released: https://github.com/futagoza/babel-preset-futagozaryuu/releases/tag/v2.17.0
+
 <a name="2.16.0"></a>
 ## [v2.16.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.15.0...v2.16.0) (2018-01-18)
 
@@ -169,7 +181,7 @@
 * Added option `config.resolvePath` and it's alias `config.resolver`
 * DEV: Added `"files": [ "lib" ],` to `package.json` to only publish the `lib` directory
 * DEV: Removed `.npmignore`, not required anymore
-* DEV: Cosmetic update's to some source files and `package.json` 366f95ba34c778b500e6e78c5f725a92bcb10611
+* DEV: Cosmetic update's to some source files and `package.json`
 * Released: https://github.com/futagoza/babel-preset-futagozaryuu/releases/tag/v2.3.0-alpha
 
 <a name="2.2.0"></a>
