@@ -922,9 +922,9 @@ babel-eslint@~8.2.0:
     eslint-scope "~3.7.1"
     eslint-visitor-keys "^1.0.0"
 
-babel-plugin-module-resolver@futagoza/babel-plugin-module-resolver#master:
-  version "3.1.0"
-  resolved "https://codeload.github.com/futagoza/babel-plugin-module-resolver/tar.gz/e3c60d4abf7e5c838271f14a7a162ebf6daa690b"
+babel-plugin-module-resolver@^3.1.0:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-module-resolver/-/babel-plugin-module-resolver-3.1.1.tgz#881cf67e3d4b8400d5eaaefc1be44d2dc1fe404f"
   dependencies:
     find-babel-config "^1.1.0"
     glob "^7.1.2"
