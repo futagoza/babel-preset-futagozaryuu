@@ -132,6 +132,19 @@
             "options": {}
         },
         {
+            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$1",
+            "visitor": {
+                "_exploded": {},
+                "_verified": {},
+                "AssignmentExpression": {
+                    "enter": [
+                        null
+                    ]
+                }
+            },
+            "options": {}
+        },
+        {
             "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$0",
             "visitor": {
                 "_exploded": {},
@@ -310,27 +323,7 @@
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
-                "FunctionDeclaration": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "FunctionExpression": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "ObjectMethod": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "ArrowFunctionExpression": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "ClassMethod": {
+                "Program": {
                     "enter": [
                         null
                     ]
@@ -953,6 +946,6 @@
     "presets": [],
     "envName": "production",
     "babelrc": false,
-    "passPerPreset": false,
-    "cwd": "C:\\projects\\babel-preset-futagozaryuu"
+    "cwd": "C:\\projects\\babel-preset-futagozaryuu",
+    "passPerPreset": false
 }
