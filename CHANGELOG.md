@@ -1,3 +1,20 @@
+<a name="2.18.0"></a>
+## [v2.18.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.17.0...v2.18.0) (2018-03-24)
+
+* Updated `@babel/*` dependencies to `7.0.0-beta.42`
+* Updated dependency `es-runtime` to `^2.0.0`
+* Updated dependency `eslint` to `^4.19.0`
+* Updated dependency `eslint-config-futagozaryuu` to `^4.17.0`
+* Set dependency `babel-plugin-module-resolver` to use patches by setting it to `^3.1.0`
+* Set dependency `glob` to use patches by setting it to `^7.1.0`
+* DEV: Lock dependencies using Yarn
+* DEV: Test only the latest LTS versions of Node
+* DEV: Cache yarn on CI
+* Fixed support for Node.js v4 ([tleunen/babel-plugin-module-resolver#286](https://github.com/tleunen/babel-plugin-module-resolver/pull/286))
+* DEV: Updated preview of babel config
+* DEV: ignore any _*.log_ in the root directory
+* Released: https://github.com/futagoza/babel-preset-futagozaryuu/releases/tag/v2.18.0
+
 <a name="2.17.0"></a>
 ## [v2.17.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.16.0...v2.17.0) (2018-02-15)
 
