@@ -1,5 +1,5 @@
 /node_modules
 /.eslintcache
-/npm-debug.log
+/*.log
 /package-lock.json
 /temp
