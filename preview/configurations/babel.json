@@ -132,19 +132,6 @@
             "options": {}
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$1",
-            "visitor": {
-                "_exploded": {},
-                "_verified": {},
-                "AssignmentExpression": {
-                    "enter": [
-                        null
-                    ]
-                }
-            },
-            "options": {}
-        },
-        {
             "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$0",
             "visitor": {
                 "_exploded": {},
@@ -190,6 +177,19 @@
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
+                "AssignmentExpression": {
+                    "enter": [
+                        null
+                    ]
+                }
+            },
+            "options": {}
+        },
+        {
+            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$3",
+            "visitor": {
+                "_exploded": {},
+                "_verified": {},
                 "OptionalCallExpression": {
                     "enter": [
                         null
@@ -206,7 +206,7 @@
             }
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$3",
+            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$4",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
@@ -219,7 +219,7 @@
             "options": {}
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$4",
+            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$5",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
@@ -234,7 +234,7 @@
             }
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$5",
+            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$6",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
@@ -465,7 +465,12 @@
         {
             "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$1",
             "visitor": {
-                "ArrowFunctionExpression": {
+                "FunctionExpression": {
+                    "exit": [
+                        null
+                    ]
+                },
+                "ObjectProperty": {
                     "enter": [
                         null
                     ]
@@ -481,6 +486,224 @@
         },
         {
             "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$2",
+            "visitor": {
+                "ArrowFunctionExpression": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "_exploded": true,
+                "_verified": true
+            },
+            "options": {
+                "spec": false,
+                "loose": true,
+                "useBuiltIns": true
+            }
+        },
+        {
+            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$3",
+            "visitor": {
+                "ExportDefaultDeclaration": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "ClassDeclaration": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "ClassExpression": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "_exploded": true,
+                "_verified": true
+            },
+            "options": {
+                "spec": false,
+                "loose": true,
+                "useBuiltIns": true
+            }
+        },
+        {
+            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$4",
+            "visitor": {
+                "ObjectExpression": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "_exploded": true,
+                "_verified": true
+            },
+            "options": {
+                "spec": false,
+                "loose": true,
+                "useBuiltIns": true
+            }
+        },
+        {
+            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$5",
+            "visitor": {
+                "ForOfStatement": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "_exploded": true,
+                "_verified": true
+            },
+            "options": {
+                "spec": false,
+                "loose": true,
+                "useBuiltIns": true
+            }
+        },
+        {
+            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$6",
+            "visitor": {
+                "RegExpLiteral": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "_exploded": true,
+                "_verified": true
+            },
+            "options": {
+                "spec": false,
+                "loose": true,
+                "useBuiltIns": true
+            }
+        },
+        {
+            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$7",
+            "visitor": {
+                "RegExpLiteral": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "_exploded": true,
+                "_verified": true
+            },
+            "options": {
+                "spec": false,
+                "loose": true,
+                "useBuiltIns": true
+            }
+        },
+        {
+            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$8",
+            "visitor": {
+                "ArrayExpression": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "CallExpression": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "NewExpression": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "_exploded": true,
+                "_verified": true
+            },
+            "options": {
+                "spec": false,
+                "loose": true,
+                "useBuiltIns": true
+            }
+        },
+        {
+            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$9",
+            "visitor": {
+                "_exploded": true,
+                "_verified": true,
+                "FunctionDeclaration": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "FunctionExpression": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "ObjectMethod": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "ArrowFunctionExpression": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "ClassMethod": {
+                    "enter": [
+                        null
+                    ]
+                }
+            },
+            "options": {
+                "spec": false,
+                "loose": true,
+                "useBuiltIns": true
+            }
+        },
+        {
+            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$10",
+            "visitor": {
+                "ExportNamedDeclaration": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "CatchClause": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "AssignmentExpression": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "VariableDeclaration": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "_exploded": true,
+                "_verified": true,
+                "ForInStatement": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "ForOfStatement": {
+                    "enter": [
+                        null
+                    ]
+                }
+            },
+            "options": {
+                "spec": false,
+                "loose": true,
+                "useBuiltIns": true
+            }
+        },
+        {
+            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$11",
             "visitor": {
                 "VariableDeclaration": {
                     "enter": [
@@ -534,229 +757,6 @@
                         null
                     ]
                 }
-            },
-            "options": {
-                "spec": false,
-                "loose": true,
-                "useBuiltIns": true
-            }
-        },
-        {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$3",
-            "visitor": {
-                "ExportDefaultDeclaration": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "ClassDeclaration": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "ClassExpression": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "_exploded": true,
-                "_verified": true
-            },
-            "options": {
-                "spec": false,
-                "loose": true,
-                "useBuiltIns": true
-            }
-        },
-        {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$4",
-            "visitor": {
-                "ExportNamedDeclaration": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "CatchClause": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "AssignmentExpression": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "VariableDeclaration": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "_exploded": true,
-                "_verified": true,
-                "ForInStatement": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "ForOfStatement": {
-                    "enter": [
-                        null
-                    ]
-                }
-            },
-            "options": {
-                "spec": false,
-                "loose": true,
-                "useBuiltIns": true
-            }
-        },
-        {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$5",
-            "visitor": {
-                "ForOfStatement": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "_exploded": true,
-                "_verified": true
-            },
-            "options": {
-                "spec": false,
-                "loose": true,
-                "useBuiltIns": true
-            }
-        },
-        {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$6",
-            "visitor": {
-                "FunctionExpression": {
-                    "exit": [
-                        null
-                    ]
-                },
-                "ObjectProperty": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "_exploded": true,
-                "_verified": true
-            },
-            "options": {
-                "spec": false,
-                "loose": true,
-                "useBuiltIns": true
-            }
-        },
-        {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$7",
-            "visitor": {
-                "ObjectExpression": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "_exploded": true,
-                "_verified": true
-            },
-            "options": {
-                "spec": false,
-                "loose": true,
-                "useBuiltIns": true
-            }
-        },
-        {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$8",
-            "visitor": {
-                "_exploded": true,
-                "_verified": true,
-                "FunctionDeclaration": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "FunctionExpression": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "ObjectMethod": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "ArrowFunctionExpression": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "ClassMethod": {
-                    "enter": [
-                        null
-                    ]
-                }
-            },
-            "options": {
-                "spec": false,
-                "loose": true,
-                "useBuiltIns": true
-            }
-        },
-        {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$9",
-            "visitor": {
-                "ArrayExpression": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "CallExpression": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "NewExpression": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "_exploded": true,
-                "_verified": true
-            },
-            "options": {
-                "spec": false,
-                "loose": true,
-                "useBuiltIns": true
-            }
-        },
-        {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$10",
-            "visitor": {
-                "RegExpLiteral": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "_exploded": true,
-                "_verified": true
-            },
-            "options": {
-                "spec": false,
-                "loose": true,
-                "useBuiltIns": true
-            }
-        },
-        {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$11",
-            "visitor": {
-                "RegExpLiteral": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "_exploded": true,
-                "_verified": true
             },
             "options": {
                 "spec": false,
