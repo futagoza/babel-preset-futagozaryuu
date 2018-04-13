@@ -24,7 +24,11 @@
                     ".es6",
                     ".mjs",
                     ".ios.js",
-                    ".android.js"
+                    ".android.js",
+                    ".ts",
+                    ".tsx",
+                    ".ios.ts",
+                    ".android.ts"
                 ],
                 "stripExtensions": [
                     ".ios.js",
