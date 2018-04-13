@@ -1,6 +1,5 @@
 module.exports = {
 
-    "sourceMaps": true,
     "plugins": [
         [ "@babel/transform-runtime" ]
     ],
