@@ -1,3 +1,14 @@
+<a name="2.19.0"></a>
+## [v2.19.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.18.0...v2.19.0) (2018-04-13)
+
+* Updated `@babel/*` dependencies to `7.0.0-beta.44`
+* DEV: Updated `yarn.lock`
+* DEV: Updated `src/.babelrc.js` used to generate lib
+* Updated default value for option `extensions` consumed by `babel-plugin-module-resolver`
+* Updated `README.md`; Updated section for VS Code users
+* Updated `README.md`; Added section for versioning
+* Released: https://github.com/futagoza/babel-preset-futagozaryuu/releases/tag/v2.19.0
+
 <a name="2.18.0"></a>
 ## [v2.18.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.17.0...v2.18.0) (2018-03-24)
 
