@@ -69,7 +69,7 @@ You can see the complete list of options in [babel-preset-futagozaryuu/src/defau
 
 Adding the following files (and settings) will ensure that [VS Code](https://code.visualstudio.com/) can find your ES6+ files even if you are using [babel-plugin-module-resolver](https://www.npmjs.com/package/babel-plugin-module-resolver) to change the root path of your module lookups during transpile.
 
-Thanks to [@jgoux](https://github.com/jgoux) for this. For more information, see [tleunen/babel-plugin-module-resolver#92 (comment)](https://github.com/tleunen/babel-plugin-module-resolver/issues/92#issuecomment-285755384).
+This is based on a comment in [tleunen/babel-plugin-module-resolver#92](https://github.com/tleunen/babel-plugin-module-resolver/issues/92#issuecomment-285755384) by [@jgoux](https://github.com/jgoux).
 
 `.vscode/settings.json`:
 ```js
@@ -84,14 +84,24 @@ Thanks to [@jgoux](https://github.com/jgoux) for this. For more information, see
 ```js
 {
     "compilerOptions": {
-        "allowSyntheticDefaultImports": true,
         "baseUrl": "./",
-        "experimentalDecorators": true,
-        "noFallthroughCasesInSwitch": true,
-        "target": "esnext"
     }
 }
 ```
+
+## versioning
+
+I have tried to follow semver versioning, but from _v2.19_ I will follow these rules:
+
+`2.18.0` = `RELEASE.REVISION.PATCH`
+
+1. `RELEASE` is incremented each time a new major version of Babel is supported
+2. `PATCH` is only incremented when
+    - a bug is fixed
+    - docs are updated between revisions
+    - dependency updates between revisions
+3. `REVISION` is incremented for all other changes
+4. `PATCH` is reset when `REVISION` increments
 
 ## license
 
