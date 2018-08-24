@@ -105,5 +105,5 @@ I have tried to follow semver versioning, but from _v2.19_ I will follow these r
 
 ## license
 
-Copyright © 2017 Futago-za Ryuu, https://github.com/futagoza<br />
+Copyright © 2017+ Futago-za Ryuu, https://github.com/futagoza<br />
 Released under the MIT License, http://opensource.org/licenses/MIT
