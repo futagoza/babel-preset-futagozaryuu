@@ -33,18 +33,18 @@ exports.util = _util.default;
  * @param {{}} [_config]
  */
 function use(context, _config) {
-  var options = (0, _buildOptions.default)(_config);
-  var config = options.config;
+  const options = (0, _buildOptions.default)(_config);
+  const config = options.config;
   /**
    * @type {(string | [string, {}])[]}
    */
 
-  var plugins = [];
+  const plugins = [];
   /**
    * @type {(string | [string, {}])[]}
    */
 
-  var presets = [[(0, _util.resolve)("@babel/preset-env"), options.env]];
+  const presets = [[(0, _util.resolve)("@babel/preset-env"), options.env]];
   if (config.stage > -1 && config.stage < 4) presets.push((0, _util.resolve)("@babel/preset-stage-" + config.stage));
   if (options.resolver) plugins.push([(0, _util.resolve)("babel-plugin-module-resolver"), options.resolver]);
   if (config.async) // if `config.async` exists then `options.async` will contain the correct options
@@ -76,5 +76,5 @@ function use(context, _config) {
 
 
 // v1 API compatibility
-var preset = use;
+const preset = use;
 exports.preset = preset;

@@ -40,7 +40,7 @@
             }
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\plugin-transform-async-to-generator\\lib\\index.js",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\plugin-transform-async-to-generator\\lib\\index.js",
             "visitor": {
                 "_exploded": true,
                 "_verified": true,
@@ -76,7 +76,7 @@
             }
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\plugin-transform-runtime\\lib\\index.js",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\plugin-transform-runtime\\lib\\index.js",
             "visitor": {
                 "CallExpression": {
                     "enter": [
@@ -118,7 +118,7 @@
             }
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
@@ -136,7 +136,7 @@
             "options": {}
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$0",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$0",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
@@ -164,7 +164,7 @@
             "options": {}
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$1",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$1",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
@@ -177,7 +177,7 @@
             "options": {}
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$2",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$2",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
@@ -190,7 +190,7 @@
             "options": {}
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$3",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$3",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
@@ -210,7 +210,7 @@
             }
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$4",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$4",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
@@ -223,7 +223,7 @@
             "options": {}
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$5",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$5",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
@@ -238,7 +238,7 @@
             }
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$6",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$6",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
@@ -251,7 +251,7 @@
             "options": {}
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$0$0",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$0$0",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
@@ -264,7 +264,7 @@
             "options": {}
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$0$1",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$0$1",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
@@ -277,7 +277,7 @@
             "options": {}
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$0$2",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$0$2",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
@@ -300,7 +300,7 @@
             "options": {}
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$0$3",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$0$3",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
@@ -313,17 +313,17 @@
             "options": {}
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$0$0$0",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$0$0$0",
             "visitor": {},
             "options": {}
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$0$0$1",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$0$0$1",
             "visitor": {},
             "options": {}
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$0$0$2",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$0$0$2",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
@@ -336,7 +336,7 @@
             "options": {}
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$0$0$3",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$0$0$3",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
@@ -356,7 +356,7 @@
             }
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$0$0$4",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$0$0$4",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
@@ -426,7 +426,7 @@
             }
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$0$0$5",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$0$0$5",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
@@ -439,7 +439,7 @@
             "options": {}
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$0$0$6",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js$0$0$0$6",
             "visitor": {
                 "RegExpLiteral": {
                     "enter": [
@@ -452,7 +452,7 @@
             "options": {}
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$0",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$0",
             "visitor": {
                 "Program": {
                     "exit": [
@@ -467,7 +467,7 @@
             }
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$1",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$1",
             "visitor": {
                 "FunctionExpression": {
                     "exit": [
@@ -489,68 +489,7 @@
             }
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$2",
-            "visitor": {
-                "ArrowFunctionExpression": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "_exploded": true,
-                "_verified": true
-            },
-            "options": {
-                "spec": false,
-                "loose": true,
-                "useBuiltIns": true
-            }
-        },
-        {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$3",
-            "visitor": {
-                "ExportDefaultDeclaration": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "ClassDeclaration": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "ClassExpression": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "_exploded": true,
-                "_verified": true
-            },
-            "options": {
-                "spec": false,
-                "loose": true,
-                "useBuiltIns": true
-            }
-        },
-        {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$4",
-            "visitor": {
-                "ObjectExpression": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "_exploded": true,
-                "_verified": true
-            },
-            "options": {
-                "spec": false,
-                "loose": true,
-                "useBuiltIns": true
-            }
-        },
-        {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$5",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$2",
             "visitor": {
                 "ForOfStatement": {
                     "enter": [
@@ -567,105 +506,7 @@
             }
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$6",
-            "visitor": {
-                "RegExpLiteral": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "_exploded": true,
-                "_verified": true
-            },
-            "options": {
-                "spec": false,
-                "loose": true,
-                "useBuiltIns": true
-            }
-        },
-        {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$7",
-            "visitor": {
-                "RegExpLiteral": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "_exploded": true,
-                "_verified": true
-            },
-            "options": {
-                "spec": false,
-                "loose": true,
-                "useBuiltIns": true
-            }
-        },
-        {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$8",
-            "visitor": {
-                "ArrayExpression": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "CallExpression": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "NewExpression": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "_exploded": true,
-                "_verified": true
-            },
-            "options": {
-                "spec": false,
-                "loose": true,
-                "useBuiltIns": true
-            }
-        },
-        {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$9",
-            "visitor": {
-                "_exploded": true,
-                "_verified": true,
-                "FunctionDeclaration": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "FunctionExpression": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "ObjectMethod": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "ArrowFunctionExpression": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "ClassMethod": {
-                    "enter": [
-                        null
-                    ]
-                }
-            },
-            "options": {
-                "spec": false,
-                "loose": true,
-                "useBuiltIns": true
-            }
-        },
-        {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$10",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$3",
             "visitor": {
                 "ExportNamedDeclaration": {
                     "enter": [
@@ -707,86 +548,7 @@
             }
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$11",
-            "visitor": {
-                "VariableDeclaration": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "CatchClause": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "_exploded": true,
-                "BlockStatement": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "SwitchStatement": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "Program": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "_verified": true,
-                "DoWhileStatement": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "ForInStatement": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "ForStatement": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "WhileStatement": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "ForOfStatement": {
-                    "enter": [
-                        null
-                    ]
-                }
-            },
-            "options": {
-                "spec": false,
-                "loose": true,
-                "useBuiltIns": true
-            }
-        },
-        {
-            "key": "transform-new-target",
-            "visitor": {
-                "MetaProperty": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "_exploded": true,
-                "_verified": true
-            },
-            "options": {
-                "spec": false,
-                "loose": true,
-                "useBuiltIns": true
-            }
-        },
-        {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$13",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$4",
             "visitor": {
                 "AssignmentExpression": {
                     "enter": [
@@ -808,7 +570,7 @@
             }
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$14",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$5",
             "visitor": {
                 "_exploded": true,
                 "_verified": true,
@@ -845,7 +607,7 @@
             }
         },
         {
-            "key": "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$15",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$6",
             "visitor": {
                 "RegExpLiteral": {
                     "enter": [
@@ -950,6 +712,6 @@
     "presets": [],
     "envName": "production",
     "babelrc": false,
-    "cwd": "C:\\projects\\babel-preset-futagozaryuu",
+    "cwd": "c:\\projects\\babel-preset-futagozaryuu",
     "passPerPreset": false
 }

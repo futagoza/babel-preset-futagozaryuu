@@ -2,7 +2,7 @@
     "envName": "production",
     "plugins": [
         [
-            "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\babel-plugin-module-resolver\\lib\\index.js",
+            "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\babel-plugin-module-resolver\\lib\\index.js",
             {
                 "alias": {},
                 "cwd": "packagejson",
@@ -29,14 +29,14 @@
             }
         ],
         [
-            "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\plugin-transform-async-to-generator\\lib\\index.js",
+            "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\plugin-transform-async-to-generator\\lib\\index.js",
             {
                 "module": "bluebird",
                 "method": "coroutine"
             }
         ],
         [
-            "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\plugin-transform-runtime\\lib\\index.js",
+            "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\plugin-transform-runtime\\lib\\index.js",
             {
                 "helpers": true,
                 "polyfill": true,
@@ -48,7 +48,7 @@
     ],
     "presets": [
         [
-            "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js",
+            "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js",
             {
                 "debug": false,
                 "include": [
@@ -61,13 +61,13 @@
                 "modules": "commonjs",
                 "spec": false,
                 "targets": {
-                    "node": 4
+                    "node": 6
                 },
                 "useBuiltIns": "usage",
                 "forceAllTransforms": false,
                 "shippedProposals": false
             }
         ],
-        "C:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js"
+        "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-stage-0\\lib\\index.js"
     ]
 }

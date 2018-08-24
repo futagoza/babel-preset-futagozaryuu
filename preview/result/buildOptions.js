@@ -5,10 +5,6 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 exports.__esModule = true;
 exports.default = buildOptions;
 
-require("core-js/modules/es7.array.includes");
-
-require("core-js/modules/es6.regexp.split");
-
 var _assign = _interopRequireDefault(require("@babel/runtime/core-js/object/assign"));
 
 var _defaultOptions = _interopRequireDefault(require("./defaultOptions"));
@@ -21,13 +17,9 @@ var _util = require("./util");
  *
  * @param {{}} _config
  */
-function buildOptions(_config) {
-  if (_config === void 0) {
-    _config = {};
-  }
-
-  var config = (0, _assign.default)({}, _defaultOptions.default, _config);
-  var asyncOptions, envOptions, resolverOptions, runtimeOptions;
+function buildOptions(_config = {}) {
+  const config = (0, _assign.default)({}, _defaultOptions.default, _config);
+  let asyncOptions, envOptions, resolverOptions, runtimeOptions;
   if (typeof config.stage !== "number") config.stage = -1;
   envOptions = {
     "debug": !!config.debug,
@@ -57,8 +49,8 @@ function buildOptions(_config) {
   if (!config.regenerator) (0, _util.listOnce)(envOptions.exclude, "transform-regenerator");
 
   if (config.async) {
-    var excludeIndex = envOptions.exclude.indexOf("transform-async-to-generator");
-    var configAsync = config.async;
+    const excludeIndex = envOptions.exclude.indexOf("transform-async-to-generator");
+    let configAsync = config.async;
     (0, _util.listOnce)(envOptions.include, "transform-async-to-generator");
     if (excludeIndex !== -1) envOptions.exclude.splice(excludeIndex, 1);
     if (typeof configAsync === "object") asyncOptions = {
@@ -86,7 +78,7 @@ function buildOptions(_config) {
   }
 
   if (!config.node && config.node !== false) {
-    var engines = (0, _util.getPackage)(config.cwd || _defaultOptions.default.cwd).engines;
+    const engines = (0, _util.getPackage)(config.cwd || _defaultOptions.default.cwd).engines;
     config.node = engines && engines.node ? (0, _util.majorSemver)(String(engines.node)) : "current";
   }
 
@@ -94,7 +86,7 @@ function buildOptions(_config) {
     config.node = config.node.includes(".") ? parseFloat(config.node) : parseInt(config.node, 10);
   }
 
-  _util.targets.forEach(function (target) {
+  _util.targets.forEach(target => {
     if (!config.hasOwnProperty(target)) return 0;
 
     if (config[target] !== false) {

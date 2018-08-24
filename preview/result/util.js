@@ -8,10 +8,6 @@ exports.resolve = resolve;
 exports.majorSemver = majorSemver;
 exports.default = exports.targets = void 0;
 
-require("core-js/modules/es6.regexp.replace");
-
-require("core-js/modules/es6.regexp.split");
-
 var _fs = require("fs");
 
 var _path = require("path");
@@ -43,7 +39,7 @@ function getPackage(cwd) {
     return require((0, _path.join)(cwd, "package.json"));
   } catch (e) {}
 
-  var parentDir = (0, _path.dirname)(cwd);
+  const parentDir = (0, _path.dirname)(cwd);
 
   if (cwd !== parentDir && parentDir !== ".") {
     return getPackage(parentDir);
@@ -62,7 +58,7 @@ function getPackage(cwd) {
 
 
 function listOnce(list, value) {
-  var index = list.indexOf(value);
+  const index = list.indexOf(value);
   if (index === -1) list.push(value);
 }
 /**
@@ -77,12 +73,12 @@ function listOnce(list, value) {
 
 function resolve(id) {
   try {
-    var path = (0, _path.join)(__dirname, "..", "node_modules", id);
+    const path = (0, _path.join)(__dirname, "..", "node_modules", id);
 
-    var metafile = require((0, _path.join)(path, "package.json"));
+    const metafile = require((0, _path.join)(path, "package.json"));
 
     if (metafile.main) return (0, _path.join)(path, metafile.main);
-    var mainfile = (0, _path.join)(path, "index.js");
+    let mainfile = (0, _path.join)(path, "index.js");
     if ((0, _fs.existsSync)(mainfile)) return mainfile;
     mainfile = (0, _path.join)(path, "lib", "index.js");
     if ((0, _fs.existsSync)(mainfile)) return mainfile;
@@ -106,7 +102,7 @@ function majorSemver(version) {
  */
 
 
-var targets = ["node", "chrome", "opera", "edge", "firefox", "safari", "ie", "ios", "android", "electron", "browsers"];
+const targets = ["node", "chrome", "opera", "edge", "firefox", "safari", "ie", "ios", "android", "electron", "browsers"];
 /**
  * Defaults (e.g. `import { util } from "babel-preset-futagozaryuu";`).
  */
