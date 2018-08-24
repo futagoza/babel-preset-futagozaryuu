@@ -39,8 +39,8 @@
         "babel-plugin-module-resolver": "^3.1.0"
     },
     "devDependencies": {
-        "eslint": "^4.19.0",
-        "eslint-config-futagozaryuu": "^4.17.0",
+        "eslint": "5",
+        "eslint-config-futagozaryuu": "5",
         "minimist": "1.2.0",
         "mkdirp": "0.5.1",
         "glob": "^7.1.0",
