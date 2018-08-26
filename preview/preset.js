@@ -1,5 +1,7 @@
-import { use } from "./preset";
-import { loadOptions } from "@babel/core";
+"use strict";
+
+const use = require( "../lib/use" );
+const { loadOptions } = require( "@babel/core" );
 
 /**
  * Returns an object containing what to expect from this preset:
@@ -11,7 +13,7 @@ import { loadOptions } from "@babel/core";
  * @param {{}} [options]
  */
 
-export default function preview( options ) {
+function preview( options ) {
 
     const preset = use( null, options );
     const babel = loadOptions( preset );
@@ -19,3 +21,5 @@ export default function preview( options ) {
     return { options, preset, babel };
 
 }
+
+module.exports = { preview, use };

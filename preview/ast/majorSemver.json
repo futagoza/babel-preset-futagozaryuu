@@ -1,0 +1,521 @@
+{
+    "type": "File",
+    "start": 0,
+    "end": 276,
+    "loc": {
+        "start": {
+            "line": 1,
+            "column": 0
+        },
+        "end": {
+            "line": 16,
+            "column": 0
+        }
+    },
+    "program": {
+        "type": "Program",
+        "start": 0,
+        "end": 276,
+        "loc": {
+            "start": {
+                "line": 1,
+                "column": 0
+            },
+            "end": {
+                "line": 16,
+                "column": 0
+            }
+        },
+        "sourceType": "module",
+        "body": [
+            {
+                "type": "FunctionDeclaration",
+                "start": 143,
+                "end": 244,
+                "loc": {
+                    "start": {
+                        "line": 9,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 13,
+                        "column": 1
+                    }
+                },
+                "id": {
+                    "type": "Identifier",
+                    "start": 152,
+                    "end": 163,
+                    "loc": {
+                        "start": {
+                            "line": 9,
+                            "column": 9
+                        },
+                        "end": {
+                            "line": 9,
+                            "column": 20
+                        },
+                        "identifierName": "majorSemver"
+                    },
+                    "name": "majorSemver"
+                },
+                "generator": false,
+                "async": false,
+                "params": [
+                    {
+                        "type": "Identifier",
+                        "start": 165,
+                        "end": 172,
+                        "loc": {
+                            "start": {
+                                "line": 9,
+                                "column": 22
+                            },
+                            "end": {
+                                "line": 9,
+                                "column": 29
+                            },
+                            "identifierName": "version"
+                        },
+                        "name": "version"
+                    }
+                ],
+                "body": {
+                    "type": "BlockStatement",
+                    "start": 175,
+                    "end": 244,
+                    "loc": {
+                        "start": {
+                            "line": 9,
+                            "column": 32
+                        },
+                        "end": {
+                            "line": 13,
+                            "column": 1
+                        }
+                    },
+                    "body": [
+                        {
+                            "type": "ReturnStatement",
+                            "start": 182,
+                            "end": 241,
+                            "loc": {
+                                "start": {
+                                    "line": 11,
+                                    "column": 4
+                                },
+                                "end": {
+                                    "line": 11,
+                                    "column": 63
+                                }
+                            },
+                            "argument": {
+                                "type": "MemberExpression",
+                                "start": 189,
+                                "end": 240,
+                                "loc": {
+                                    "start": {
+                                        "line": 11,
+                                        "column": 11
+                                    },
+                                    "end": {
+                                        "line": 11,
+                                        "column": 62
+                                    }
+                                },
+                                "object": {
+                                    "type": "CallExpression",
+                                    "start": 189,
+                                    "end": 235,
+                                    "loc": {
+                                        "start": {
+                                            "line": 11,
+                                            "column": 11
+                                        },
+                                        "end": {
+                                            "line": 11,
+                                            "column": 57
+                                        }
+                                    },
+                                    "callee": {
+                                        "type": "MemberExpression",
+                                        "start": 189,
+                                        "end": 228,
+                                        "loc": {
+                                            "start": {
+                                                "line": 11,
+                                                "column": 11
+                                            },
+                                            "end": {
+                                                "line": 11,
+                                                "column": 50
+                                            }
+                                        },
+                                        "object": {
+                                            "type": "CallExpression",
+                                            "start": 189,
+                                            "end": 222,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 11,
+                                                    "column": 11
+                                                },
+                                                "end": {
+                                                    "line": 11,
+                                                    "column": 44
+                                                }
+                                            },
+                                            "callee": {
+                                                "type": "MemberExpression",
+                                                "start": 189,
+                                                "end": 204,
+                                                "loc": {
+                                                    "start": {
+                                                        "line": 11,
+                                                        "column": 11
+                                                    },
+                                                    "end": {
+                                                        "line": 11,
+                                                        "column": 26
+                                                    }
+                                                },
+                                                "object": {
+                                                    "type": "Identifier",
+                                                    "start": 189,
+                                                    "end": 196,
+                                                    "loc": {
+                                                        "start": {
+                                                            "line": 11,
+                                                            "column": 11
+                                                        },
+                                                        "end": {
+                                                            "line": 11,
+                                                            "column": 18
+                                                        },
+                                                        "identifierName": "version"
+                                                    },
+                                                    "name": "version"
+                                                },
+                                                "property": {
+                                                    "type": "Identifier",
+                                                    "start": 197,
+                                                    "end": 204,
+                                                    "loc": {
+                                                        "start": {
+                                                            "line": 11,
+                                                            "column": 19
+                                                        },
+                                                        "end": {
+                                                            "line": 11,
+                                                            "column": 26
+                                                        },
+                                                        "identifierName": "replace"
+                                                    },
+                                                    "name": "replace"
+                                                },
+                                                "computed": false
+                                            },
+                                            "arguments": [
+                                                {
+                                                    "type": "RegExpLiteral",
+                                                    "start": 206,
+                                                    "end": 216,
+                                                    "loc": {
+                                                        "start": {
+                                                            "line": 11,
+                                                            "column": 28
+                                                        },
+                                                        "end": {
+                                                            "line": 11,
+                                                            "column": 38
+                                                        }
+                                                    },
+                                                    "extra": {
+                                                        "raw": "/^[^0-9]+/"
+                                                    },
+                                                    "pattern": "^[^0-9]+",
+                                                    "flags": ""
+                                                },
+                                                {
+                                                    "type": "StringLiteral",
+                                                    "start": 218,
+                                                    "end": 220,
+                                                    "loc": {
+                                                        "start": {
+                                                            "line": 11,
+                                                            "column": 40
+                                                        },
+                                                        "end": {
+                                                            "line": 11,
+                                                            "column": 42
+                                                        }
+                                                    },
+                                                    "extra": {
+                                                        "rawValue": "",
+                                                        "raw": "\"\""
+                                                    },
+                                                    "value": ""
+                                                }
+                                            ]
+                                        },
+                                        "property": {
+                                            "type": "Identifier",
+                                            "start": 223,
+                                            "end": 228,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 11,
+                                                    "column": 45
+                                                },
+                                                "end": {
+                                                    "line": 11,
+                                                    "column": 50
+                                                },
+                                                "identifierName": "split"
+                                            },
+                                            "name": "split"
+                                        },
+                                        "computed": false
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "StringLiteral",
+                                            "start": 230,
+                                            "end": 233,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 11,
+                                                    "column": 52
+                                                },
+                                                "end": {
+                                                    "line": 11,
+                                                    "column": 55
+                                                }
+                                            },
+                                            "extra": {
+                                                "rawValue": ".",
+                                                "raw": "\".\""
+                                            },
+                                            "value": "."
+                                        }
+                                    ]
+                                },
+                                "property": {
+                                    "type": "NumericLiteral",
+                                    "start": 237,
+                                    "end": 238,
+                                    "loc": {
+                                        "start": {
+                                            "line": 11,
+                                            "column": 59
+                                        },
+                                        "end": {
+                                            "line": 11,
+                                            "column": 60
+                                        }
+                                    },
+                                    "extra": {
+                                        "rawValue": 0,
+                                        "raw": "0"
+                                    },
+                                    "value": 0
+                                },
+                                "computed": true
+                            }
+                        }
+                    ],
+                    "directives": []
+                },
+                "leadingComments": [
+                    {
+                        "type": "CommentBlock",
+                        "value": "*\n * Return the major version number from the given semver string.\n *\n * @param {String} version A semver version string\n ",
+                        "start": 15,
+                        "end": 141,
+                        "loc": {
+                            "start": {
+                                "line": 3,
+                                "column": 0
+                            },
+                            "end": {
+                                "line": 7,
+                                "column": 3
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "ExpressionStatement",
+                "start": 246,
+                "end": 275,
+                "loc": {
+                    "start": {
+                        "line": 15,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 15,
+                        "column": 29
+                    }
+                },
+                "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 246,
+                    "end": 274,
+                    "loc": {
+                        "start": {
+                            "line": 15,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 15,
+                            "column": 28
+                        }
+                    },
+                    "operator": "=",
+                    "left": {
+                        "type": "MemberExpression",
+                        "start": 246,
+                        "end": 260,
+                        "loc": {
+                            "start": {
+                                "line": 15,
+                                "column": 0
+                            },
+                            "end": {
+                                "line": 15,
+                                "column": 14
+                            }
+                        },
+                        "object": {
+                            "type": "Identifier",
+                            "start": 246,
+                            "end": 252,
+                            "loc": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 0
+                                },
+                                "end": {
+                                    "line": 15,
+                                    "column": 6
+                                },
+                                "identifierName": "module"
+                            },
+                            "name": "module"
+                        },
+                        "property": {
+                            "type": "Identifier",
+                            "start": 253,
+                            "end": 260,
+                            "loc": {
+                                "start": {
+                                    "line": 15,
+                                    "column": 7
+                                },
+                                "end": {
+                                    "line": 15,
+                                    "column": 14
+                                },
+                                "identifierName": "exports"
+                            },
+                            "name": "exports"
+                        },
+                        "computed": false
+                    },
+                    "right": {
+                        "type": "Identifier",
+                        "start": 263,
+                        "end": 274,
+                        "loc": {
+                            "start": {
+                                "line": 15,
+                                "column": 17
+                            },
+                            "end": {
+                                "line": 15,
+                                "column": 28
+                            },
+                            "identifierName": "majorSemver"
+                        },
+                        "name": "majorSemver"
+                    }
+                }
+            }
+        ],
+        "directives": [
+            {
+                "type": "Directive",
+                "start": 0,
+                "end": 13,
+                "loc": {
+                    "start": {
+                        "line": 1,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 1,
+                        "column": 13
+                    }
+                },
+                "value": {
+                    "type": "DirectiveLiteral",
+                    "start": 0,
+                    "end": 12,
+                    "loc": {
+                        "start": {
+                            "line": 1,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 12
+                        }
+                    },
+                    "value": "use strict",
+                    "extra": {
+                        "raw": "\"use strict\"",
+                        "rawValue": "use strict"
+                    }
+                },
+                "trailingComments": [
+                    {
+                        "type": "CommentBlock",
+                        "value": "*\n * Return the major version number from the given semver string.\n *\n * @param {String} version A semver version string\n ",
+                        "start": 15,
+                        "end": 141,
+                        "loc": {
+                            "start": {
+                                "line": 3,
+                                "column": 0
+                            },
+                            "end": {
+                                "line": 7,
+                                "column": 3
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "comments": [
+        {
+            "type": "CommentBlock",
+            "value": "*\n * Return the major version number from the given semver string.\n *\n * @param {String} version A semver version string\n ",
+            "start": 15,
+            "end": 141,
+            "loc": {
+                "start": {
+                    "line": 3,
+                    "column": 0
+                },
+                "end": {
+                    "line": 7,
+                    "column": 3
+                }
+            }
+        }
+    ]
+}

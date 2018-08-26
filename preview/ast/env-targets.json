@@ -1,0 +1,509 @@
+{
+    "type": "File",
+    "start": 0,
+    "end": 279,
+    "loc": {
+        "start": {
+            "line": 1,
+            "column": 0
+        },
+        "end": {
+            "line": 24,
+            "column": 0
+        }
+    },
+    "program": {
+        "type": "Program",
+        "start": 0,
+        "end": 279,
+        "loc": {
+            "start": {
+                "line": 1,
+                "column": 0
+            },
+            "end": {
+                "line": 24,
+                "column": 0
+            }
+        },
+        "sourceType": "module",
+        "body": [
+            {
+                "type": "VariableDeclaration",
+                "start": 75,
+                "end": 248,
+                "loc": {
+                    "start": {
+                        "line": 7,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 21,
+                        "column": 2
+                    }
+                },
+                "declarations": [
+                    {
+                        "type": "VariableDeclarator",
+                        "start": 81,
+                        "end": 247,
+                        "loc": {
+                            "start": {
+                                "line": 7,
+                                "column": 6
+                            },
+                            "end": {
+                                "line": 21,
+                                "column": 1
+                            }
+                        },
+                        "id": {
+                            "type": "Identifier",
+                            "start": 81,
+                            "end": 91,
+                            "loc": {
+                                "start": {
+                                    "line": 7,
+                                    "column": 6
+                                },
+                                "end": {
+                                    "line": 7,
+                                    "column": 16
+                                },
+                                "identifierName": "EnvTargets"
+                            },
+                            "name": "EnvTargets"
+                        },
+                        "init": {
+                            "type": "ArrayExpression",
+                            "start": 94,
+                            "end": 247,
+                            "loc": {
+                                "start": {
+                                    "line": 7,
+                                    "column": 19
+                                },
+                                "end": {
+                                    "line": 21,
+                                    "column": 1
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "type": "StringLiteral",
+                                    "start": 101,
+                                    "end": 107,
+                                    "loc": {
+                                        "start": {
+                                            "line": 9,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 9,
+                                            "column": 10
+                                        }
+                                    },
+                                    "extra": {
+                                        "rawValue": "node",
+                                        "raw": "\"node\""
+                                    },
+                                    "value": "node"
+                                },
+                                {
+                                    "type": "StringLiteral",
+                                    "start": 113,
+                                    "end": 121,
+                                    "loc": {
+                                        "start": {
+                                            "line": 10,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 10,
+                                            "column": 12
+                                        }
+                                    },
+                                    "extra": {
+                                        "rawValue": "chrome",
+                                        "raw": "\"chrome\""
+                                    },
+                                    "value": "chrome"
+                                },
+                                {
+                                    "type": "StringLiteral",
+                                    "start": 127,
+                                    "end": 134,
+                                    "loc": {
+                                        "start": {
+                                            "line": 11,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 11,
+                                            "column": 11
+                                        }
+                                    },
+                                    "extra": {
+                                        "rawValue": "opera",
+                                        "raw": "\"opera\""
+                                    },
+                                    "value": "opera"
+                                },
+                                {
+                                    "type": "StringLiteral",
+                                    "start": 140,
+                                    "end": 146,
+                                    "loc": {
+                                        "start": {
+                                            "line": 12,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 12,
+                                            "column": 10
+                                        }
+                                    },
+                                    "extra": {
+                                        "rawValue": "edge",
+                                        "raw": "\"edge\""
+                                    },
+                                    "value": "edge"
+                                },
+                                {
+                                    "type": "StringLiteral",
+                                    "start": 152,
+                                    "end": 161,
+                                    "loc": {
+                                        "start": {
+                                            "line": 13,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 13,
+                                            "column": 13
+                                        }
+                                    },
+                                    "extra": {
+                                        "rawValue": "firefox",
+                                        "raw": "\"firefox\""
+                                    },
+                                    "value": "firefox"
+                                },
+                                {
+                                    "type": "StringLiteral",
+                                    "start": 167,
+                                    "end": 175,
+                                    "loc": {
+                                        "start": {
+                                            "line": 14,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 14,
+                                            "column": 12
+                                        }
+                                    },
+                                    "extra": {
+                                        "rawValue": "safari",
+                                        "raw": "\"safari\""
+                                    },
+                                    "value": "safari"
+                                },
+                                {
+                                    "type": "StringLiteral",
+                                    "start": 181,
+                                    "end": 185,
+                                    "loc": {
+                                        "start": {
+                                            "line": 15,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 15,
+                                            "column": 8
+                                        }
+                                    },
+                                    "extra": {
+                                        "rawValue": "ie",
+                                        "raw": "\"ie\""
+                                    },
+                                    "value": "ie"
+                                },
+                                {
+                                    "type": "StringLiteral",
+                                    "start": 191,
+                                    "end": 196,
+                                    "loc": {
+                                        "start": {
+                                            "line": 16,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 16,
+                                            "column": 9
+                                        }
+                                    },
+                                    "extra": {
+                                        "rawValue": "ios",
+                                        "raw": "\"ios\""
+                                    },
+                                    "value": "ios"
+                                },
+                                {
+                                    "type": "StringLiteral",
+                                    "start": 202,
+                                    "end": 211,
+                                    "loc": {
+                                        "start": {
+                                            "line": 17,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 17,
+                                            "column": 13
+                                        }
+                                    },
+                                    "extra": {
+                                        "rawValue": "android",
+                                        "raw": "\"android\""
+                                    },
+                                    "value": "android"
+                                },
+                                {
+                                    "type": "StringLiteral",
+                                    "start": 217,
+                                    "end": 227,
+                                    "loc": {
+                                        "start": {
+                                            "line": 18,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 18,
+                                            "column": 14
+                                        }
+                                    },
+                                    "extra": {
+                                        "rawValue": "electron",
+                                        "raw": "\"electron\""
+                                    },
+                                    "value": "electron"
+                                },
+                                {
+                                    "type": "StringLiteral",
+                                    "start": 233,
+                                    "end": 243,
+                                    "loc": {
+                                        "start": {
+                                            "line": 19,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 19,
+                                            "column": 14
+                                        }
+                                    },
+                                    "extra": {
+                                        "rawValue": "browsers",
+                                        "raw": "\"browsers\""
+                                    },
+                                    "value": "browsers"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "kind": "const",
+                "leadingComments": [
+                    {
+                        "type": "CommentBlock",
+                        "value": "*\n * List of targets to use with `@babel/preset-env`\n ",
+                        "start": 15,
+                        "end": 73,
+                        "loc": {
+                            "start": {
+                                "line": 3,
+                                "column": 0
+                            },
+                            "end": {
+                                "line": 5,
+                                "column": 3
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "ExpressionStatement",
+                "start": 250,
+                "end": 278,
+                "loc": {
+                    "start": {
+                        "line": 23,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 23,
+                        "column": 28
+                    }
+                },
+                "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 250,
+                    "end": 277,
+                    "loc": {
+                        "start": {
+                            "line": 23,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 23,
+                            "column": 27
+                        }
+                    },
+                    "operator": "=",
+                    "left": {
+                        "type": "MemberExpression",
+                        "start": 250,
+                        "end": 264,
+                        "loc": {
+                            "start": {
+                                "line": 23,
+                                "column": 0
+                            },
+                            "end": {
+                                "line": 23,
+                                "column": 14
+                            }
+                        },
+                        "object": {
+                            "type": "Identifier",
+                            "start": 250,
+                            "end": 256,
+                            "loc": {
+                                "start": {
+                                    "line": 23,
+                                    "column": 0
+                                },
+                                "end": {
+                                    "line": 23,
+                                    "column": 6
+                                },
+                                "identifierName": "module"
+                            },
+                            "name": "module"
+                        },
+                        "property": {
+                            "type": "Identifier",
+                            "start": 257,
+                            "end": 264,
+                            "loc": {
+                                "start": {
+                                    "line": 23,
+                                    "column": 7
+                                },
+                                "end": {
+                                    "line": 23,
+                                    "column": 14
+                                },
+                                "identifierName": "exports"
+                            },
+                            "name": "exports"
+                        },
+                        "computed": false
+                    },
+                    "right": {
+                        "type": "Identifier",
+                        "start": 267,
+                        "end": 277,
+                        "loc": {
+                            "start": {
+                                "line": 23,
+                                "column": 17
+                            },
+                            "end": {
+                                "line": 23,
+                                "column": 27
+                            },
+                            "identifierName": "EnvTargets"
+                        },
+                        "name": "EnvTargets"
+                    }
+                }
+            }
+        ],
+        "directives": [
+            {
+                "type": "Directive",
+                "start": 0,
+                "end": 13,
+                "loc": {
+                    "start": {
+                        "line": 1,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 1,
+                        "column": 13
+                    }
+                },
+                "value": {
+                    "type": "DirectiveLiteral",
+                    "start": 0,
+                    "end": 12,
+                    "loc": {
+                        "start": {
+                            "line": 1,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 12
+                        }
+                    },
+                    "value": "use strict",
+                    "extra": {
+                        "raw": "\"use strict\"",
+                        "rawValue": "use strict"
+                    }
+                },
+                "trailingComments": [
+                    {
+                        "type": "CommentBlock",
+                        "value": "*\n * List of targets to use with `@babel/preset-env`\n ",
+                        "start": 15,
+                        "end": 73,
+                        "loc": {
+                            "start": {
+                                "line": 3,
+                                "column": 0
+                            },
+                            "end": {
+                                "line": 5,
+                                "column": 3
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "comments": [
+        {
+            "type": "CommentBlock",
+            "value": "*\n * List of targets to use with `@babel/preset-env`\n ",
+            "start": 15,
+            "end": 73,
+            "loc": {
+                "start": {
+                    "line": 3,
+                    "column": 0
+                },
+                "end": {
+                    "line": 5,
+                    "column": 3
+                }
+            }
+        }
+    ]
+}

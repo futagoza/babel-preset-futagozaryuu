@@ -1,23 +1,21 @@
 "use strict";
 
-exports.__esModule = true;
-exports.default = void 0;
-var _default = {
+const DefaultOptions = {
   /*********************** babel-preset-futagozaryuu ***********************/
 
   /**
    * If true, will not use `babel-plugin-module-resolver`.
-   * 
+   *
+   * @type {Boolean}
    * @default false
-   * @type {boolean}
    */
   "disableResolver": false,
 
   /**
    * If true, will use the method `babelrc.shouldPrintComment` to ignore eslint comments.
-   * 
+   *
+   * @type {Boolean}
    * @default true
-   * @type {boolean}
    */
   "removeEslintComments": true,
 
@@ -27,8 +25,8 @@ var _default = {
    * 
    * _NOTE:_ This does not mean that `@babel/transform-regenerator` will be included.
    * 
+   * @type {Boolean}
    * @default false
-   * @type {boolean}
    */
   "regenerator": false,
 
@@ -38,18 +36,18 @@ var _default = {
    * 1. On `true` set the configuration I usually use with this plugin.
    * 2. On a string, will also set the module name of the runtime that will be used.
    * 3. On a object, will overwrite my configuration based on the object.
-   * 
+   *
+   * @type {Boolean|String|{}}
    * @default false
-   * @type {boolean|string|{}}
    */
   "runtime": false,
 
   /**
    * Any value that is `0` to `3` will enable the appropriate `@babel/preset-stage-*` preset,
    * where as any other value will not add any preset's for proposal based plugins.
-   * 
+   *
+   * @type {Number}
    * @default 0
-   * @type {number}
    */
   "stage": 0,
 
@@ -89,10 +87,10 @@ var _default = {
    * 
    * 1. On `true` will not pass any options.
    * 2. On a object, will overwrite my configuration based on the object.
-   * 
+   *
+   * @type {Boolean|String|{}}
    * @default "bluebird.coroutine"
-   * @type {boolean|string|{}}
    */
   "async": "bluebird.coroutine"
 };
-exports.default = _default;
+module.exports = DefaultOptions;

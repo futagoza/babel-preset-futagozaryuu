@@ -1,0 +1,2486 @@
+{
+    "type": "File",
+    "start": 0,
+    "end": 3108,
+    "loc": {
+        "start": {
+            "line": 1,
+            "column": 0
+        },
+        "end": {
+            "line": 112,
+            "column": 0
+        }
+    },
+    "program": {
+        "type": "Program",
+        "start": 0,
+        "end": 3108,
+        "loc": {
+            "start": {
+                "line": 1,
+                "column": 0
+            },
+            "end": {
+                "line": 112,
+                "column": 0
+            }
+        },
+        "sourceType": "module",
+        "body": [
+            {
+                "type": "VariableDeclaration",
+                "start": 46,
+                "end": 3073,
+                "loc": {
+                    "start": {
+                        "line": 5,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 109,
+                        "column": 2
+                    }
+                },
+                "declarations": [
+                    {
+                        "type": "VariableDeclarator",
+                        "start": 52,
+                        "end": 3072,
+                        "loc": {
+                            "start": {
+                                "line": 5,
+                                "column": 6
+                            },
+                            "end": {
+                                "line": 109,
+                                "column": 1
+                            }
+                        },
+                        "id": {
+                            "type": "Identifier",
+                            "start": 52,
+                            "end": 66,
+                            "loc": {
+                                "start": {
+                                    "line": 5,
+                                    "column": 6
+                                },
+                                "end": {
+                                    "line": 5,
+                                    "column": 20
+                                },
+                                "identifierName": "DefaultOptions"
+                            },
+                            "name": "DefaultOptions"
+                        },
+                        "init": {
+                            "type": "ObjectExpression",
+                            "start": 69,
+                            "end": 3072,
+                            "loc": {
+                                "start": {
+                                    "line": 5,
+                                    "column": 23
+                                },
+                                "end": {
+                                    "line": 109,
+                                    "column": 1
+                                }
+                            },
+                            "properties": [
+                                {
+                                    "type": "ObjectProperty",
+                                    "start": 286,
+                                    "end": 310,
+                                    "loc": {
+                                        "start": {
+                                            "line": 15,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 15,
+                                            "column": 28
+                                        }
+                                    },
+                                    "method": false,
+                                    "key": {
+                                        "type": "StringLiteral",
+                                        "start": 286,
+                                        "end": 303,
+                                        "loc": {
+                                            "start": {
+                                                "line": 15,
+                                                "column": 4
+                                            },
+                                            "end": {
+                                                "line": 15,
+                                                "column": 21
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": "disableResolver",
+                                            "raw": "\"disableResolver\""
+                                        },
+                                        "value": "disableResolver"
+                                    },
+                                    "computed": false,
+                                    "shorthand": false,
+                                    "value": {
+                                        "type": "BooleanLiteral",
+                                        "start": 305,
+                                        "end": 310,
+                                        "loc": {
+                                            "start": {
+                                                "line": 15,
+                                                "column": 23
+                                            },
+                                            "end": {
+                                                "line": 15,
+                                                "column": 28
+                                            }
+                                        },
+                                        "value": false
+                                    },
+                                    "leadingComments": [
+                                        {
+                                            "type": "CommentBlock",
+                                            "value": "********************** babel-preset-futagozaryuu **********************",
+                                            "start": 76,
+                                            "end": 151,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 7,
+                                                    "column": 4
+                                                },
+                                                "end": {
+                                                    "line": 7,
+                                                    "column": 79
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "CommentBlock",
+                                            "value": "*\n     * If true, will not use `babel-plugin-module-resolver`.\n     *\n     * @type {Boolean}\n     * @default false\n     ",
+                                            "start": 157,
+                                            "end": 281,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 9,
+                                                    "column": 4
+                                                },
+                                                "end": {
+                                                    "line": 14,
+                                                    "column": 7
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "ObjectProperty",
+                                    "start": 476,
+                                    "end": 504,
+                                    "loc": {
+                                        "start": {
+                                            "line": 23,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 23,
+                                            "column": 32
+                                        }
+                                    },
+                                    "method": false,
+                                    "key": {
+                                        "type": "StringLiteral",
+                                        "start": 476,
+                                        "end": 498,
+                                        "loc": {
+                                            "start": {
+                                                "line": 23,
+                                                "column": 4
+                                            },
+                                            "end": {
+                                                "line": 23,
+                                                "column": 26
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": "removeEslintComments",
+                                            "raw": "\"removeEslintComments\""
+                                        },
+                                        "value": "removeEslintComments"
+                                    },
+                                    "computed": false,
+                                    "shorthand": false,
+                                    "value": {
+                                        "type": "BooleanLiteral",
+                                        "start": 500,
+                                        "end": 504,
+                                        "loc": {
+                                            "start": {
+                                                "line": 23,
+                                                "column": 28
+                                            },
+                                            "end": {
+                                                "line": 23,
+                                                "column": 32
+                                            }
+                                        },
+                                        "value": true
+                                    },
+                                    "leadingComments": [
+                                        {
+                                            "type": "CommentBlock",
+                                            "value": "*\n     * If true, will use the method `babelrc.shouldPrintComment` to ignore eslint comments.\n     *\n     * @type {Boolean}\n     * @default true\n     ",
+                                            "start": 317,
+                                            "end": 471,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 17,
+                                                    "column": 4
+                                                },
+                                                "end": {
+                                                    "line": 22,
+                                                    "column": 7
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "ObjectProperty",
+                                    "start": 824,
+                                    "end": 844,
+                                    "loc": {
+                                        "start": {
+                                            "line": 34,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 34,
+                                            "column": 24
+                                        }
+                                    },
+                                    "method": false,
+                                    "key": {
+                                        "type": "StringLiteral",
+                                        "start": 824,
+                                        "end": 837,
+                                        "loc": {
+                                            "start": {
+                                                "line": 34,
+                                                "column": 4
+                                            },
+                                            "end": {
+                                                "line": 34,
+                                                "column": 17
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": "regenerator",
+                                            "raw": "\"regenerator\""
+                                        },
+                                        "value": "regenerator"
+                                    },
+                                    "computed": false,
+                                    "shorthand": false,
+                                    "value": {
+                                        "type": "BooleanLiteral",
+                                        "start": 839,
+                                        "end": 844,
+                                        "loc": {
+                                            "start": {
+                                                "line": 34,
+                                                "column": 19
+                                            },
+                                            "end": {
+                                                "line": 34,
+                                                "column": 24
+                                            }
+                                        },
+                                        "value": false
+                                    },
+                                    "leadingComments": [
+                                        {
+                                            "type": "CommentBlock",
+                                            "value": "*\n     * By default this preset will exclude `@babel/transform-regenerator`, but if this\n     * option is enabled, it will not perform the exclusion.\n     * \n     * _NOTE:_ This does not mean that `@babel/transform-regenerator` will be included.\n     * \n     * @type {Boolean}\n     * @default false\n     ",
+                                            "start": 511,
+                                            "end": 819,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 25,
+                                                    "column": 4
+                                                },
+                                                "end": {
+                                                    "line": 33,
+                                                    "column": 7
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "ObjectProperty",
+                                    "start": 1249,
+                                    "end": 1265,
+                                    "loc": {
+                                        "start": {
+                                            "line": 46,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 46,
+                                            "column": 20
+                                        }
+                                    },
+                                    "method": false,
+                                    "key": {
+                                        "type": "StringLiteral",
+                                        "start": 1249,
+                                        "end": 1258,
+                                        "loc": {
+                                            "start": {
+                                                "line": 46,
+                                                "column": 4
+                                            },
+                                            "end": {
+                                                "line": 46,
+                                                "column": 13
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": "runtime",
+                                            "raw": "\"runtime\""
+                                        },
+                                        "value": "runtime"
+                                    },
+                                    "computed": false,
+                                    "shorthand": false,
+                                    "value": {
+                                        "type": "BooleanLiteral",
+                                        "start": 1260,
+                                        "end": 1265,
+                                        "loc": {
+                                            "start": {
+                                                "line": 46,
+                                                "column": 15
+                                            },
+                                            "end": {
+                                                "line": 46,
+                                                "column": 20
+                                            }
+                                        },
+                                        "value": false
+                                    },
+                                    "leadingComments": [
+                                        {
+                                            "type": "CommentBlock",
+                                            "value": "*\n     * These values will enable the plugin `@babel/transform-runtime` and:\n     * \n     * 1. On `true` set the configuration I usually use with this plugin.\n     * 2. On a string, will also set the module name of the runtime that will be used.\n     * 3. On a object, will overwrite my configuration based on the object.\n     *\n     * @type {Boolean|String|{}}\n     * @default false\n     ",
+                                            "start": 851,
+                                            "end": 1244,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 36,
+                                                    "column": 4
+                                                },
+                                                "end": {
+                                                    "line": 45,
+                                                    "column": 7
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "ObjectProperty",
+                                    "start": 1517,
+                                    "end": 1527,
+                                    "loc": {
+                                        "start": {
+                                            "line": 55,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 55,
+                                            "column": 14
+                                        }
+                                    },
+                                    "method": false,
+                                    "key": {
+                                        "type": "StringLiteral",
+                                        "start": 1517,
+                                        "end": 1524,
+                                        "loc": {
+                                            "start": {
+                                                "line": 55,
+                                                "column": 4
+                                            },
+                                            "end": {
+                                                "line": 55,
+                                                "column": 11
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": "stage",
+                                            "raw": "\"stage\""
+                                        },
+                                        "value": "stage"
+                                    },
+                                    "computed": false,
+                                    "shorthand": false,
+                                    "value": {
+                                        "type": "NumericLiteral",
+                                        "start": 1526,
+                                        "end": 1527,
+                                        "loc": {
+                                            "start": {
+                                                "line": 55,
+                                                "column": 13
+                                            },
+                                            "end": {
+                                                "line": 55,
+                                                "column": 14
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": 0,
+                                            "raw": "0"
+                                        },
+                                        "value": 0
+                                    },
+                                    "leadingComments": [
+                                        {
+                                            "type": "CommentBlock",
+                                            "value": "*\n     * Any value that is `0` to `3` will enable the appropriate `@babel/preset-stage-*` preset,\n     * where as any other value will not add any preset's for proposal based plugins.\n     *\n     * @type {Number}\n     * @default 0\n     ",
+                                            "start": 1272,
+                                            "end": 1512,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 48,
+                                                    "column": 4
+                                                },
+                                                "end": {
+                                                    "line": 54,
+                                                    "column": 7
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "ObjectProperty",
+                                    "start": 1670,
+                                    "end": 1687,
+                                    "loc": {
+                                        "start": {
+                                            "line": 60,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 60,
+                                            "column": 21
+                                        }
+                                    },
+                                    "method": false,
+                                    "key": {
+                                        "type": "StringLiteral",
+                                        "start": 1670,
+                                        "end": 1680,
+                                        "loc": {
+                                            "start": {
+                                                "line": 60,
+                                                "column": 4
+                                            },
+                                            "end": {
+                                                "line": 60,
+                                                "column": 14
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": "browsers",
+                                            "raw": "\"browsers\""
+                                        },
+                                        "value": "browsers"
+                                    },
+                                    "computed": false,
+                                    "shorthand": false,
+                                    "value": {
+                                        "type": "BooleanLiteral",
+                                        "start": 1682,
+                                        "end": 1687,
+                                        "loc": {
+                                            "start": {
+                                                "line": 60,
+                                                "column": 16
+                                            },
+                                            "end": {
+                                                "line": 60,
+                                                "column": 21
+                                            }
+                                        },
+                                        "value": false
+                                    },
+                                    "leadingComments": [
+                                        {
+                                            "type": "CommentBlock",
+                                            "value": "********************** @babel/preset-env **********************",
+                                            "start": 1534,
+                                            "end": 1601,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 57,
+                                                    "column": 4
+                                                },
+                                                "end": {
+                                                    "line": 57,
+                                                    "column": 71
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "CommentLine",
+                                            "value": " https://www.npmjs.com/package/@babel/preset-env#options",
+                                            "start": 1606,
+                                            "end": 1664,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 58,
+                                                    "column": 4
+                                                },
+                                                "end": {
+                                                    "line": 58,
+                                                    "column": 62
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "ObjectProperty",
+                                    "start": 1713,
+                                    "end": 1727,
+                                    "loc": {
+                                        "start": {
+                                            "line": 61,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 61,
+                                            "column": 18
+                                        }
+                                    },
+                                    "method": false,
+                                    "key": {
+                                        "type": "StringLiteral",
+                                        "start": 1713,
+                                        "end": 1720,
+                                        "loc": {
+                                            "start": {
+                                                "line": 61,
+                                                "column": 4
+                                            },
+                                            "end": {
+                                                "line": 61,
+                                                "column": 11
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": "debug",
+                                            "raw": "\"debug\""
+                                        },
+                                        "value": "debug"
+                                    },
+                                    "computed": false,
+                                    "shorthand": false,
+                                    "value": {
+                                        "type": "BooleanLiteral",
+                                        "start": 1722,
+                                        "end": 1727,
+                                        "loc": {
+                                            "start": {
+                                                "line": 61,
+                                                "column": 13
+                                            },
+                                            "end": {
+                                                "line": 61,
+                                                "column": 18
+                                            }
+                                        },
+                                        "value": false
+                                    },
+                                    "leadingComments": [
+                                        {
+                                            "type": "CommentLine",
+                                            "value": " targets.browsers",
+                                            "start": 1689,
+                                            "end": 1708,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 60,
+                                                    "column": 23
+                                                },
+                                                "end": {
+                                                    "line": 60,
+                                                    "column": 42
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "ObjectProperty",
+                                    "start": 1733,
+                                    "end": 1746,
+                                    "loc": {
+                                        "start": {
+                                            "line": 62,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 62,
+                                            "column": 17
+                                        }
+                                    },
+                                    "method": false,
+                                    "key": {
+                                        "type": "StringLiteral",
+                                        "start": 1733,
+                                        "end": 1742,
+                                        "loc": {
+                                            "start": {
+                                                "line": 62,
+                                                "column": 4
+                                            },
+                                            "end": {
+                                                "line": 62,
+                                                "column": 13
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": "include",
+                                            "raw": "\"include\""
+                                        },
+                                        "value": "include"
+                                    },
+                                    "computed": false,
+                                    "shorthand": false,
+                                    "value": {
+                                        "type": "ArrayExpression",
+                                        "start": 1744,
+                                        "end": 1746,
+                                        "loc": {
+                                            "start": {
+                                                "line": 62,
+                                                "column": 15
+                                            },
+                                            "end": {
+                                                "line": 62,
+                                                "column": 17
+                                            }
+                                        },
+                                        "elements": []
+                                    }
+                                },
+                                {
+                                    "type": "ObjectProperty",
+                                    "start": 1752,
+                                    "end": 1765,
+                                    "loc": {
+                                        "start": {
+                                            "line": 63,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 63,
+                                            "column": 17
+                                        }
+                                    },
+                                    "method": false,
+                                    "key": {
+                                        "type": "StringLiteral",
+                                        "start": 1752,
+                                        "end": 1761,
+                                        "loc": {
+                                            "start": {
+                                                "line": 63,
+                                                "column": 4
+                                            },
+                                            "end": {
+                                                "line": 63,
+                                                "column": 13
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": "exclude",
+                                            "raw": "\"exclude\""
+                                        },
+                                        "value": "exclude"
+                                    },
+                                    "computed": false,
+                                    "shorthand": false,
+                                    "value": {
+                                        "type": "ArrayExpression",
+                                        "start": 1763,
+                                        "end": 1765,
+                                        "loc": {
+                                            "start": {
+                                                "line": 63,
+                                                "column": 15
+                                            },
+                                            "end": {
+                                                "line": 63,
+                                                "column": 17
+                                            }
+                                        },
+                                        "elements": []
+                                    }
+                                },
+                                {
+                                    "type": "ObjectProperty",
+                                    "start": 1771,
+                                    "end": 1784,
+                                    "loc": {
+                                        "start": {
+                                            "line": 64,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 64,
+                                            "column": 17
+                                        }
+                                    },
+                                    "method": false,
+                                    "key": {
+                                        "type": "StringLiteral",
+                                        "start": 1771,
+                                        "end": 1778,
+                                        "loc": {
+                                            "start": {
+                                                "line": 64,
+                                                "column": 4
+                                            },
+                                            "end": {
+                                                "line": 64,
+                                                "column": 11
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": "loose",
+                                            "raw": "\"loose\""
+                                        },
+                                        "value": "loose"
+                                    },
+                                    "computed": false,
+                                    "shorthand": false,
+                                    "value": {
+                                        "type": "BooleanLiteral",
+                                        "start": 1780,
+                                        "end": 1784,
+                                        "loc": {
+                                            "start": {
+                                                "line": 64,
+                                                "column": 13
+                                            },
+                                            "end": {
+                                                "line": 64,
+                                                "column": 17
+                                            }
+                                        },
+                                        "value": true
+                                    }
+                                },
+                                {
+                                    "type": "ObjectProperty",
+                                    "start": 1790,
+                                    "end": 1811,
+                                    "loc": {
+                                        "start": {
+                                            "line": 65,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 65,
+                                            "column": 25
+                                        }
+                                    },
+                                    "method": false,
+                                    "key": {
+                                        "type": "StringLiteral",
+                                        "start": 1790,
+                                        "end": 1799,
+                                        "loc": {
+                                            "start": {
+                                                "line": 65,
+                                                "column": 4
+                                            },
+                                            "end": {
+                                                "line": 65,
+                                                "column": 13
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": "modules",
+                                            "raw": "\"modules\""
+                                        },
+                                        "value": "modules"
+                                    },
+                                    "computed": false,
+                                    "shorthand": false,
+                                    "value": {
+                                        "type": "StringLiteral",
+                                        "start": 1801,
+                                        "end": 1811,
+                                        "loc": {
+                                            "start": {
+                                                "line": 65,
+                                                "column": 15
+                                            },
+                                            "end": {
+                                                "line": 65,
+                                                "column": 25
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": "commonjs",
+                                            "raw": "\"commonjs\""
+                                        },
+                                        "value": "commonjs"
+                                    }
+                                },
+                                {
+                                    "type": "ObjectProperty",
+                                    "start": 1817,
+                                    "end": 1829,
+                                    "loc": {
+                                        "start": {
+                                            "line": 66,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 66,
+                                            "column": 16
+                                        }
+                                    },
+                                    "method": false,
+                                    "key": {
+                                        "type": "StringLiteral",
+                                        "start": 1817,
+                                        "end": 1823,
+                                        "loc": {
+                                            "start": {
+                                                "line": 66,
+                                                "column": 4
+                                            },
+                                            "end": {
+                                                "line": 66,
+                                                "column": 10
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": "node",
+                                            "raw": "\"node\""
+                                        },
+                                        "value": "node"
+                                    },
+                                    "computed": false,
+                                    "shorthand": false,
+                                    "value": {
+                                        "type": "NullLiteral",
+                                        "start": 1825,
+                                        "end": 1829,
+                                        "loc": {
+                                            "start": {
+                                                "line": 66,
+                                                "column": 12
+                                            },
+                                            "end": {
+                                                "line": 66,
+                                                "column": 16
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ObjectProperty",
+                                    "start": 1851,
+                                    "end": 1864,
+                                    "loc": {
+                                        "start": {
+                                            "line": 67,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 67,
+                                            "column": 17
+                                        }
+                                    },
+                                    "method": false,
+                                    "key": {
+                                        "type": "StringLiteral",
+                                        "start": 1851,
+                                        "end": 1857,
+                                        "loc": {
+                                            "start": {
+                                                "line": 67,
+                                                "column": 4
+                                            },
+                                            "end": {
+                                                "line": 67,
+                                                "column": 10
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": "spec",
+                                            "raw": "\"spec\""
+                                        },
+                                        "value": "spec"
+                                    },
+                                    "computed": false,
+                                    "shorthand": false,
+                                    "value": {
+                                        "type": "BooleanLiteral",
+                                        "start": 1859,
+                                        "end": 1864,
+                                        "loc": {
+                                            "start": {
+                                                "line": 67,
+                                                "column": 12
+                                            },
+                                            "end": {
+                                                "line": 67,
+                                                "column": 17
+                                            }
+                                        },
+                                        "value": false
+                                    },
+                                    "leadingComments": [
+                                        {
+                                            "type": "CommentLine",
+                                            "value": " targets.node",
+                                            "start": 1831,
+                                            "end": 1846,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 66,
+                                                    "column": 18
+                                                },
+                                                "end": {
+                                                    "line": 66,
+                                                    "column": 33
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "ObjectProperty",
+                                    "start": 1870,
+                                    "end": 1892,
+                                    "loc": {
+                                        "start": {
+                                            "line": 68,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 68,
+                                            "column": 26
+                                        }
+                                    },
+                                    "method": false,
+                                    "key": {
+                                        "type": "StringLiteral",
+                                        "start": 1870,
+                                        "end": 1883,
+                                        "loc": {
+                                            "start": {
+                                                "line": 68,
+                                                "column": 4
+                                            },
+                                            "end": {
+                                                "line": 68,
+                                                "column": 17
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": "useBuiltIns",
+                                            "raw": "\"useBuiltIns\""
+                                        },
+                                        "value": "useBuiltIns"
+                                    },
+                                    "computed": false,
+                                    "shorthand": false,
+                                    "value": {
+                                        "type": "StringLiteral",
+                                        "start": 1885,
+                                        "end": 1892,
+                                        "loc": {
+                                            "start": {
+                                                "line": 68,
+                                                "column": 19
+                                            },
+                                            "end": {
+                                                "line": 68,
+                                                "column": 26
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": "usage",
+                                            "raw": "\"usage\""
+                                        },
+                                        "value": "usage"
+                                    }
+                                },
+                                {
+                                    "type": "ObjectProperty",
+                                    "start": 1898,
+                                    "end": 1925,
+                                    "loc": {
+                                        "start": {
+                                            "line": 69,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 69,
+                                            "column": 31
+                                        }
+                                    },
+                                    "method": false,
+                                    "key": {
+                                        "type": "StringLiteral",
+                                        "start": 1898,
+                                        "end": 1918,
+                                        "loc": {
+                                            "start": {
+                                                "line": 69,
+                                                "column": 4
+                                            },
+                                            "end": {
+                                                "line": 69,
+                                                "column": 24
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": "forceAllTransforms",
+                                            "raw": "\"forceAllTransforms\""
+                                        },
+                                        "value": "forceAllTransforms"
+                                    },
+                                    "computed": false,
+                                    "shorthand": false,
+                                    "value": {
+                                        "type": "BooleanLiteral",
+                                        "start": 1920,
+                                        "end": 1925,
+                                        "loc": {
+                                            "start": {
+                                                "line": 69,
+                                                "column": 26
+                                            },
+                                            "end": {
+                                                "line": 69,
+                                                "column": 31
+                                            }
+                                        },
+                                        "value": false
+                                    }
+                                },
+                                {
+                                    "type": "ObjectProperty",
+                                    "start": 1931,
+                                    "end": 1956,
+                                    "loc": {
+                                        "start": {
+                                            "line": 70,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 70,
+                                            "column": 29
+                                        }
+                                    },
+                                    "method": false,
+                                    "key": {
+                                        "type": "StringLiteral",
+                                        "start": 1931,
+                                        "end": 1949,
+                                        "loc": {
+                                            "start": {
+                                                "line": 70,
+                                                "column": 4
+                                            },
+                                            "end": {
+                                                "line": 70,
+                                                "column": 22
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": "shippedProposals",
+                                            "raw": "\"shippedProposals\""
+                                        },
+                                        "value": "shippedProposals"
+                                    },
+                                    "computed": false,
+                                    "shorthand": false,
+                                    "value": {
+                                        "type": "BooleanLiteral",
+                                        "start": 1951,
+                                        "end": 1956,
+                                        "loc": {
+                                            "start": {
+                                                "line": 70,
+                                                "column": 24
+                                            },
+                                            "end": {
+                                                "line": 70,
+                                                "column": 29
+                                            }
+                                        },
+                                        "value": false
+                                    }
+                                },
+                                {
+                                    "type": "ObjectProperty",
+                                    "start": 2121,
+                                    "end": 2132,
+                                    "loc": {
+                                        "start": {
+                                            "line": 75,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 75,
+                                            "column": 15
+                                        }
+                                    },
+                                    "method": false,
+                                    "key": {
+                                        "type": "StringLiteral",
+                                        "start": 2121,
+                                        "end": 2128,
+                                        "loc": {
+                                            "start": {
+                                                "line": 75,
+                                                "column": 4
+                                            },
+                                            "end": {
+                                                "line": 75,
+                                                "column": 11
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": "alias",
+                                            "raw": "\"alias\""
+                                        },
+                                        "value": "alias"
+                                    },
+                                    "computed": false,
+                                    "shorthand": false,
+                                    "value": {
+                                        "type": "ObjectExpression",
+                                        "start": 2130,
+                                        "end": 2132,
+                                        "loc": {
+                                            "start": {
+                                                "line": 75,
+                                                "column": 13
+                                            },
+                                            "end": {
+                                                "line": 75,
+                                                "column": 15
+                                            }
+                                        },
+                                        "properties": []
+                                    },
+                                    "leadingComments": [
+                                        {
+                                            "type": "CommentBlock",
+                                            "value": "********************** babel-plugin-module-resolver **********************",
+                                            "start": 1963,
+                                            "end": 2041,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 72,
+                                                    "column": 4
+                                                },
+                                                "end": {
+                                                    "line": 72,
+                                                    "column": 82
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "CommentLine",
+                                            "value": " https://www.npmjs.com/package/babel-plugin-module-resolver#options",
+                                            "start": 2046,
+                                            "end": 2115,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 73,
+                                                    "column": 4
+                                                },
+                                                "end": {
+                                                    "line": 73,
+                                                    "column": 73
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "ObjectProperty",
+                                    "start": 2138,
+                                    "end": 2158,
+                                    "loc": {
+                                        "start": {
+                                            "line": 76,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 76,
+                                            "column": 24
+                                        }
+                                    },
+                                    "method": false,
+                                    "key": {
+                                        "type": "StringLiteral",
+                                        "start": 2138,
+                                        "end": 2143,
+                                        "loc": {
+                                            "start": {
+                                                "line": 76,
+                                                "column": 4
+                                            },
+                                            "end": {
+                                                "line": 76,
+                                                "column": 9
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": "cwd",
+                                            "raw": "\"cwd\""
+                                        },
+                                        "value": "cwd"
+                                    },
+                                    "computed": false,
+                                    "shorthand": false,
+                                    "value": {
+                                        "type": "StringLiteral",
+                                        "start": 2145,
+                                        "end": 2158,
+                                        "loc": {
+                                            "start": {
+                                                "line": 76,
+                                                "column": 11
+                                            },
+                                            "end": {
+                                                "line": 76,
+                                                "column": 24
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": "packagejson",
+                                            "raw": "\"packagejson\""
+                                        },
+                                        "value": "packagejson"
+                                    }
+                                },
+                                {
+                                    "type": "ObjectProperty",
+                                    "start": 2164,
+                                    "end": 2378,
+                                    "loc": {
+                                        "start": {
+                                            "line": 77,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 89,
+                                            "column": 5
+                                        }
+                                    },
+                                    "method": false,
+                                    "key": {
+                                        "type": "StringLiteral",
+                                        "start": 2164,
+                                        "end": 2176,
+                                        "loc": {
+                                            "start": {
+                                                "line": 77,
+                                                "column": 4
+                                            },
+                                            "end": {
+                                                "line": 77,
+                                                "column": 16
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": "extensions",
+                                            "raw": "\"extensions\""
+                                        },
+                                        "value": "extensions"
+                                    },
+                                    "computed": false,
+                                    "shorthand": false,
+                                    "value": {
+                                        "type": "ArrayExpression",
+                                        "start": 2178,
+                                        "end": 2378,
+                                        "loc": {
+                                            "start": {
+                                                "line": 77,
+                                                "column": 18
+                                            },
+                                            "end": {
+                                                "line": 89,
+                                                "column": 5
+                                            }
+                                        },
+                                        "elements": [
+                                            {
+                                                "type": "StringLiteral",
+                                                "start": 2188,
+                                                "end": 2193,
+                                                "loc": {
+                                                    "start": {
+                                                        "line": 78,
+                                                        "column": 8
+                                                    },
+                                                    "end": {
+                                                        "line": 78,
+                                                        "column": 13
+                                                    }
+                                                },
+                                                "extra": {
+                                                    "rawValue": ".js",
+                                                    "raw": "\".js\""
+                                                },
+                                                "value": ".js"
+                                            },
+                                            {
+                                                "type": "StringLiteral",
+                                                "start": 2203,
+                                                "end": 2209,
+                                                "loc": {
+                                                    "start": {
+                                                        "line": 79,
+                                                        "column": 8
+                                                    },
+                                                    "end": {
+                                                        "line": 79,
+                                                        "column": 14
+                                                    }
+                                                },
+                                                "extra": {
+                                                    "rawValue": ".jsx",
+                                                    "raw": "\".jsx\""
+                                                },
+                                                "value": ".jsx"
+                                            },
+                                            {
+                                                "type": "StringLiteral",
+                                                "start": 2219,
+                                                "end": 2224,
+                                                "loc": {
+                                                    "start": {
+                                                        "line": 80,
+                                                        "column": 8
+                                                    },
+                                                    "end": {
+                                                        "line": 80,
+                                                        "column": 13
+                                                    }
+                                                },
+                                                "extra": {
+                                                    "rawValue": ".es",
+                                                    "raw": "\".es\""
+                                                },
+                                                "value": ".es"
+                                            },
+                                            {
+                                                "type": "StringLiteral",
+                                                "start": 2234,
+                                                "end": 2240,
+                                                "loc": {
+                                                    "start": {
+                                                        "line": 81,
+                                                        "column": 8
+                                                    },
+                                                    "end": {
+                                                        "line": 81,
+                                                        "column": 14
+                                                    }
+                                                },
+                                                "extra": {
+                                                    "rawValue": ".es6",
+                                                    "raw": "\".es6\""
+                                                },
+                                                "value": ".es6"
+                                            },
+                                            {
+                                                "type": "StringLiteral",
+                                                "start": 2250,
+                                                "end": 2256,
+                                                "loc": {
+                                                    "start": {
+                                                        "line": 82,
+                                                        "column": 8
+                                                    },
+                                                    "end": {
+                                                        "line": 82,
+                                                        "column": 14
+                                                    }
+                                                },
+                                                "extra": {
+                                                    "rawValue": ".mjs",
+                                                    "raw": "\".mjs\""
+                                                },
+                                                "value": ".mjs"
+                                            },
+                                            {
+                                                "type": "StringLiteral",
+                                                "start": 2266,
+                                                "end": 2275,
+                                                "loc": {
+                                                    "start": {
+                                                        "line": 83,
+                                                        "column": 8
+                                                    },
+                                                    "end": {
+                                                        "line": 83,
+                                                        "column": 17
+                                                    }
+                                                },
+                                                "extra": {
+                                                    "rawValue": ".ios.js",
+                                                    "raw": "\".ios.js\""
+                                                },
+                                                "value": ".ios.js"
+                                            },
+                                            {
+                                                "type": "StringLiteral",
+                                                "start": 2285,
+                                                "end": 2298,
+                                                "loc": {
+                                                    "start": {
+                                                        "line": 84,
+                                                        "column": 8
+                                                    },
+                                                    "end": {
+                                                        "line": 84,
+                                                        "column": 21
+                                                    }
+                                                },
+                                                "extra": {
+                                                    "rawValue": ".android.js",
+                                                    "raw": "\".android.js\""
+                                                },
+                                                "value": ".android.js"
+                                            },
+                                            {
+                                                "type": "StringLiteral",
+                                                "start": 2308,
+                                                "end": 2313,
+                                                "loc": {
+                                                    "start": {
+                                                        "line": 85,
+                                                        "column": 8
+                                                    },
+                                                    "end": {
+                                                        "line": 85,
+                                                        "column": 13
+                                                    }
+                                                },
+                                                "extra": {
+                                                    "rawValue": ".ts",
+                                                    "raw": "\".ts\""
+                                                },
+                                                "value": ".ts"
+                                            },
+                                            {
+                                                "type": "StringLiteral",
+                                                "start": 2323,
+                                                "end": 2329,
+                                                "loc": {
+                                                    "start": {
+                                                        "line": 86,
+                                                        "column": 8
+                                                    },
+                                                    "end": {
+                                                        "line": 86,
+                                                        "column": 14
+                                                    }
+                                                },
+                                                "extra": {
+                                                    "rawValue": ".tsx",
+                                                    "raw": "\".tsx\""
+                                                },
+                                                "value": ".tsx"
+                                            },
+                                            {
+                                                "type": "StringLiteral",
+                                                "start": 2339,
+                                                "end": 2348,
+                                                "loc": {
+                                                    "start": {
+                                                        "line": 87,
+                                                        "column": 8
+                                                    },
+                                                    "end": {
+                                                        "line": 87,
+                                                        "column": 17
+                                                    }
+                                                },
+                                                "extra": {
+                                                    "rawValue": ".ios.ts",
+                                                    "raw": "\".ios.ts\""
+                                                },
+                                                "value": ".ios.ts"
+                                            },
+                                            {
+                                                "type": "StringLiteral",
+                                                "start": 2358,
+                                                "end": 2371,
+                                                "loc": {
+                                                    "start": {
+                                                        "line": 88,
+                                                        "column": 8
+                                                    },
+                                                    "end": {
+                                                        "line": 88,
+                                                        "column": 21
+                                                    }
+                                                },
+                                                "extra": {
+                                                    "rawValue": ".android.ts",
+                                                    "raw": "\".android.ts\""
+                                                },
+                                                "value": ".android.ts"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "type": "ObjectProperty",
+                                    "start": 2384,
+                                    "end": 2431,
+                                    "loc": {
+                                        "start": {
+                                            "line": 90,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 90,
+                                            "column": 51
+                                        }
+                                    },
+                                    "method": false,
+                                    "key": {
+                                        "type": "StringLiteral",
+                                        "start": 2384,
+                                        "end": 2401,
+                                        "loc": {
+                                            "start": {
+                                                "line": 90,
+                                                "column": 4
+                                            },
+                                            "end": {
+                                                "line": 90,
+                                                "column": 21
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": "stripExtensions",
+                                            "raw": "\"stripExtensions\""
+                                        },
+                                        "value": "stripExtensions"
+                                    },
+                                    "computed": false,
+                                    "shorthand": false,
+                                    "value": {
+                                        "type": "ArrayExpression",
+                                        "start": 2403,
+                                        "end": 2431,
+                                        "loc": {
+                                            "start": {
+                                                "line": 90,
+                                                "column": 23
+                                            },
+                                            "end": {
+                                                "line": 90,
+                                                "column": 51
+                                            }
+                                        },
+                                        "elements": [
+                                            {
+                                                "type": "StringLiteral",
+                                                "start": 2405,
+                                                "end": 2414,
+                                                "loc": {
+                                                    "start": {
+                                                        "line": 90,
+                                                        "column": 25
+                                                    },
+                                                    "end": {
+                                                        "line": 90,
+                                                        "column": 34
+                                                    }
+                                                },
+                                                "extra": {
+                                                    "rawValue": ".ios.js",
+                                                    "raw": "\".ios.js\""
+                                                },
+                                                "value": ".ios.js"
+                                            },
+                                            {
+                                                "type": "StringLiteral",
+                                                "start": 2416,
+                                                "end": 2429,
+                                                "loc": {
+                                                    "start": {
+                                                        "line": 90,
+                                                        "column": 36
+                                                    },
+                                                    "end": {
+                                                        "line": 90,
+                                                        "column": 49
+                                                    }
+                                                },
+                                                "extra": {
+                                                    "rawValue": ".android.js",
+                                                    "raw": "\".android.js\""
+                                                },
+                                                "value": ".android.js"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "type": "ObjectProperty",
+                                    "start": 2437,
+                                    "end": 2456,
+                                    "loc": {
+                                        "start": {
+                                            "line": 91,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 91,
+                                            "column": 23
+                                        }
+                                    },
+                                    "method": false,
+                                    "key": {
+                                        "type": "StringLiteral",
+                                        "start": 2437,
+                                        "end": 2448,
+                                        "loc": {
+                                            "start": {
+                                                "line": 91,
+                                                "column": 4
+                                            },
+                                            "end": {
+                                                "line": 91,
+                                                "column": 15
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": "importers",
+                                            "raw": "\"importers\""
+                                        },
+                                        "value": "importers"
+                                    },
+                                    "computed": false,
+                                    "shorthand": false,
+                                    "value": {
+                                        "type": "UnaryExpression",
+                                        "start": 2450,
+                                        "end": 2456,
+                                        "loc": {
+                                            "start": {
+                                                "line": 91,
+                                                "column": 17
+                                            },
+                                            "end": {
+                                                "line": 91,
+                                                "column": 23
+                                            }
+                                        },
+                                        "operator": "void",
+                                        "prefix": true,
+                                        "argument": {
+                                            "type": "NumericLiteral",
+                                            "start": 2455,
+                                            "end": 2456,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 91,
+                                                    "column": 22
+                                                },
+                                                "end": {
+                                                    "line": 91,
+                                                    "column": 23
+                                                }
+                                            },
+                                            "extra": {
+                                                "rawValue": 0,
+                                                "raw": "0"
+                                            },
+                                            "value": 0
+                                        },
+                                        "extra": {
+                                            "parenthesizedArgument": false
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "ObjectProperty",
+                                    "start": 2484,
+                                    "end": 2502,
+                                    "loc": {
+                                        "start": {
+                                            "line": 92,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 92,
+                                            "column": 22
+                                        }
+                                    },
+                                    "method": false,
+                                    "key": {
+                                        "type": "StringLiteral",
+                                        "start": 2484,
+                                        "end": 2494,
+                                        "loc": {
+                                            "start": {
+                                                "line": 92,
+                                                "column": 4
+                                            },
+                                            "end": {
+                                                "line": 92,
+                                                "column": 14
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": "resolver",
+                                            "raw": "\"resolver\""
+                                        },
+                                        "value": "resolver"
+                                    },
+                                    "computed": false,
+                                    "shorthand": false,
+                                    "value": {
+                                        "type": "UnaryExpression",
+                                        "start": 2496,
+                                        "end": 2502,
+                                        "loc": {
+                                            "start": {
+                                                "line": 92,
+                                                "column": 16
+                                            },
+                                            "end": {
+                                                "line": 92,
+                                                "column": 22
+                                            }
+                                        },
+                                        "operator": "void",
+                                        "prefix": true,
+                                        "argument": {
+                                            "type": "NumericLiteral",
+                                            "start": 2501,
+                                            "end": 2502,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 92,
+                                                    "column": 21
+                                                },
+                                                "end": {
+                                                    "line": 92,
+                                                    "column": 22
+                                                }
+                                            },
+                                            "extra": {
+                                                "rawValue": 0,
+                                                "raw": "0"
+                                            },
+                                            "value": 0
+                                        },
+                                        "extra": {
+                                            "parenthesizedArgument": false
+                                        }
+                                    },
+                                    "leadingComments": [
+                                        {
+                                            "type": "CommentLine",
+                                            "value": " transformFunctions",
+                                            "start": 2458,
+                                            "end": 2479,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 91,
+                                                    "column": 25
+                                                },
+                                                "end": {
+                                                    "line": 91,
+                                                    "column": 46
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "ObjectProperty",
+                                    "start": 2523,
+                                    "end": 2536,
+                                    "loc": {
+                                        "start": {
+                                            "line": 93,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 93,
+                                            "column": 17
+                                        }
+                                    },
+                                    "method": false,
+                                    "key": {
+                                        "type": "StringLiteral",
+                                        "start": 2523,
+                                        "end": 2529,
+                                        "loc": {
+                                            "start": {
+                                                "line": 93,
+                                                "column": 4
+                                            },
+                                            "end": {
+                                                "line": 93,
+                                                "column": 10
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": "root",
+                                            "raw": "\"root\""
+                                        },
+                                        "value": "root"
+                                    },
+                                    "computed": false,
+                                    "shorthand": false,
+                                    "value": {
+                                        "type": "StringLiteral",
+                                        "start": 2531,
+                                        "end": 2536,
+                                        "loc": {
+                                            "start": {
+                                                "line": 93,
+                                                "column": 12
+                                            },
+                                            "end": {
+                                                "line": 93,
+                                                "column": 17
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": "src",
+                                            "raw": "\"src\""
+                                        },
+                                        "value": "src"
+                                    },
+                                    "leadingComments": [
+                                        {
+                                            "type": "CommentLine",
+                                            "value": " resolvePath",
+                                            "start": 2504,
+                                            "end": 2518,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 92,
+                                                    "column": 24
+                                                },
+                                                "end": {
+                                                    "line": 92,
+                                                    "column": 38
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "ObjectProperty",
+                                    "start": 3039,
+                                    "end": 3068,
+                                    "loc": {
+                                        "start": {
+                                            "line": 107,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 107,
+                                            "column": 33
+                                        }
+                                    },
+                                    "method": false,
+                                    "key": {
+                                        "type": "StringLiteral",
+                                        "start": 3039,
+                                        "end": 3046,
+                                        "loc": {
+                                            "start": {
+                                                "line": 107,
+                                                "column": 4
+                                            },
+                                            "end": {
+                                                "line": 107,
+                                                "column": 11
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": "async",
+                                            "raw": "\"async\""
+                                        },
+                                        "value": "async"
+                                    },
+                                    "computed": false,
+                                    "shorthand": false,
+                                    "value": {
+                                        "type": "StringLiteral",
+                                        "start": 3048,
+                                        "end": 3068,
+                                        "loc": {
+                                            "start": {
+                                                "line": 107,
+                                                "column": 13
+                                            },
+                                            "end": {
+                                                "line": 107,
+                                                "column": 33
+                                            }
+                                        },
+                                        "extra": {
+                                            "rawValue": "bluebird.coroutine",
+                                            "raw": "\"bluebird.coroutine\""
+                                        },
+                                        "value": "bluebird.coroutine"
+                                    },
+                                    "leadingComments": [
+                                        {
+                                            "type": "CommentBlock",
+                                            "value": "********************** @babel/plugin-transform-async-to-generator **********************",
+                                            "start": 2543,
+                                            "end": 2635,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 95,
+                                                    "column": 4
+                                                },
+                                                "end": {
+                                                    "line": 95,
+                                                    "column": 96
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "CommentLine",
+                                            "value": " https://www.npmjs.com/package/@babel/plugin-transform-async-to-generator#usage",
+                                            "start": 2640,
+                                            "end": 2721,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 96,
+                                                    "column": 4
+                                                },
+                                                "end": {
+                                                    "line": 96,
+                                                    "column": 85
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "CommentBlock",
+                                            "value": "*\n     * These values enable the plugin `@babel/plugin-transform-async-to-generator` and:\n     * \n     * 1. On `true` will not pass any options.\n     * 2. On a object, will overwrite my configuration based on the object.\n     *\n     * @type {Boolean|String|{}}\n     * @default \"bluebird.coroutine\"\n     ",
+                                            "start": 2727,
+                                            "end": 3034,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 98,
+                                                    "column": 4
+                                                },
+                                                "end": {
+                                                    "line": 106,
+                                                    "column": 7
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "kind": "const",
+                "leadingComments": [
+                    {
+                        "type": "CommentBlock",
+                        "value": " eslint spaced-comment: 0",
+                        "start": 15,
+                        "end": 44,
+                        "loc": {
+                            "start": {
+                                "line": 3,
+                                "column": 0
+                            },
+                            "end": {
+                                "line": 3,
+                                "column": 29
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "ExpressionStatement",
+                "start": 3075,
+                "end": 3107,
+                "loc": {
+                    "start": {
+                        "line": 111,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 111,
+                        "column": 32
+                    }
+                },
+                "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 3075,
+                    "end": 3106,
+                    "loc": {
+                        "start": {
+                            "line": 111,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 111,
+                            "column": 31
+                        }
+                    },
+                    "operator": "=",
+                    "left": {
+                        "type": "MemberExpression",
+                        "start": 3075,
+                        "end": 3089,
+                        "loc": {
+                            "start": {
+                                "line": 111,
+                                "column": 0
+                            },
+                            "end": {
+                                "line": 111,
+                                "column": 14
+                            }
+                        },
+                        "object": {
+                            "type": "Identifier",
+                            "start": 3075,
+                            "end": 3081,
+                            "loc": {
+                                "start": {
+                                    "line": 111,
+                                    "column": 0
+                                },
+                                "end": {
+                                    "line": 111,
+                                    "column": 6
+                                },
+                                "identifierName": "module"
+                            },
+                            "name": "module"
+                        },
+                        "property": {
+                            "type": "Identifier",
+                            "start": 3082,
+                            "end": 3089,
+                            "loc": {
+                                "start": {
+                                    "line": 111,
+                                    "column": 7
+                                },
+                                "end": {
+                                    "line": 111,
+                                    "column": 14
+                                },
+                                "identifierName": "exports"
+                            },
+                            "name": "exports"
+                        },
+                        "computed": false
+                    },
+                    "right": {
+                        "type": "Identifier",
+                        "start": 3092,
+                        "end": 3106,
+                        "loc": {
+                            "start": {
+                                "line": 111,
+                                "column": 17
+                            },
+                            "end": {
+                                "line": 111,
+                                "column": 31
+                            },
+                            "identifierName": "DefaultOptions"
+                        },
+                        "name": "DefaultOptions"
+                    }
+                }
+            }
+        ],
+        "directives": [
+            {
+                "type": "Directive",
+                "start": 0,
+                "end": 13,
+                "loc": {
+                    "start": {
+                        "line": 1,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 1,
+                        "column": 13
+                    }
+                },
+                "value": {
+                    "type": "DirectiveLiteral",
+                    "start": 0,
+                    "end": 12,
+                    "loc": {
+                        "start": {
+                            "line": 1,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 12
+                        }
+                    },
+                    "value": "use strict",
+                    "extra": {
+                        "raw": "\"use strict\"",
+                        "rawValue": "use strict"
+                    }
+                },
+                "trailingComments": [
+                    {
+                        "type": "CommentBlock",
+                        "value": " eslint spaced-comment: 0",
+                        "start": 15,
+                        "end": 44,
+                        "loc": {
+                            "start": {
+                                "line": 3,
+                                "column": 0
+                            },
+                            "end": {
+                                "line": 3,
+                                "column": 29
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "comments": [
+        {
+            "type": "CommentBlock",
+            "value": " eslint spaced-comment: 0",
+            "start": 15,
+            "end": 44,
+            "loc": {
+                "start": {
+                    "line": 3,
+                    "column": 0
+                },
+                "end": {
+                    "line": 3,
+                    "column": 29
+                }
+            }
+        },
+        {
+            "type": "CommentBlock",
+            "value": "********************** babel-preset-futagozaryuu **********************",
+            "start": 76,
+            "end": 151,
+            "loc": {
+                "start": {
+                    "line": 7,
+                    "column": 4
+                },
+                "end": {
+                    "line": 7,
+                    "column": 79
+                }
+            }
+        },
+        {
+            "type": "CommentBlock",
+            "value": "*\n     * If true, will not use `babel-plugin-module-resolver`.\n     *\n     * @type {Boolean}\n     * @default false\n     ",
+            "start": 157,
+            "end": 281,
+            "loc": {
+                "start": {
+                    "line": 9,
+                    "column": 4
+                },
+                "end": {
+                    "line": 14,
+                    "column": 7
+                }
+            }
+        },
+        {
+            "type": "CommentBlock",
+            "value": "*\n     * If true, will use the method `babelrc.shouldPrintComment` to ignore eslint comments.\n     *\n     * @type {Boolean}\n     * @default true\n     ",
+            "start": 317,
+            "end": 471,
+            "loc": {
+                "start": {
+                    "line": 17,
+                    "column": 4
+                },
+                "end": {
+                    "line": 22,
+                    "column": 7
+                }
+            }
+        },
+        {
+            "type": "CommentBlock",
+            "value": "*\n     * By default this preset will exclude `@babel/transform-regenerator`, but if this\n     * option is enabled, it will not perform the exclusion.\n     * \n     * _NOTE:_ This does not mean that `@babel/transform-regenerator` will be included.\n     * \n     * @type {Boolean}\n     * @default false\n     ",
+            "start": 511,
+            "end": 819,
+            "loc": {
+                "start": {
+                    "line": 25,
+                    "column": 4
+                },
+                "end": {
+                    "line": 33,
+                    "column": 7
+                }
+            }
+        },
+        {
+            "type": "CommentBlock",
+            "value": "*\n     * These values will enable the plugin `@babel/transform-runtime` and:\n     * \n     * 1. On `true` set the configuration I usually use with this plugin.\n     * 2. On a string, will also set the module name of the runtime that will be used.\n     * 3. On a object, will overwrite my configuration based on the object.\n     *\n     * @type {Boolean|String|{}}\n     * @default false\n     ",
+            "start": 851,
+            "end": 1244,
+            "loc": {
+                "start": {
+                    "line": 36,
+                    "column": 4
+                },
+                "end": {
+                    "line": 45,
+                    "column": 7
+                }
+            }
+        },
+        {
+            "type": "CommentBlock",
+            "value": "*\n     * Any value that is `0` to `3` will enable the appropriate `@babel/preset-stage-*` preset,\n     * where as any other value will not add any preset's for proposal based plugins.\n     *\n     * @type {Number}\n     * @default 0\n     ",
+            "start": 1272,
+            "end": 1512,
+            "loc": {
+                "start": {
+                    "line": 48,
+                    "column": 4
+                },
+                "end": {
+                    "line": 54,
+                    "column": 7
+                }
+            }
+        },
+        {
+            "type": "CommentBlock",
+            "value": "********************** @babel/preset-env **********************",
+            "start": 1534,
+            "end": 1601,
+            "loc": {
+                "start": {
+                    "line": 57,
+                    "column": 4
+                },
+                "end": {
+                    "line": 57,
+                    "column": 71
+                }
+            }
+        },
+        {
+            "type": "CommentLine",
+            "value": " https://www.npmjs.com/package/@babel/preset-env#options",
+            "start": 1606,
+            "end": 1664,
+            "loc": {
+                "start": {
+                    "line": 58,
+                    "column": 4
+                },
+                "end": {
+                    "line": 58,
+                    "column": 62
+                }
+            }
+        },
+        {
+            "type": "CommentLine",
+            "value": " targets.browsers",
+            "start": 1689,
+            "end": 1708,
+            "loc": {
+                "start": {
+                    "line": 60,
+                    "column": 23
+                },
+                "end": {
+                    "line": 60,
+                    "column": 42
+                }
+            }
+        },
+        {
+            "type": "CommentLine",
+            "value": " targets.node",
+            "start": 1831,
+            "end": 1846,
+            "loc": {
+                "start": {
+                    "line": 66,
+                    "column": 18
+                },
+                "end": {
+                    "line": 66,
+                    "column": 33
+                }
+            }
+        },
+        {
+            "type": "CommentBlock",
+            "value": "********************** babel-plugin-module-resolver **********************",
+            "start": 1963,
+            "end": 2041,
+            "loc": {
+                "start": {
+                    "line": 72,
+                    "column": 4
+                },
+                "end": {
+                    "line": 72,
+                    "column": 82
+                }
+            }
+        },
+        {
+            "type": "CommentLine",
+            "value": " https://www.npmjs.com/package/babel-plugin-module-resolver#options",
+            "start": 2046,
+            "end": 2115,
+            "loc": {
+                "start": {
+                    "line": 73,
+                    "column": 4
+                },
+                "end": {
+                    "line": 73,
+                    "column": 73
+                }
+            }
+        },
+        {
+            "type": "CommentLine",
+            "value": " transformFunctions",
+            "start": 2458,
+            "end": 2479,
+            "loc": {
+                "start": {
+                    "line": 91,
+                    "column": 25
+                },
+                "end": {
+                    "line": 91,
+                    "column": 46
+                }
+            }
+        },
+        {
+            "type": "CommentLine",
+            "value": " resolvePath",
+            "start": 2504,
+            "end": 2518,
+            "loc": {
+                "start": {
+                    "line": 92,
+                    "column": 24
+                },
+                "end": {
+                    "line": 92,
+                    "column": 38
+                }
+            }
+        },
+        {
+            "type": "CommentBlock",
+            "value": "********************** @babel/plugin-transform-async-to-generator **********************",
+            "start": 2543,
+            "end": 2635,
+            "loc": {
+                "start": {
+                    "line": 95,
+                    "column": 4
+                },
+                "end": {
+                    "line": 95,
+                    "column": 96
+                }
+            }
+        },
+        {
+            "type": "CommentLine",
+            "value": " https://www.npmjs.com/package/@babel/plugin-transform-async-to-generator#usage",
+            "start": 2640,
+            "end": 2721,
+            "loc": {
+                "start": {
+                    "line": 96,
+                    "column": 4
+                },
+                "end": {
+                    "line": 96,
+                    "column": 85
+                }
+            }
+        },
+        {
+            "type": "CommentBlock",
+            "value": "*\n     * These values enable the plugin `@babel/plugin-transform-async-to-generator` and:\n     * \n     * 1. On `true` will not pass any options.\n     * 2. On a object, will overwrite my configuration based on the object.\n     *\n     * @type {Boolean|String|{}}\n     * @default \"bluebird.coroutine\"\n     ",
+            "start": 2727,
+            "end": 3034,
+            "loc": {
+                "start": {
+                    "line": 98,
+                    "column": 4
+                },
+                "end": {
+                    "line": 106,
+                    "column": 7
+                }
+            }
+        }
+    ]
+}

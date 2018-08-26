@@ -3,7 +3,7 @@
 const mkdirp = require( "mkdirp" );
 const minimist = require( "minimist" );
 const babel = require( "@babel/cli/lib/babel/dir" ).default;
-const preset = require( "../lib/preset" );
+const preset = require( "./preset" );
 
 const args = minimist( process.argv.slice( 2 ) );
 const program = {
@@ -29,4 +29,4 @@ const options = preset.use( null, args );
 options.sourceMaps = program.sourceMaps;
 
 mkdirp.sync( program.outDir );
-babel( program, [ "src" ], options );
+babel( program, [ "lib" ], options );

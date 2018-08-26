@@ -3,7 +3,7 @@
 const fs = require( "fs" );
 const path = require( "path" );
 const minimist = require( "minimist" );
-const preset = require( "../lib/preset" );
+const preset = require( "./preset" );
 
 const target = path.join( __dirname, "configurations" );
 function save( name, preset ) {
