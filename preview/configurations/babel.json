@@ -112,6 +112,11 @@
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
+                "ExportDefaultDeclaration": {
+                    "enter": [
+                        null
+                    ]
+                },
                 "ClassDeclaration": {
                     "enter": [
                         null
@@ -214,6 +219,11 @@
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
+                "PrivateName": {
+                    "enter": [
+                        null
+                    ]
+                },
                 "ClassDeclaration": {
                     "enter": [
                         null
@@ -731,7 +741,8 @@
     "envName": "production",
     "babelrc": false,
     "configFile": false,
-    "cwd": "c:\\projects\\babel-preset-futagozaryuu",
     "passPerPreset": false,
+    "cwd": "c:\\projects\\babel-preset-futagozaryuu",
+    "root": "c:\\projects\\babel-preset-futagozaryuu",
     "presets": []
 }
