@@ -85,7 +85,7 @@ function buildOptions(config = {}) {
     config.node = engines && engines.node ? majorSemver(String(engines.node)) : "current";
   }
 
-  if (typeof config.node === "string" && config.node !== "current") config.node = config.node.includes(".") ? parseFloat(config.node) : parseInt(config.node, 10);
+  if (typeof config.node === "string" && !config.node.includes("current")) config.node = config.node.includes(".") ? parseFloat(config.node) : parseInt(config.node, 10);
 
   for (var _iterator = EnvTargets, _isArray = Array.isArray(_iterator), _i = 0, _iterator = _isArray ? _iterator : _iterator[Symbol.iterator]();;) {
     var _ref;

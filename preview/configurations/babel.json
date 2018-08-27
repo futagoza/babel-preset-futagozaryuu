@@ -652,6 +652,45 @@
             }
         },
         {
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$10",
+            "visitor": {
+                "_exploded": {},
+                "_verified": {},
+                "DirectiveLiteral": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "StringLiteral": {
+                    "enter": [
+                        null
+                    ]
+                }
+            },
+            "options": {
+                "spec": false,
+                "loose": true,
+                "useBuiltIns": true
+            }
+        },
+        {
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$11",
+            "visitor": {
+                "_exploded": {},
+                "_verified": {},
+                "CatchClause": {
+                    "enter": [
+                        null
+                    ]
+                }
+            },
+            "options": {
+                "spec": false,
+                "loose": true,
+                "useBuiltIns": true
+            }
+        },
+        {
             "key": "use-built-ins",
             "visitor": {
                 "ImportDeclaration": {
