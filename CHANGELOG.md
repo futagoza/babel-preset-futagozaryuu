@@ -1,3 +1,12 @@
+<a name="3.0.0"></a>
+## [v3.0.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v3.0.0-alpha.1...v3.0.0) (2018-08-28)
+
+* Updated `@babel/*` dependencies to `7.0.0`
+* Updated `README.md`; Updated blurb about the Babel version used
+* Updated `README.md`; Use yellow badge for `CHANGELOG.md`
+* Updated `README.md`; Updated link to `babel-preset-futagozaryuu/lib/config/default-options.js`
+* Updated `README.md`; Added note to blurb about proposal plugins
+
 <a name="3.0.0-alpha.1"></a>
 ## [v3.0.0-alpha.1](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v3.0.0-alpha.0...v3.0.0-alpha.1) (2018-08-27)
 
