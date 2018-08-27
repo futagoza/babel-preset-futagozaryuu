@@ -1,32 +1,28 @@
 "use strict";
 
-const mkdirp = require( "mkdirp" );
-const minimist = require( "minimist" );
-const babel = require( "@babel/cli/lib/babel/dir" ).default;
-const preset = require( "./preset" );
+/*
 
-const args = minimist( process.argv.slice( 2 ) );
-const program = {
+    WARNING
 
-    babelrc: false,
-    outDir: "preview/result",
+    As of Babel v7-beta.50 this file is not working, but is kept for my own refrence to the API.
 
-};
+*/
 
-program.copyFiles = args.D || args.copyFiles;
-delete args.D;
-delete args.copyFiles;
+const compileDir = require( "@babel/cli/lib/babel/dir" ).default;
+const parseArgv = require( "@babel/cli/lib/babel/options" ).default;
+const { join } = require( "path" );
 
-program.extensions = args.x || args.extensions;
-delete args.x;
-delete args.extensions;
+const args = process.argv.slice( 2 );
 
-program.sourceMaps = args.s || args.sourceMaps;
-delete args.s;
-delete args.sourceMaps;
+args.push( "--no-babelrc" );
+args.push( "--presets " + join( __dirname, "..", "lib", "use.js" ) );
+args.push( "-d " + join( __dirname, "result" ) );
+args.push( "lib" );
 
-const options = preset.use( null, args );
-options.sourceMaps = program.sourceMaps;
+compileDir( parseArgv( args ) )
+    .catch( err => {
 
-mkdirp.sync( program.outDir );
-babel( program, [ "lib" ], options );
+        console.error( err );
+        process.exit( 1 );
+
+    } );
