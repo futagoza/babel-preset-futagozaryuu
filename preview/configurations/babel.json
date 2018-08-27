@@ -730,6 +730,7 @@
     ],
     "envName": "production",
     "babelrc": false,
+    "configFile": false,
     "cwd": "c:\\projects\\babel-preset-futagozaryuu",
     "passPerPreset": false,
     "presets": []
