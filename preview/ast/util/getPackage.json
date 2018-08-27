@@ -402,9 +402,6 @@
                                                 "identifierName": "cwd"
                                             },
                                             "name": "cwd"
-                                        },
-                                        "extra": {
-                                            "parenthesizedArgument": false
                                         }
                                     },
                                     "operator": "||",

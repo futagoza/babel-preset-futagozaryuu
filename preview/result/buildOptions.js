@@ -1,10 +1,10 @@
 "use strict";
 
-var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+require("core-js/modules/es7.symbol.async-iterator");
 
-var _getIterator2 = _interopRequireDefault(require("@babel/runtime/core-js/get-iterator"));
+require("core-js/modules/es6.symbol");
 
-var _assign = _interopRequireDefault(require("@babel/runtime/core-js/object/assign"));
+require("core-js/modules/web.dom.iterable");
 
 const DefaultOptions = require("./config/default-options");
 
@@ -25,7 +25,7 @@ const majorSemver = require("./util/majorSemver");
 
 
 function buildOptions(config = {}) {
-  config = (0, _assign.default)({}, DefaultOptions, config);
+  config = Object.assign({}, DefaultOptions, config);
   let asyncOptions, resolverOptions, runtimeOptions;
   if (typeof config.stage !== "number") config.stage = -1;
   const envOptions = {
@@ -78,7 +78,7 @@ function buildOptions(config = {}) {
       "useBuiltIns": false,
       "useESModules": false
     };
-    if (typeof config.runtime === "object") (0, _assign.default)(runtimeOptions, config.runtime);
+    if (typeof config.runtime === "object") Object.assign(runtimeOptions, config.runtime);
   }
 
   if (!config.node && config.node !== false) {
@@ -88,7 +88,7 @@ function buildOptions(config = {}) {
 
   if (typeof config.node === "string" && config.node !== "current") config.node = config.node.includes(".") ? parseFloat(config.node) : parseInt(config.node, 10);
 
-  for (var _iterator = EnvTargets, _isArray = Array.isArray(_iterator), _i = 0, _iterator = _isArray ? _iterator : (0, _getIterator2.default)(_iterator);;) {
+  for (var _iterator = EnvTargets, _isArray = Array.isArray(_iterator), _i = 0, _iterator = _isArray ? _iterator : _iterator[Symbol.iterator]();;) {
     var _ref;
 
     if (_isArray) {

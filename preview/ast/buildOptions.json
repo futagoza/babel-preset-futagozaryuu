@@ -1144,9 +1144,6 @@
                                             "name": "stage"
                                         },
                                         "computed": false
-                                    },
-                                    "extra": {
-                                        "parenthesizedArgument": false
                                     }
                                 },
                                 "operator": "!==",
@@ -1285,9 +1282,6 @@
                                                 "raw": "1"
                                             },
                                             "value": 1
-                                        },
-                                        "extra": {
-                                            "parenthesizedArgument": false
                                         }
                                     }
                                 }
@@ -1473,13 +1467,7 @@
                                                                 "name": "debug"
                                                             },
                                                             "computed": false
-                                                        },
-                                                        "extra": {
-                                                            "parenthesizedArgument": false
                                                         }
-                                                    },
-                                                    "extra": {
-                                                        "parenthesizedArgument": false
                                                     }
                                                 }
                                             },
@@ -1845,13 +1833,7 @@
                                                                 "name": "loose"
                                                             },
                                                             "computed": false
-                                                        },
-                                                        "extra": {
-                                                            "parenthesizedArgument": false
                                                         }
-                                                    },
-                                                    "extra": {
-                                                        "parenthesizedArgument": false
                                                     }
                                                 }
                                             },
@@ -2061,13 +2043,7 @@
                                                                 "name": "spec"
                                                             },
                                                             "computed": false
-                                                        },
-                                                        "extra": {
-                                                            "parenthesizedArgument": false
                                                         }
-                                                    },
-                                                    "extra": {
-                                                        "parenthesizedArgument": false
                                                     }
                                                 }
                                             },
@@ -2331,13 +2307,7 @@
                                                                 "name": "forceAllTransforms"
                                                             },
                                                             "computed": false
-                                                        },
-                                                        "extra": {
-                                                            "parenthesizedArgument": false
                                                         }
-                                                    },
-                                                    "extra": {
-                                                        "parenthesizedArgument": false
                                                     }
                                                 }
                                             },
@@ -2459,13 +2429,7 @@
                                                                 "name": "shippedProposals"
                                                             },
                                                             "computed": false
-                                                        },
-                                                        "extra": {
-                                                            "parenthesizedArgument": false
                                                         }
-                                                    },
-                                                    "extra": {
-                                                        "parenthesizedArgument": false
                                                     }
                                                 }
                                             }
@@ -2554,9 +2518,6 @@
                                         "name": "disableResolver"
                                     },
                                     "computed": false
-                                },
-                                "extra": {
-                                    "parenthesizedArgument": false
                                 }
                             },
                             "consequent": {
@@ -3837,9 +3798,6 @@
                                         "name": "regenerator"
                                     },
                                     "computed": false
-                                },
-                                "extra": {
-                                    "parenthesizedArgument": false
                                 }
                             },
                             "consequent": {
@@ -4512,9 +4470,6 @@
                                                         "raw": "1"
                                                     },
                                                     "value": 1
-                                                },
-                                                "extra": {
-                                                    "parenthesizedArgument": false
                                                 }
                                             }
                                         },
@@ -4732,9 +4687,6 @@
                                                         "identifierName": "configAsync"
                                                     },
                                                     "name": "configAsync"
-                                                },
-                                                "extra": {
-                                                    "parenthesizedArgument": false
                                                 }
                                             },
                                             "operator": "===",
@@ -5390,9 +5342,6 @@
                                                                                     "raw": "0"
                                                                                 },
                                                                                 "value": 0
-                                                                            },
-                                                                            "extra": {
-                                                                                "parenthesizedArgument": false
                                                                             }
                                                                         }
                                                                     }
@@ -5464,9 +5413,6 @@
                                                             "identifierName": "configAsync"
                                                         },
                                                         "name": "configAsync"
-                                                    },
-                                                    "extra": {
-                                                        "parenthesizedArgument": false
                                                     }
                                                 },
                                                 "operator": "===",
@@ -5861,9 +5807,6 @@
                                                     "name": "runtime"
                                                 },
                                                 "computed": false
-                                            },
-                                            "extra": {
-                                                "parenthesizedArgument": false
                                             }
                                         },
                                         "operator": "===",
@@ -5968,9 +5911,6 @@
                                                     "name": "runtime"
                                                 },
                                                 "computed": false
-                                            },
-                                            "extra": {
-                                                "parenthesizedArgument": false
                                             }
                                         },
                                         "operator": "===",
@@ -6448,9 +6388,6 @@
                                                                             "name": "runtime"
                                                                         },
                                                                         "computed": false
-                                                                    },
-                                                                    "extra": {
-                                                                        "parenthesizedArgument": false
                                                                     }
                                                                 },
                                                                 "operator": "===",
@@ -6560,9 +6497,6 @@
                                                                         "raw": "0"
                                                                     },
                                                                     "value": 0
-                                                                },
-                                                                "extra": {
-                                                                    "parenthesizedArgument": false
                                                                 }
                                                             }
                                                         }
@@ -6772,9 +6706,6 @@
                                                         "name": "runtime"
                                                     },
                                                     "computed": false
-                                                },
-                                                "extra": {
-                                                    "parenthesizedArgument": false
                                                 }
                                             },
                                             "operator": "===",
@@ -7048,9 +6979,6 @@
                                             "name": "node"
                                         },
                                         "computed": false
-                                    },
-                                    "extra": {
-                                        "parenthesizedArgument": false
                                     }
                                 },
                                 "operator": "&&",
@@ -7814,9 +7742,6 @@
                                                 "name": "node"
                                             },
                                             "computed": false
-                                        },
-                                        "extra": {
-                                            "parenthesizedArgument": false
                                         }
                                     },
                                     "operator": "===",
@@ -8546,9 +8471,6 @@
                                                         "name": "target"
                                                     }
                                                 ]
-                                            },
-                                            "extra": {
-                                                "parenthesizedArgument": false
                                             }
                                         },
                                         "consequent": {

@@ -34,7 +34,8 @@ function use(context, _config) {
     plugins.push([resolve("@babel/plugin-transform-async-to-generator"), options.async]);
   if (options.runtime) plugins.push([resolve("@babel/plugin-transform-runtime"), options.runtime]);
   return {
-    "envName": "production",
+    // This option is casuing a root/probmatic error from @babel/cli v7-beta.51
+    // "envName": "production",
 
     /**
      * Used by Babel to determine if the comment should remain.

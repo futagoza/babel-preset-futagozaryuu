@@ -1,5 +1,4 @@
 {
-    "envName": "production",
     "plugins": [
         "@babel/plugin-proposal-function-bind",
         "@babel/plugin-proposal-export-default-from",

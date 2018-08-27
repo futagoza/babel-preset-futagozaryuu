@@ -431,6 +431,23 @@
         {
             "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$3",
             "visitor": {
+                "RegExpLiteral": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "_exploded": true,
+                "_verified": true
+            },
+            "options": {
+                "spec": false,
+                "loose": true,
+                "useBuiltIns": true
+            }
+        },
+        {
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$4",
+            "visitor": {
                 "ExportNamedDeclaration": {
                     "enter": [
                         null
@@ -471,7 +488,7 @@
             }
         },
         {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$4",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$5",
             "visitor": {
                 "AssignmentExpression": {
                     "enter": [
@@ -493,7 +510,7 @@
             }
         },
         {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$5",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$6",
             "visitor": {
                 "_exploded": true,
                 "_verified": true,
@@ -530,7 +547,7 @@
             }
         },
         {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$6",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$7",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
@@ -547,7 +564,7 @@
             }
         },
         {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$7",
+            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$8",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
@@ -611,23 +628,6 @@
                         null
                     ]
                 }
-            },
-            "options": {
-                "spec": false,
-                "loose": true,
-                "useBuiltIns": true
-            }
-        },
-        {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$8",
-            "visitor": {
-                "RegExpLiteral": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "_exploded": true,
-                "_verified": true
             },
             "options": {
                 "spec": false,
@@ -738,10 +738,10 @@
             }
         }
     ],
-    "envName": "production",
     "babelrc": false,
     "configFile": false,
     "passPerPreset": false,
+    "envName": "development",
     "cwd": "c:\\projects\\babel-preset-futagozaryuu",
     "root": "c:\\projects\\babel-preset-futagozaryuu",
     "presets": []

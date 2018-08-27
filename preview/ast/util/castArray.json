@@ -291,9 +291,6 @@
                                             "identifierName": "value"
                                         },
                                         "name": "value"
-                                    },
-                                    "extra": {
-                                        "parenthesizedArgument": false
                                     }
                                 },
                                 "operator": "===",

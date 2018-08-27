@@ -1729,9 +1729,6 @@
                                                 "raw": "0"
                                             },
                                             "value": 0
-                                        },
-                                        "extra": {
-                                            "parenthesizedArgument": false
                                         }
                                     }
                                 },
@@ -1807,9 +1804,6 @@
                                                 "raw": "0"
                                             },
                                             "value": 0
-                                        },
-                                        "extra": {
-                                            "parenthesizedArgument": false
                                         }
                                     },
                                     "leadingComments": [

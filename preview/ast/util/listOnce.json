@@ -226,9 +226,6 @@
                                             "name": "value"
                                         }
                                     ]
-                                },
-                                "extra": {
-                                    "parenthesizedArgument": false
                                 }
                             },
                             "consequent": {
