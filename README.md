@@ -32,7 +32,7 @@ $ babel src --out-dir lib --presets futagozaryuu
 
 ## configuration
 
-You can see the complete list of options in [babel-preset-futagozaryuu/src/defaultOptions.js](https://github.com/futagoza/babel-preset-futagozaryuu/blob/master/src/defaultOptions.js).
+You can see the complete list of options in [babel-preset-futagozaryuu/lib/config/default-options.js](https://github.com/futagoza/babel-preset-futagozaryuu/blob/master/lib/config/default-options.js).
 
 ```js
 {
