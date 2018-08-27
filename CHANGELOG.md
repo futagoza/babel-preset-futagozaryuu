@@ -1,3 +1,10 @@
+<a name="3.0.0-alpha.1"></a>
+## [v3.0.0-alpha.1](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v3.0.0-alpha.0...v3.0.0-alpha.1) (2018-08-27)
+
+* Updated `@babel/*` dependencies to `7.0.0-beta.56`
+* DEV: The script `preview-result` now runs the babel-cli (Local script has a N/A warning)
+* DEV: Adjust `preview-ast` script to generate files in their respective directories
+
 <a name="3.0.0-alpha.0"></a>
 ## [v3.0.0-alpha.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.19.0...v3.0.0-alpha.0) (2018-08-26)
 
