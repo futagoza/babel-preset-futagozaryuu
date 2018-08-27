@@ -6,7 +6,8 @@
 
 This is a Babel preset of other presets and plugins that I most commonly use.
 
-> From _v2.12_, the preset is using the `@babel/*` dependencies for Babel 7+
+> - From _v2.12_, this preset is using the `@babel/*` dependencies for Babel 7+
+> - From _v3_ this preset is using the proposal plugins directly as Babel 7 dropped the stage presets
 
 ## installation
 
