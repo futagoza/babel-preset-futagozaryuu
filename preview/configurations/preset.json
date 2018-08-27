@@ -78,10 +78,9 @@
         [
             "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\plugin-transform-runtime\\lib\\index.js",
             {
+                "corejs": false,
                 "helpers": true,
-                "polyfill": true,
                 "regenerator": true,
-                "useBuiltIns": false,
                 "useESModules": false
             }
         ]

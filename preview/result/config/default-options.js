@@ -34,10 +34,9 @@ const DefaultOptions = {
    * These values will enable the plugin `@babel/transform-runtime` and:
    * 
    * 1. On `true` set the configuration I usually use with this plugin.
-   * 2. On a string, will also set the module name of the runtime that will be used.
-   * 3. On a object, will overwrite my configuration based on the object.
+   * 2. On a object, will overwrite my configuration based on the object.
    *
-   * @type {Boolean|String|{}}
+   * @type {Boolean|{}}
    * @default false
    */
   "runtime": false,

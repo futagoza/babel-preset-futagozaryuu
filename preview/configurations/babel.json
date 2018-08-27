@@ -367,10 +367,9 @@
                 }
             },
             "options": {
+                "corejs": false,
                 "helpers": true,
-                "polyfill": true,
                 "regenerator": true,
-                "useBuiltIns": false,
                 "useESModules": false
             }
         },

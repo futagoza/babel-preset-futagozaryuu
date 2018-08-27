@@ -69,16 +69,15 @@ function buildOptions(config = {}) {
     };
   }
 
-  if (typeof config.runtime === "object" || typeof config.runtime === "string" || config.runtime === true) {
-    runtimeOptions = {
+  if (config.runtime != null) {
+    const opts = config.runtime;
+    if (opts === true) runtimeOptions = {
+      "corejs": false,
       "helpers": true,
-      "polyfill": true,
       "regenerator": true,
-      "moduleName": typeof config.runtime === "string" ? config.runtime : void 0,
-      "useBuiltIns": false,
       "useESModules": false
     };
-    if (typeof config.runtime === "object") Object.assign(runtimeOptions, config.runtime);
+    if (typeof opts === "object") Object.assign(runtimeOptions, opts);
   }
 
   if (!config.node && config.node !== false) {
