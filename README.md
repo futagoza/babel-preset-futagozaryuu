@@ -6,7 +6,7 @@
 
 This is a Babel preset of other presets and plugins that I most commonly use.
 
-> _v2+_ is for Babel 7, while _v2.12+_ is using `@babel/*` dependencies
+> From _v2.12_, the preset is using the `@babel/*` dependencies for Babel 7+
 
 ## installation
 
