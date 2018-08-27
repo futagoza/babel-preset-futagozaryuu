@@ -1,6 +1,7 @@
 "use strict";
 
 const minimist = require( "minimist" );
+const mkdirp = require( "mkdirp" );
 const glob = require( "glob" ).sync;
 const babel = require( "@babel/core" );
 const preset = require( "./preset" );
@@ -21,9 +22,10 @@ glob( "lib/**/*.js" ).forEach( $filename => {
     let $ast = babel.parse( $source, $options );
     $ast = JSON.stringify( $ast, null, 4 );
 
-    $filename = path.basename( $filename, ".js" );
-    $filename = path.join( $target, $filename + ".json" );
+    $filename = $filename.replace( "lib/", "" ) + "on";
+    $filename = path.join( $target, $filename );
 
+    mkdirp.sync( path.dirname( $filename ) );
     fs.writeFileSync( $filename, $ast );
 
 } );
