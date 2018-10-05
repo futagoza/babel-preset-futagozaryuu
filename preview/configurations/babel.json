@@ -126,20 +126,11 @@
                     "enter": [
                         null
                     ]
-                },
-                "ObjectExpression": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "AssignmentExpression": {
-                    "enter": [
-                        null
-                    ]
                 }
             },
             "options": {
-                "legacy": true
+                "legacy": false,
+                "decoratorsBeforeExport": true
             }
         },
         {
