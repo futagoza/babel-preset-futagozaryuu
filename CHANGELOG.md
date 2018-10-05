@@ -1,3 +1,10 @@
+<a name="3.1.0"></a>
+## [v3.1.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v3.0.0...v3.1.0) (2018-10-05)
+
+* Update some `@babel/*` dependencies to `~7.1.0`
+* Use the [new decorators proposal](https://babeljs.io/blog/2018/09/17/decorators) via the `legacy: false` option
+* Use `decoratorsBeforeExport: true` (see [tc39/proposal-decorators#69](https://github.com/tc39/proposal-decorators/issues/69))
+
 <a name="3.0.0"></a>
 ## [v3.0.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v3.0.0-alpha.1...v3.0.0) (2018-08-28)
 
