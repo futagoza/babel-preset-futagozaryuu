@@ -1,10 +1,20 @@
 "use strict";
 
-require("core-js/modules/es7.symbol.async-iterator");
+require("core-js/modules/es.symbol.description");
 
-require("core-js/modules/es6.symbol");
+require("core-js/modules/es.array.includes");
 
-require("core-js/modules/web.dom.iterable");
+require("core-js/modules/es.array.index-of");
+
+require("core-js/modules/es.array.iterator");
+
+require("core-js/modules/es.array.slice");
+
+require("core-js/modules/es.array.splice");
+
+require("core-js/modules/es.string.includes");
+
+require("core-js/modules/es.string.split");
 
 const DefaultOptions = require("./config/default-options");
 
@@ -37,6 +47,7 @@ function buildOptions(config = {}) {
     "spec": !!config.spec,
     "targets": {},
     "useBuiltIns": config.useBuiltIns,
+    "corejs": config.corejs,
     "forceAllTransforms": !!config.forceAllTransforms,
     "shippedProposals": !!config.shippedProposals
   };

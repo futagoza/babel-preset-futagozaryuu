@@ -7,6 +7,10 @@
  * @param {*} value What might be included in `list`.
  */
 
+require("core-js/modules/es.array.includes");
+
+require("core-js/modules/es.string.includes");
+
 function listOnce(list, value) {
   if (!list.includes(value)) list.push(value);
 }

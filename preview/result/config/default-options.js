@@ -63,6 +63,10 @@ const DefaultOptions = {
   // targets.node
   "spec": false,
   "useBuiltIns": "usage",
+  "corejs": {
+    "version": 3,
+    "proposals": true
+  },
   "forceAllTransforms": false,
   "shippedProposals": false,
 
@@ -86,6 +90,7 @@ const DefaultOptions = {
    * 
    * 1. On `true` will not pass any options.
    * 2. On a object, will overwrite my configuration based on the object.
+   * 3. On a string, will split by the `.` character, and assume it's `module.method`
    *
    * @type {Boolean|String|{}}
    * @default "bluebird.coroutine"
