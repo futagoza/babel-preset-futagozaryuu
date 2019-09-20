@@ -50,9 +50,10 @@
     "devDependencies": {
         "@babel/core": "7.6.0",
         "@babel/cli": "7.6.0",
-        "@babel/polyfill": "7.6.0",
         "@babel/runtime": "7.6.0",
         "@futagoza/eslint-config-node": "9.3.0",
+        "core-js": "3.2.1",
+        "regenerator-runtime": "0.13.3",
         "eslint": "6.4.0",
         "minimist": "1.2.0",
         "mkdirp": "0.5.1",
