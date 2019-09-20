@@ -66,6 +66,13 @@ You can see the complete list of options in [babel-preset-futagozaryuu/lib/confi
 }
 ```
 
+## the useBuiltIns option
+
+When using the option `useBuiltIns` with values `usage` or `entry`, ensure that you:
+
+1. Have the `corejs` enabled (by default this is et to `{ version: 3, proposals: true }`)
+2. Include the dependencies `core-js` and `regenerator-runtime` in your published package
+
 ## recommendation for vs code users
 
 Adding the following files (and settings) will ensure that [VS Code](https://code.visualstudio.com/) can find your ES6+ files even if you are using [babel-plugin-module-resolver](https://www.npmjs.com/package/babel-plugin-module-resolver) to change the root path of your module lookups during transpile.
