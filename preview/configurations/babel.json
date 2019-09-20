@@ -1,7 +1,13 @@
 {
+    "babelrc": false,
+    "configFile": false,
+    "passPerPreset": false,
+    "envName": "development",
+    "cwd": "c:\\projects\\babel-preset-futagozaryuu",
+    "root": "c:\\projects\\babel-preset-futagozaryuu",
     "plugins": [
         {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\plugin-proposal-function-bind\\lib\\index.js",
+            "key": "proposal-function-bind",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
@@ -19,7 +25,7 @@
             "options": {}
         },
         {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\plugin-proposal-export-default-from\\lib\\index.js",
+            "key": "proposal-export-default-from",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
@@ -32,11 +38,11 @@
             "options": {}
         },
         {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\plugin-proposal-logical-assignment-operators\\lib\\index.js",
+            "key": "proposal-export-namespace-from",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
-                "AssignmentExpression": {
+                "ExportNamedDeclaration": {
                     "enter": [
                         null
                     ]
@@ -45,27 +51,20 @@
             "options": {}
         },
         {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\plugin-proposal-optional-chaining\\lib\\index.js",
+            "key": "proposal-do-expressions",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
-                "OptionalCallExpression": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "OptionalMemberExpression": {
-                    "enter": [
+                "DoExpression": {
+                    "exit": [
                         null
                     ]
                 }
             },
-            "options": {
-                "loose": false
-            }
+            "options": {}
         },
         {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\plugin-proposal-pipeline-operator\\lib\\index.js",
+            "key": "proposal-pipeline-operator",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
@@ -80,27 +79,12 @@
             }
         },
         {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\plugin-proposal-nullish-coalescing-operator\\lib\\index.js",
+            "key": "proposal-partial-application",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
-                "LogicalExpression": {
+                "CallExpression": {
                     "enter": [
-                        null
-                    ]
-                }
-            },
-            "options": {
-                "loose": false
-            }
-        },
-        {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\plugin-proposal-do-expressions\\lib\\index.js",
-            "visitor": {
-                "_exploded": {},
-                "_verified": {},
-                "DoExpression": {
-                    "exit": [
                         null
                     ]
                 }
@@ -108,15 +92,46 @@
             "options": {}
         },
         {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\plugin-proposal-decorators\\lib\\index.js",
+            "key": "proposal-logical-assignment-operators",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
+                "AssignmentExpression": {
+                    "enter": [
+                        null
+                    ]
+                }
+            },
+            "options": {}
+        },
+        {
+            "key": "proposal-function-sent",
+            "visitor": {
+                "_exploded": {},
+                "_verified": {},
+                "MetaProperty": {
+                    "enter": [
+                        null
+                    ]
+                }
+            },
+            "options": {}
+        },
+        {
+            "key": "proposal-decorators",
+            "visitor": {
+                "PrivateName": {
+                    "enter": [
+                        null
+                    ]
+                },
                 "ExportDefaultDeclaration": {
                     "enter": [
                         null
                     ]
                 },
+                "_exploded": true,
+                "_verified": true,
                 "ClassDeclaration": {
                     "enter": [
                         null
@@ -134,11 +149,11 @@
             }
         },
         {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\plugin-proposal-function-sent\\lib\\index.js",
+            "key": "proposal-throw-expressions",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
-                "MetaProperty": {
+                "UnaryExpression": {
                     "enter": [
                         null
                     ]
@@ -147,11 +162,61 @@
             "options": {}
         },
         {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\plugin-proposal-export-namespace-from\\lib\\index.js",
+            "key": "syntax-import-meta",
+            "visitor": {},
+            "options": {}
+        },
+        {
+            "key": "proposal-class-properties",
             "visitor": {
-                "_exploded": {},
-                "_verified": {},
-                "ExportNamedDeclaration": {
+                "PrivateName": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "ExportDefaultDeclaration": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "_exploded": true,
+                "_verified": true,
+                "ClassDeclaration": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "ClassExpression": {
+                    "enter": [
+                        null
+                    ]
+                }
+            },
+            "options": {
+                "loose": true
+            }
+        },
+        {
+            "key": "proposal-private-methods",
+            "visitor": {
+                "PrivateName": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "ExportDefaultDeclaration": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "_exploded": true,
+                "_verified": true,
+                "ClassDeclaration": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "ClassExpression": {
                     "enter": [
                         null
                     ]
@@ -160,7 +225,7 @@
             "options": {}
         },
         {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\plugin-proposal-numeric-separator\\lib\\index.js",
+            "key": "proposal-numeric-separator",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
@@ -183,44 +248,11 @@
             "options": {}
         },
         {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\plugin-proposal-throw-expressions\\lib\\index.js",
+            "key": "proposal-nullish-coalescing-operator",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
-                "UnaryExpression": {
-                    "enter": [
-                        null
-                    ]
-                }
-            },
-            "options": {}
-        },
-        {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\plugin-syntax-dynamic-import\\lib\\index.js",
-            "visitor": {},
-            "options": {}
-        },
-        {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\plugin-syntax-import-meta\\lib\\index.js",
-            "visitor": {},
-            "options": {}
-        },
-        {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\plugin-proposal-class-properties\\lib\\index.js",
-            "visitor": {
-                "_exploded": {},
-                "_verified": {},
-                "PrivateName": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "ClassDeclaration": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "ClassExpression": {
+                "LogicalExpression": {
                     "enter": [
                         null
                     ]
@@ -231,22 +263,24 @@
             }
         },
         {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\plugin-proposal-json-strings\\lib\\index.js",
+            "key": "proposal-optional-chaining",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
-                "DirectiveLiteral": {
+                "OptionalCallExpression": {
                     "enter": [
                         null
                     ]
                 },
-                "StringLiteral": {
+                "OptionalMemberExpression": {
                     "enter": [
                         null
                     ]
                 }
             },
-            "options": {}
+            "options": {
+                "loose": false
+            }
         },
         {
             "key": "module-resolver",
@@ -288,7 +322,7 @@
             }
         },
         {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\plugin-transform-async-to-generator\\lib\\index.js",
+            "key": "transform-async-to-generator",
             "visitor": {
                 "_exploded": true,
                 "_verified": true,
@@ -316,6 +350,11 @@
                     "enter": [
                         null
                     ]
+                },
+                "ClassPrivateMethod": {
+                    "enter": [
+                        null
+                    ]
                 }
             },
             "options": {
@@ -324,7 +363,7 @@
             }
         },
         {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\plugin-transform-runtime\\lib\\index.js",
+            "key": "transform-runtime",
             "visitor": {
                 "CallExpression": {
                     "enter": [
@@ -365,22 +404,7 @@
             }
         },
         {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$0",
-            "visitor": {
-                "Program": {
-                    "exit": [
-                        null
-                    ]
-                },
-                "_exploded": true,
-                "_verified": true
-            },
-            "options": {
-                "loose": true
-            }
-        },
-        {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$1",
+            "key": "transform-function-name",
             "visitor": {
                 "FunctionExpression": {
                     "exit": [
@@ -402,7 +426,7 @@
             }
         },
         {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$2",
+            "key": "transform-for-of",
             "visitor": {
                 "ForOfStatement": {
                     "enter": [
@@ -419,7 +443,7 @@
             }
         },
         {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$3",
+            "key": "transform-dotall-regex",
             "visitor": {
                 "RegExpLiteral": {
                     "enter": [
@@ -436,7 +460,7 @@
             }
         },
         {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$4",
+            "key": "transform-destructuring",
             "visitor": {
                 "ExportNamedDeclaration": {
                     "enter": [
@@ -478,7 +502,7 @@
             }
         },
         {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$5",
+            "key": "transform-exponentiation-operator",
             "visitor": {
                 "AssignmentExpression": {
                     "enter": [
@@ -500,7 +524,7 @@
             }
         },
         {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$6",
+            "key": "transform-async-to-generator",
             "visitor": {
                 "_exploded": true,
                 "_verified": true,
@@ -528,6 +552,11 @@
                     "enter": [
                         null
                     ]
+                },
+                "ClassPrivateMethod": {
+                    "enter": [
+                        null
+                    ]
                 }
             },
             "options": {
@@ -537,7 +566,7 @@
             }
         },
         {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$7",
+            "key": "proposal-async-generator-functions",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
@@ -554,7 +583,7 @@
             }
         },
         {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$8",
+            "key": "proposal-object-rest-spread",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
@@ -608,6 +637,11 @@
                         null
                     ]
                 },
+                "ClassPrivateMethod": {
+                    "enter": [
+                        null
+                    ]
+                },
                 "ForInStatement": {
                     "enter": [
                         null
@@ -626,7 +660,7 @@
             }
         },
         {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$9",
+            "key": "proposal-unicode-property-regex",
             "visitor": {
                 "RegExpLiteral": {
                     "enter": [
@@ -643,7 +677,7 @@
             }
         },
         {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$10",
+            "key": "proposal-json-strings",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
@@ -665,7 +699,7 @@
             }
         },
         {
-            "key": "c:\\projects\\babel-preset-futagozaryuu\\node_modules\\@babel\\preset-env\\lib\\index.js$11",
+            "key": "proposal-optional-catch-binding",
             "visitor": {
                 "_exploded": {},
                 "_verified": {},
@@ -682,7 +716,63 @@
             }
         },
         {
-            "key": "use-built-ins",
+            "key": "transform-named-capturing-groups-regex",
+            "visitor": {
+                "RegExpLiteral": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "_exploded": true,
+                "_verified": true
+            },
+            "options": {
+                "spec": false,
+                "loose": true,
+                "useBuiltIns": true
+            }
+        },
+        {
+            "key": "transform-modules-commonjs",
+            "visitor": {
+                "CallExpression": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "Program": {
+                    "exit": [
+                        null
+                    ]
+                },
+                "_exploded": true,
+                "_verified": true
+            },
+            "options": {
+                "spec": false,
+                "loose": true,
+                "useBuiltIns": true
+            }
+        },
+        {
+            "key": "proposal-dynamic-import",
+            "visitor": {
+                "_exploded": {},
+                "_verified": {},
+                "Program": {
+                    "enter": [
+                        null
+                    ]
+                }
+            },
+            "options": {
+                "spec": false,
+                "loose": true,
+                "useBuiltIns": true
+            }
+        },
+        {
+            "key": "corejs3-usage",
             "visitor": {
                 "ImportDeclaration": {
                     "enter": [
@@ -694,12 +784,12 @@
                         null
                     ]
                 },
-                "CallExpression": {
+                "Import": {
                     "enter": [
                         null
                     ]
                 },
-                "BinaryExpression": {
+                "SpreadElement": {
                     "enter": [
                         null
                     ]
@@ -712,17 +802,29 @@
                 "MemberExpression": {
                     "enter": [
                         null
-                    ],
-                    "exit": [
+                    ]
+                },
+                "ObjectPattern": {
+                    "enter": [
                         null
                     ]
                 },
-                "VariableDeclarator": {
+                "BinaryExpression": {
                     "enter": [
                         null
                     ]
                 },
                 "_exploded": true,
+                "ForOfStatement": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "ArrayPattern": {
+                    "enter": [
+                        null
+                    ]
+                },
                 "_verified": true,
                 "Identifier": {
                     "enter": [
@@ -758,20 +860,39 @@
                     "enter": [
                         null
                     ]
+                },
+                "ClassPrivateMethod": {
+                    "enter": [
+                        null
+                    ]
                 }
             },
             "options": {
-                "debug": false,
-                "polyfills": {},
-                "regenerator": false
+                "corejs": {
+                    "options": {
+                        "loose": false,
+                        "includePrerelease": false
+                    },
+                    "loose": false,
+                    "raw": "3.0.0",
+                    "major": 3,
+                    "minor": 0,
+                    "patch": 0,
+                    "prerelease": [],
+                    "build": [],
+                    "version": "3.0.0"
+                },
+                "polyfillTargets": {
+                    "node": "6.0.0"
+                },
+                "include": {},
+                "exclude": {},
+                "proposals": true,
+                "shippedProposals": true,
+                "regenerator": false,
+                "debug": false
             }
         }
     ],
-    "babelrc": false,
-    "configFile": false,
-    "passPerPreset": false,
-    "envName": "development",
-    "cwd": "c:\\projects\\babel-preset-futagozaryuu",
-    "root": "c:\\projects\\babel-preset-futagozaryuu",
     "presets": []
 }
