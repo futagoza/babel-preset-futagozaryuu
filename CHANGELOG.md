@@ -1,3 +1,11 @@
+<a name="3.2.1"></a>
+## [v3.2.1](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v3.2.0...v3.2.1) (2019-09-21)
+
+* Use `require.resolve` instead of a custom resolve function
+* Use the `pkg-up` module to find consumer's `package.json`
+* DEV: Updated fixtures
+* DEV: Fix `preview/generate-result.js`
+
 <a name="3.2.0"></a>
 ## [v3.2.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v3.1.0...v3.2.0) (2019-09-20)
 
