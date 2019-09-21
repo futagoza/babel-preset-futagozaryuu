@@ -1,20 +1,6 @@
 "use strict";
 
-require("core-js/modules/es.symbol.description");
-
-require("core-js/modules/es.array.includes");
-
-require("core-js/modules/es.array.index-of");
-
 require("core-js/modules/es.array.iterator");
-
-require("core-js/modules/es.array.slice");
-
-require("core-js/modules/es.array.splice");
-
-require("core-js/modules/es.string.includes");
-
-require("core-js/modules/es.string.split");
 
 const DefaultOptions = require("./config/default-options");
 
@@ -98,19 +84,7 @@ function buildOptions(config = {}) {
 
   if (typeof config.node === "string" && !config.node.includes("current")) config.node = config.node.includes(".") ? parseFloat(config.node) : parseInt(config.node, 10);
 
-  for (var _iterator = EnvTargets, _isArray = Array.isArray(_iterator), _i = 0, _iterator = _isArray ? _iterator : _iterator[Symbol.iterator]();;) {
-    var _ref;
-
-    if (_isArray) {
-      if (_i >= _iterator.length) break;
-      _ref = _iterator[_i++];
-    } else {
-      _i = _iterator.next();
-      if (_i.done) break;
-      _ref = _i.value;
-    }
-
-    const target = _ref;
+  for (const target of EnvTargets) {
     if (!config.hasOwnProperty(target)) continue;
 
     if (config[target] !== false) {

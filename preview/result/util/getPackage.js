@@ -1,8 +1,9 @@
 "use strict";
 
-const _require = require("path"),
-      dirname = _require.dirname,
-      join = _require.join;
+const {
+  dirname,
+  join
+} = require("path");
 /**
  * Try and locate the `package.json` in the current working directory, else return `{}`
  *

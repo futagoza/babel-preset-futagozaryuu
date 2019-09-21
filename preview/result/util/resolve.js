@@ -1,10 +1,12 @@
 "use strict";
 
-const _require = require("fs"),
-      existsSync = _require.existsSync;
+const {
+  existsSync
+} = require("fs");
 
-const _require2 = require("path"),
-      join = _require2.join;
+const {
+  join
+} = require("path");
 /**
  * Resolve a `package-id` relative to the `babel-preset-futagozaryuu` package.
  *

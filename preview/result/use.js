@@ -2,8 +2,6 @@
 
 require("core-js/modules/es.array.iterator");
 
-require("core-js/modules/es.string.starts-with");
-
 require("core-js/modules/es.string.trim");
 
 const StagePlugins = require("./config/stage-plugins");
