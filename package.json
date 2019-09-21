@@ -21,7 +21,7 @@
         "lint": "eslint --cache lib preview/*.js",
         "preview-ast": "node preview/generate-ast --runtime",
         "preview-configurations": "node preview/generate-configurations --runtime",
-        "preview-result": "babel --no-babelrc --presets ./lib/use.js -d preview/result lib",
+        "preview-result": "node preview/generate-result",
         "test": "eslint --quiet lib && npm run preview-result",
         "postversion": "git push --follow-tags && npm publish"
     },

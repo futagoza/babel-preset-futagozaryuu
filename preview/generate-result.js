@@ -1,23 +1,23 @@
 "use strict";
 
-/*
-
-    WARNING
-
-    As of Babel v7-beta.50 this file is not working, but is kept for my own refrence to the API.
-
-*/
-
 const compileDir = require( "@babel/cli/lib/babel/dir" ).default;
 const parseArgv = require( "@babel/cli/lib/babel/options" ).default;
 const { join } = require( "path" );
 
-const args = process.argv.slice( 2 );
+const argv = process.argv;
+const args = [
 
-args.push( "--no-babelrc" );
-args.push( "--presets " + join( __dirname, "..", "lib", "use.js" ) );
-args.push( "-d " + join( __dirname, "result" ) );
-args.push( "lib" );
+    argv[ 0 ],
+    argv[ 1 ],
+
+    "--no-babelrc",
+    "--presets", join( __dirname, "..", "lib", "use.js" ),
+    "-d", join( __dirname, "result" ),
+    "lib",
+
+    ...argv.slice( 2 ),
+
+];
 
 compileDir( parseArgv( args ) )
     .catch( err => {
