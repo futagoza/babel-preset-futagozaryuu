@@ -1,0 +1,10 @@
+{
+    "extends": "@futagoza/tsconfig/node",
+    "include": [
+        "**/*.ts"
+    ],
+    "compilerOptions": {
+        "outDir": "../out",
+        "rootDir": "."
+    }
+}
