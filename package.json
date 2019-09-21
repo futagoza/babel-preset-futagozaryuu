@@ -18,7 +18,7 @@
     ],
     "main": "lib/use.js",
     "scripts": {
-        "rebuild": "rimraf ./index.* && tsc -p src",
+        "rebuild": "rimraf out && tsc -p src",
         "lint": "eslint --cache lib preview/*.js",
         "preview-ast": "node preview/generate-ast --runtime",
         "preview-configurations": "node preview/generate-configurations --runtime",
