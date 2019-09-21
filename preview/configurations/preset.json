@@ -101,7 +101,7 @@
                 "modules": "commonjs",
                 "spec": false,
                 "targets": {
-                    "node": 6
+                    "node": 8
                 },
                 "useBuiltIns": "usage",
                 "corejs": {

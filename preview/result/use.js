@@ -8,7 +8,7 @@ const StagePlugins = require("./config/stage-plugins");
 
 const buildOptions = require("./buildOptions");
 
-const resolve = require("./util/resolve");
+const resolve = require.resolve;
 /**
  * Futago-za Ryuu's Babel preset generator.
  *
@@ -17,7 +17,6 @@ const resolve = require("./util/resolve");
  * @param {*} [context] Babel compiler context?
  * @param {{}} [_config] The options passed to this preset.
  */
-
 
 function use(context, _config) {
   const options = buildOptions(_config);

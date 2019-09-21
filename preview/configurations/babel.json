@@ -404,112 +404,9 @@
             }
         },
         {
-            "key": "transform-function-name",
-            "visitor": {
-                "FunctionExpression": {
-                    "exit": [
-                        null
-                    ]
-                },
-                "ObjectProperty": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "_exploded": true,
-                "_verified": true
-            },
-            "options": {
-                "spec": false,
-                "loose": true,
-                "useBuiltIns": true
-            }
-        },
-        {
-            "key": "transform-for-of",
-            "visitor": {
-                "ForOfStatement": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "_exploded": true,
-                "_verified": true
-            },
-            "options": {
-                "spec": false,
-                "loose": true,
-                "useBuiltIns": true
-            }
-        },
-        {
             "key": "transform-dotall-regex",
             "visitor": {
                 "RegExpLiteral": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "_exploded": true,
-                "_verified": true
-            },
-            "options": {
-                "spec": false,
-                "loose": true,
-                "useBuiltIns": true
-            }
-        },
-        {
-            "key": "transform-destructuring",
-            "visitor": {
-                "ExportNamedDeclaration": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "CatchClause": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "AssignmentExpression": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "VariableDeclaration": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "_exploded": true,
-                "_verified": true,
-                "ForInStatement": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "ForOfStatement": {
-                    "enter": [
-                        null
-                    ]
-                }
-            },
-            "options": {
-                "spec": false,
-                "loose": true,
-                "useBuiltIns": true
-            }
-        },
-        {
-            "key": "transform-exponentiation-operator",
-            "visitor": {
-                "AssignmentExpression": {
-                    "enter": [
-                        null
-                    ]
-                },
-                "BinaryExpression": {
                     "enter": [
                         null
                     ]
@@ -883,7 +780,7 @@
                     "version": "3.0.0"
                 },
                 "polyfillTargets": {
-                    "node": "6.0.0"
+                    "node": "8.0.0"
                 },
                 "include": {},
                 "exclude": {},

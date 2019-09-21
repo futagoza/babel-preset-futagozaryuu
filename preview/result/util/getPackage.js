@@ -1,9 +1,6 @@
 "use strict";
 
-const {
-  dirname,
-  join
-} = require("path");
+const pkgup = require("pkg-up");
 /**
  * Try and locate the `package.json` in the current working directory, else return `{}`
  *
@@ -14,19 +11,10 @@ const {
 
 function getPackage(cwd) {
   if (!cwd || cwd === "packagejson" || cwd === ".") cwd = process.cwd();
-
-  try {
-    return require(join(cwd, "package.json"));
-  } catch (e) {// constinue...
-  }
-
-  const parentDir = dirname(cwd);
-
-  if (cwd !== parentDir && parentDir !== ".") {
-    return getPackage(parentDir);
-  }
-
-  return {};
+  const path = pkgup.sync({
+    cwd
+  });
+  return path ? require(path) : {};
 }
 
 module.exports = getPackage;
