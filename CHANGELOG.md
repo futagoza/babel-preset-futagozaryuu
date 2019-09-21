@@ -1,3 +1,21 @@
+<a name="3.2.0"></a>
+## [v3.2.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v3.1.0...v3.2.0) (2019-09-20)
+
+* Upgrade all `@babel/*` dependencies (The versions range from `7.2.0` to `7.6.0`)
+* Updated `babel-plugin-module-resolver` dependency to `3.2.0`
+* DEV: Replaced `es-runtime` with `@babel/runtime`, `core-js` and `regenerator-runtime`
+* DEV: Updated `eslint` dependency to `6.4.0`
+* DEV: Replaced `eslint-config-futagozaryuu` with `@futagoza/eslint-config-node`, `9.3.0`
+* DEV: Updated `glob` dependency to `7.1.4`
+* Updated `stage-*` plugin list, reflecting recent changes to both Babel and the ECMAScript proposals
+* Added a note for using a string value for the `async` option
+* DEV: Fix linting errors
+* Added the `corejs` option (will be redirected to `@babel/preset-env`)
+* Added a section in `README.md` for using the `useBuiltIns` option
+* DEV: Updated fixtures
+* Drop Support for Node 6
+* DEV: Test on Node 12
+
 <a name="3.1.0"></a>
 ## [v3.1.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v3.0.0...v3.1.0) (2018-10-05)
 
@@ -213,7 +231,7 @@
 ## [v2.3.0-alpha.2](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v2.3.0-alpha...v2.3.0-alpha.2) (2017-07-17)
 
 * Removed option `defaultNodeVersion`
-* Set fallback version for Node.js to `current`
+* Set fall-back version for Node.js to `current`
 * Setting the `node` target to `false` should now disable it
 * DEV: Updated devDependency `eslint` from `4.1.1` to `4.2.0`
 * DEV: Updated devDependency `eslint-config-futagozaryuu` from `3.1.1` to `3.3.0`
