@@ -18,7 +18,6 @@
     ],
     "main": "lib/use.js",
     "scripts": {
-        "rebuild": "rimraf out && tsc -p src",
         "lint": "eslint --cache lib preview/*.js",
         "preview-ast": "node preview/generate-ast --runtime",
         "preview-configurations": "node preview/generate-configurations --runtime",
@@ -48,15 +47,13 @@
         "@babel/preset-env": "7.6.0",
         "babel-plugin-module-resolver": "3.2.0",
         "pkg-up": "3.1.0",
-        "semver": "6.3.0",
-        "tslib": "1.10.0"
+        "semver": "6.3.0"
     },
     "devDependencies": {
         "@babel/core": "7.6.0",
         "@babel/cli": "7.6.0",
         "@babel/runtime": "7.6.0",
-        "@futagoza/eslint-config": "9.3.0",
-        "@futagoza/tsconfig": "1.0.0",
+        "@futagoza/eslint-config-node": "9.3.0",
         "@types/node": "8",
         "@types/semver": "6.0.2",
         "core-js": "3.2.1",
@@ -64,9 +61,7 @@
         "eslint": "6.4.0",
         "glob": "7.1.4",
         "minimist": "1.2.0",
-        "mkdirp": "0.5.1",
-        "rimraf": "3.0.0",
-        "typescript": "3.6.3"
+        "mkdirp": "0.5.1"
     },
     "engines": {
         "node": ">= 8"

@@ -1,4 +1,0 @@
-{
-    "extends": "@futagoza/tsconfig",
-    "include": [ "." ]
-}
