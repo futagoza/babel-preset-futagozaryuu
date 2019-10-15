@@ -1,6 +1,15 @@
 > See [commit history](https://github.com/futagoza/babel-preset-futagozaryuu/commits) for a full list of changes.<br>
 > A list of change's for previous versions can be found at: [v1](https://github.com/futagoza/babel-preset-futagozaryuu/blob/master/docs/changelog-v1.md) | [v2](https://github.com/futagoza/babel-preset-futagozaryuu/blob/master/docs/changelog-v2.md)
 
+<a name="3.2.2"></a>
+## [v3.2.2](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v3.2.1...v3.2.2) (2019-10-15)
+
+* Bumped some `"@babel/*` dependencies to versions `7.6.2`, `7.6.3` and `7.6.4`
+* Fix support for browserslist via [@babel/preset-env](https://babeljs.io/docs/en/babel-preset-env.html)
+* DEV: Dropped Travis CI, replacing it with GitHub Actions
+* DEV: Bumped devDependencies: `@futagoza/eslint-config-node`, `core-js`, `eslint`
+* DEV: Moved portions of [CHANGELOG.md](https://github.com/futagoza/babel-preset-futagozaryuu/blob/master/CHANGELOG.md) to [github.com/futagoza/babel-preset-futagozaryuu/docs](https://github.com/futagoza/babel-preset-futagozaryuu/tree/master/docs)
+
 <a name="3.2.1"></a>
 ## [v3.2.1](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v3.2.0...v3.2.1) (2019-09-21)
 
