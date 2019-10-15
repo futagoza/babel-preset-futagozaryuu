@@ -1,0 +1,30 @@
+name: ci
+
+on: [ push, pull_request ]
+
+jobs:
+
+  ci:
+    name: Test
+
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ ubuntu-latest, windows-latest, macOS-latest ]
+        node-version: [ 8.x, 10.x, 12.x ]
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+    - uses: actions/checkout@master
+
+    - name: Install Node.js
+      uses: actions/setup-node@master
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install dependencies
+      run: npx yarn --ignore-engines
+
+    - name: Run tests
+      run: npm test

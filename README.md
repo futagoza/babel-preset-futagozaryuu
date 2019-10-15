@@ -1,4 +1,4 @@
-[![Build status](https://api.travis-ci.org/futagoza/babel-preset-futagozaryuu.svg?branch=master)](https://travis-ci.org/futagoza/babel-preset-futagozaryuu)
+[![CI](https://github.com/futagoza/babel-preset-futagozaryuu/workflows/ci/badge.svg)](https://github.com/futagoza/babel-preset-futagozaryuu/actions?workflow=ci)
 [![npm version](https://img.shields.io/npm/v/babel-preset-futagozaryuu.svg)](https://www.npmjs.com/package/babel-preset-futagozaryuu)
 [![dependencies](https://img.shields.io/david/futagoza/babel-preset-futagozaryuu.svg)](https://david-dm.org/futagoza/babel-preset-futagozaryuu)
 [![History](https://img.shields.io/badge/history-CHANGELOG.md-yellow.svg)](https://github.com/futagoza/babel-preset-futagozaryuu/blob/master/CHANGELOG.md)
