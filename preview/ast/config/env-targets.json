@@ -89,6 +89,9 @@
                                     "column": 1
                                 }
                             },
+                            "extra": {
+                                "trailingComma": 243
+                            },
                             "elements": [
                                 {
                                     "type": "StringLiteral",

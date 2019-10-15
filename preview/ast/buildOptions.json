@@ -2521,7 +2521,10 @@
                                                     }
                                                 }
                                             }
-                                        ]
+                                        ],
+                                        "extra": {
+                                            "trailingComma": 1209
+                                        }
                                     }
                                 }
                             ],
@@ -3801,7 +3804,10 @@
                                                     }
                                                 }
                                             }
-                                        ]
+                                        ],
+                                        "extra": {
+                                            "trailingComma": 1795
+                                        }
                                     }
                                 }
                             },
@@ -5434,7 +5440,10 @@
                                                                         }
                                                                     }
                                                                 }
-                                                            ]
+                                                            ],
+                                                            "extra": {
+                                                                "trailingComma": 2524
+                                                            }
                                                         }
                                                     }
                                                 }
@@ -5762,7 +5771,10 @@
                                                                     "computed": false
                                                                 }
                                                             }
-                                                        ]
+                                                        ],
+                                                        "extra": {
+                                                            "trailingComma": 2718
+                                                        }
                                                     }
                                                 }
                                             },
@@ -6324,7 +6336,10 @@
                                                                 "value": false
                                                             }
                                                         }
-                                                    ]
+                                                    ],
+                                                    "extra": {
+                                                        "trailingComma": 3021
+                                                    }
                                                 }
                                             }
                                         },
@@ -8769,7 +8784,10 @@
                                             "name": "runtimeOptions"
                                         }
                                     }
-                                ]
+                                ],
+                                "extra": {
+                                    "trailingComma": 4017
+                                }
                             }
                         }
                     ],

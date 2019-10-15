@@ -89,6 +89,9 @@
                                     "column": 1
                                 }
                             },
+                            "extra": {
+                                "trailingComma": 1280
+                            },
                             "elements": [
                                 {
                                     "type": "ArrayExpression",
@@ -103,6 +106,9 @@
                                             "line": 11,
                                             "column": 5
                                         }
+                                    },
+                                    "extra": {
+                                        "trailingComma": 243
                                     },
                                     "elements": [
                                         {
@@ -158,6 +164,9 @@
                                             "line": 21,
                                             "column": 5
                                         }
+                                    },
+                                    "extra": {
+                                        "trailingComma": 631
                                     },
                                     "elements": [
                                         {
@@ -406,6 +415,9 @@
                                             "column": 5
                                         }
                                     },
+                                    "extra": {
+                                        "trailingComma": 862
+                                    },
                                     "elements": [
                                         {
                                             "type": "StringLiteral",
@@ -642,6 +654,9 @@
                                             "line": 38,
                                             "column": 5
                                         }
+                                    },
+                                    "extra": {
+                                        "trailingComma": 1273
                                     },
                                     "elements": [
                                         {
@@ -1166,6 +1181,9 @@
                                     "column": 1
                                 }
                             },
+                            "extra": {
+                                "trailingComma": 1682
+                            },
                             "elements": [
                                 {
                                     "type": "ArrayExpression",
@@ -1180,6 +1198,9 @@
                                             "line": 51,
                                             "column": 5
                                         }
+                                    },
+                                    "extra": {
+                                        "trailingComma": 1450
                                     },
                                     "elements": [
                                         {
@@ -1488,6 +1509,9 @@
                                             "column": 5
                                         }
                                     },
+                                    "extra": {
+                                        "trailingComma": 1548
+                                    },
                                     "elements": [
                                         {
                                             "type": "SpreadElement",
@@ -1727,6 +1751,9 @@
                                             "column": 5
                                         }
                                     },
+                                    "extra": {
+                                        "trailingComma": 1623
+                                    },
                                     "elements": [
                                         {
                                             "type": "SpreadElement",
@@ -1897,6 +1924,9 @@
                                             "line": 69,
                                             "column": 5
                                         }
+                                    },
+                                    "extra": {
+                                        "trailingComma": 1675
                                     },
                                     "elements": [
                                         {

@@ -504,6 +504,11 @@
                         null
                     ]
                 },
+                "ArrayPattern": {
+                    "enter": [
+                        null
+                    ]
+                },
                 "ObjectExpression": {
                     "enter": [
                         null

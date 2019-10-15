@@ -820,6 +820,9 @@
                                                 "column": 5
                                             }
                                         },
+                                        "extra": {
+                                            "trailingComma": 729
+                                        },
                                         "elements": [
                                             {
                                                 "type": "ArrayExpression",
@@ -2773,7 +2776,10 @@
                                             "name": "presets"
                                         }
                                     }
-                                ]
+                                ],
+                                "extra": {
+                                    "trailingComma": 2003
+                                }
                             }
                         }
                     ],

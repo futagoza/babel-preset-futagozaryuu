@@ -1197,7 +1197,10 @@
                                                     "value": true
                                                 }
                                             }
-                                        ]
+                                        ],
+                                        "extra": {
+                                            "trailingComma": 1863
+                                        }
                                     }
                                 },
                                 {
@@ -1504,6 +1507,9 @@
                                                 "line": 92,
                                                 "column": 5
                                             }
+                                        },
+                                        "extra": {
+                                            "trailingComma": 2349
                                         },
                                         "elements": [
                                             {
@@ -2176,7 +2182,10 @@
                                         }
                                     ]
                                 }
-                            ]
+                            ],
+                            "extra": {
+                                "trailingComma": 3134
+                            }
                         }
                     }
                 ],
