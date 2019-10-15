@@ -35,8 +35,15 @@ function buildOptions(config = {}) {
     "useBuiltIns": config.useBuiltIns,
     "corejs": config.corejs,
     "forceAllTransforms": !!config.forceAllTransforms,
-    "shippedProposals": !!config.shippedProposals
+    "shippedProposals": !!config.shippedProposals,
+    "configPath": void 0,
+    "ignoreBrowserslistConfig": false
   };
+  const browserslist = config.browserslist;
+  if (!browserslist) envOptions.ignoreBrowserslistConfig = true;else if (typeof browserslist === "string") envOptions.configPath = browserslist;else if (typeof browserslist === "object") {
+    envOptions.configPath = browserslist.configPath;
+    envOptions.ignoreBrowserslistConfig = browserslist.ignoreBrowserslistConfig;
+  }
   if (!config.disableResolver) resolverOptions = {
     "alias": config.alias || DefaultOptions.alias,
     "cwd": config.cwd || DefaultOptions.cwd,

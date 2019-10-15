@@ -69,6 +69,7 @@ const DefaultOptions = {
   },
   "forceAllTransforms": false,
   "shippedProposals": false,
+  "browserslist": true,
 
   /*********************** babel-plugin-module-resolver ***********************/
   // https://www.npmjs.com/package/babel-plugin-module-resolver#options

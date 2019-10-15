@@ -109,7 +109,8 @@
                     "proposals": true
                 },
                 "forceAllTransforms": false,
-                "shippedProposals": false
+                "shippedProposals": false,
+                "ignoreBrowserslistConfig": false
             }
         ]
     ]
