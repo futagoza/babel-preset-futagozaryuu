@@ -1,6 +1,16 @@
 > See [commit history](https://github.com/futagoza/babel-preset-futagozaryuu/commits) for a full list of changes.<br>
 > A list of change's for previous versions can be found at: [v1](https://github.com/futagoza/babel-preset-futagozaryuu/blob/master/docs/changelog-v1.md) | [v2](https://github.com/futagoza/babel-preset-futagozaryuu/blob/master/docs/changelog-v2.md)
 
+<a name="3.3.0"></a>
+## [v3.3.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v3.2.2...v3.3.0) (2019-11-13)
+
+* Upgrade some `"@babel/*` dependencies to versions `7.7.0`, `7.7.1` and `7.7.2`
+* Add support for the Stage 3 feature 'Top Level Await' via `@babel/plugin-syntax-top-level-await`
+* Fix grammar in the useBuiltIns section of `README.md`
+* DEV: Skip CI on push to tagged branches (should stop double CI runs)
+* DEV: Bumped devDependencies: `@futagoza/eslint-config-node`, `core-js`, `eslint`, `glob`
+* DEV: Updated fixtures
+
 <a name="3.2.2"></a>
 ## [v3.2.2](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v3.2.1...v3.2.2) (2019-10-15)
 
