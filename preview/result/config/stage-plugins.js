@@ -12,7 +12,7 @@ const stage = [// Stage 0
   "legacy": false,
   "decoratorsBeforeExport": true
 }], "@babel/plugin-proposal-throw-expressions"], // Stage 3
-["@babel/plugin-syntax-import-meta", ["@babel/plugin-proposal-class-properties", {
+["@babel/plugin-syntax-import-meta", "@babel/plugin-syntax-top-level-await", ["@babel/plugin-proposal-class-properties", {
   "loose": true
 }], "@babel/plugin-proposal-private-methods", "@babel/plugin-proposal-numeric-separator", ["@babel/plugin-proposal-nullish-coalescing-operator", {
   "loose": false

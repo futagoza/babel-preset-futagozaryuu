@@ -167,6 +167,11 @@
             "options": {}
         },
         {
+            "key": "syntax-top-level-await",
+            "visitor": {},
+            "options": {}
+        },
+        {
             "key": "proposal-class-properties",
             "visitor": {
                 "PrivateName": {
