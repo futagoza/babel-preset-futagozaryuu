@@ -684,6 +684,9 @@
                 "Program": {
                     "enter": [
                         null
+                    ],
+                    "exit": [
+                        null
                     ]
                 },
                 "Import": {
