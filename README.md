@@ -70,7 +70,7 @@ You can see the complete list of options in [babel-preset-futagozaryuu/lib/confi
 
 When using the option `useBuiltIns` with values `usage` or `entry`, ensure that you:
 
-1. Have the `corejs` enabled (by default this is et to `{ version: 3, proposals: true }`)
+1. Have the `corejs` option enabled (by default this is set to `{ version: 3, proposals: true }`)
 2. Include the dependencies `core-js` and `regenerator-runtime` in your published package
 
 ## recommendation for vs code users
