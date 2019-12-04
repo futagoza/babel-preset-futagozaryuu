@@ -9,8 +9,25 @@ on:
 
 jobs:
 
-  ci:
-    name: Test
+  Lint:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: Install Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: 10.x
+
+    - name: Install dependencies
+      run: npx yarn@1.19.1 --ignore-engines
+
+    - name: Lint JavaScript files using ESLint
+      run: npm run lint
+
+  Test:
 
     strategy:
       fail-fast: false
@@ -29,7 +46,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Install dependencies
-      run: npx yarn --ignore-engines
+      run: npx yarn@1.19.1 --ignore-engines
 
     - name: Run tests
       run: npm test

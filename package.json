@@ -22,7 +22,7 @@
         "preview-ast": "node preview/generate-ast --runtime",
         "preview-configurations": "node preview/generate-configurations --runtime",
         "preview-result": "node preview/generate-result",
-        "test": "eslint --quiet . && npm run preview-result",
+        "test": "npm run preview-result",
         "postversion": "git push --follow-tags && npm publish"
     },
     "dependencies": {
