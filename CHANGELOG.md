@@ -1,6 +1,16 @@
 > See [commit history](https://github.com/futagoza/babel-preset-futagozaryuu/commits) for a full list of changes.<br>
 > A list of change's for previous versions can be found at: [v1](https://github.com/futagoza/babel-preset-futagozaryuu/blob/master/docs/changelog-v1.md) | [v2](https://github.com/futagoza/babel-preset-futagozaryuu/blob/master/docs/changelog-v2.md)
 
+<a name="3.3.1"></a>
+## [v3.3.1](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v3.3.0...v3.3.1) (2019-12-04)
+
+* DEV: Bumped devDependencies: `@futagoza/eslint-config`, `eslint`
+* DEV: Moved `.eslintignore` entries into the main ESLint configuration
+* DEV: Removed use of `--cache` flag when running ESLint
+* Bumped all `"@babel/*` dependencies to versions `7.7.4`
+* DEV: Bumped devDependencies: `core-js`
+* DEV: Moved linting during GitHub Actions CI to separate Job
+
 <a name="3.3.0"></a>
 ## [v3.3.0](https://github.com/futagoza/babel-preset-futagozaryuu/compare/v3.2.2...v3.3.0) (2019-11-13)
 
