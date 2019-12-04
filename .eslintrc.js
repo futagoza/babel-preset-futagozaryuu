@@ -3,6 +3,15 @@
 module.exports = {
 
     "extends": "@futagoza/node/8",
-    "root": true
+    "ignorePatterns": [
+
+        "!**/.eslintrc.js",
+        "preview/result",
+        "node_modules",
+        "out",
+        "temp",
+
+    ],
+    "root": true,
 
 };
