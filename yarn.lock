@@ -915,34 +915,34 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@futagoza/eslint-config-core@11.2.0":
-  version "11.2.0"
-  resolved "https://registry.yarnpkg.com/@futagoza/eslint-config-core/-/eslint-config-core-11.2.0.tgz#d34e88b371999011823bd1e8dbb8f0a4a3e883da"
-  integrity sha512-cTvzWJcnq0r4O94sEvKnWJw6Sg2gozfnPZFMekxcc+mJ8IZPjcYt2Aj0JlEXq+Oawy3T3qDv3bD/lv3VMfDhoQ==
+"@futagoza/eslint-config-core@12.0.0":
+  version "12.0.0"
+  resolved "https://registry.yarnpkg.com/@futagoza/eslint-config-core/-/eslint-config-core-12.0.0.tgz#4afe3631fe90d9419c0e9f2c00996536a977429e"
+  integrity sha512-s3V4GMwDVhJ4p2Ak2OJ/+URSak/8tYg9Va8IubQrp9tgeS4I3EC366USmFm+P+5T3xxzbz+Zx9luirop6pG+yA==
 
-"@futagoza/eslint-config-globals@11.2.0":
-  version "11.2.0"
-  resolved "https://registry.yarnpkg.com/@futagoza/eslint-config-globals/-/eslint-config-globals-11.2.0.tgz#fe6dd3af8257c4ea01af7d0a0936fd15e4d455e4"
-  integrity sha512-4lfWTHRnvKxjyFXFtJr2aWBXIiJsZKGo0/Hvyr96g1mQn9njqzGFgms9fMSxjPYLaIqqFH8QJyQH/Z2HN5206Q==
+"@futagoza/eslint-config-globals@12.0.0":
+  version "12.0.0"
+  resolved "https://registry.yarnpkg.com/@futagoza/eslint-config-globals/-/eslint-config-globals-12.0.0.tgz#7d2d0134ec0097a749aaa30b8fb90b61ecdf8567"
+  integrity sha512-6LcU+6hC/ccAADolJfIRUzqT+znLs7OeJPIsFCnb+pmdqagpZOv1cy+KiIm5YNkG5n6euB2fw96e1DugnPJUZw==
   dependencies:
     globals "12"
 
-"@futagoza/eslint-config-javascript@11.2.0":
-  version "11.2.0"
-  resolved "https://registry.yarnpkg.com/@futagoza/eslint-config-javascript/-/eslint-config-javascript-11.2.0.tgz#837250d06ce196c727e9ae9c44db89ed4ac6cf01"
-  integrity sha512-GfqCGLRKTA22oL7JqQUVnq8IORlOSj35po9Pb0bj2eUSDR18ctv6EVzIFx46rUPyDwkStp84ZBGPO5kIx6Vlsg==
+"@futagoza/eslint-config-javascript@12.0.0":
+  version "12.0.0"
+  resolved "https://registry.yarnpkg.com/@futagoza/eslint-config-javascript/-/eslint-config-javascript-12.0.0.tgz#007d63901c70def05f113c1f1dd34ac6127cce3c"
+  integrity sha512-F815XLpQr8hSCB70+nrCT1ivjr71COLSptChmtgOQoOberzj/VqyowK35fer5St3StHRo2BOWhhmi4GE8wMNUA==
   dependencies:
-    "@futagoza/eslint-config-core" "11.2.0"
-    "@futagoza/eslint-config-globals" "11.2.0"
+    "@futagoza/eslint-config-core" "12.0.0"
+    "@futagoza/eslint-config-globals" "12.0.0"
     babel-eslint "^10.0.3"
 
-"@futagoza/eslint-config-node@11.2.0":
-  version "11.2.0"
-  resolved "https://registry.yarnpkg.com/@futagoza/eslint-config-node/-/eslint-config-node-11.2.0.tgz#bc26fdaf13488029feb46bf0a5619e3b03f96283"
-  integrity sha512-kcY0Iq8UIwv7c4NwSpEujimXVAIi9rWytVUOQdvMOyBhiFEqc3bb2ydvrsA+R3QcSSgKUET3TcQ6XdOILHB9Tg==
+"@futagoza/eslint-config-node@12.0.0":
+  version "12.0.0"
+  resolved "https://registry.yarnpkg.com/@futagoza/eslint-config-node/-/eslint-config-node-12.0.0.tgz#78fcff82d83e6a0e4b3b56d2ee11664f94d524dc"
+  integrity sha512-uUfoDTu7jfNEuo8RmSWKiqEBM44yXXur9mfcFv+Yo9+BKT4H0CACyExqSkvn/LeYO+9NO5pM3o4OBYTpXnIRLw==
   dependencies:
-    "@futagoza/eslint-config-globals" "11.2.0"
-    "@futagoza/eslint-config-javascript" "11.2.0"
+    "@futagoza/eslint-config-globals" "12.0.0"
+    "@futagoza/eslint-config-javascript" "12.0.0"
     eslint-plugin-node "~10.0.0"
 
 "@types/node@8":
@@ -1476,10 +1476,10 @@ eslint-visitor-keys@^1.0.0, eslint-visitor-keys@^1.1.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.1.0.tgz#e2a82cea84ff246ad6fb57f9bde5b46621459ec2"
   integrity sha512-8y9YjtM1JBJU/A9Kc+SbaOV4y29sSWckBwMHa+FGtVj5gN/sbnKDf6xJUl+8g7FAij9LVaP8C24DUiH/f/2Z9A==
 
-eslint@6.6.0:
-  version "6.6.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-6.6.0.tgz#4a01a2fb48d32aacef5530ee9c5a78f11a8afd04"
-  integrity sha512-PpEBq7b6qY/qrOmpYQ/jTMDYfuQMELR4g4WI1M/NaSDDD/bdcMb+dj4Hgks7p41kW2caXsPsEZAEAyAgjVVC0g==
+eslint@6.7.2:
+  version "6.7.2"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-6.7.2.tgz#c17707ca4ad7b2d8af986a33feba71e18a9fecd1"
+  integrity sha512-qMlSWJaCSxDFr8fBPvJM9kJwbazrhNcBU3+DszDW1OlEwKBBRWsJc7NJFelvwQpanHCR14cOLD41x8Eqvo3Nng==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     ajv "^6.10.0"
@@ -1496,7 +1496,7 @@ eslint@6.6.0:
     file-entry-cache "^5.0.1"
     functional-red-black-tree "^1.0.1"
     glob-parent "^5.0.0"
-    globals "^11.7.0"
+    globals "^12.1.0"
     ignore "^4.0.6"
     import-fresh "^3.0.0"
     imurmurhash "^0.1.4"
@@ -1509,7 +1509,7 @@ eslint@6.6.0:
     minimatch "^3.0.4"
     mkdirp "^0.5.1"
     natural-compare "^1.4.0"
-    optionator "^0.8.2"
+    optionator "^0.8.3"
     progress "^2.0.0"
     regexpp "^2.0.1"
     semver "^6.1.2"
@@ -1783,10 +1783,17 @@ globals@12:
   dependencies:
     type-fest "^0.8.1"
 
-globals@^11.1.0, globals@^11.7.0:
+globals@^11.1.0:
   version "11.12.0"
   resolved "https://registry.yarnpkg.com/globals/-/globals-11.12.0.tgz#ab8795338868a0babd8525758018c2a7eb95c42e"
   integrity sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==
+
+globals@^12.1.0:
+  version "12.3.0"
+  resolved "https://registry.yarnpkg.com/globals/-/globals-12.3.0.tgz#1e564ee5c4dded2ab098b0f88f24702a3c56be13"
+  integrity sha512-wAfjdLgFsPZsklLJvOBUBmzYE8/CwhEqSBEMRXA3qxIiNtyqvjYurAtIfDh6chlEPUfmTY3MnZh5Hfh4q0UlIw==
+  dependencies:
+    type-fest "^0.8.1"
 
 graceful-fs@^4.1.11:
   version "4.2.3"
@@ -2457,7 +2464,7 @@ onetime@^5.1.0:
   dependencies:
     mimic-fn "^2.1.0"
 
-optionator@^0.8.2:
+optionator@^0.8.3:
   version "0.8.3"
   resolved "https://registry.yarnpkg.com/optionator/-/optionator-0.8.3.tgz#84fa1d036fe9d3c7e21d99884b601167ec8fb495"
   integrity sha512-+IW9pACdk3XWmmTXG8m3upGUJst5XRGzxMRjXzAuJ1XnIFNvfhjjIuYkDvysnPQ7qzqVzLt78BCruntqRhWQbA==
