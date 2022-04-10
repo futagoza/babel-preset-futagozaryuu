@@ -59,7 +59,7 @@
         "regenerator-runtime": "0.13.3",
         "eslint": "6.7.2",
         "glob": "7.1.6",
-        "minimist": "1.2.0",
+        "minimist": "1.2.6",
         "mkdirp": "0.5.1"
     },
     "engines": {
